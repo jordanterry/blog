@@ -5,12 +5,12 @@ date: 2017-07-03T06:49:22+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/07/03/debrief-thursday-22nd-june/
-background: /wp-content/uploads/2017/07/featured-23.jpg
+background: /wp-content/uploads/2017/07/featured-23.webp
 categories:
   - Debriefs
   - PPL
 ---
-<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-1024x461.jpg" alt="" width="1024" height="461" class="alignnone size-large wp-image-222" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-222" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/featured-23.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 The weather on day three took a bit of a turn for the worse: the wind picked up and the clouds came in low. This meant it was a good day to get in some practice force landings and low-level navigation.
 
@@ -24,6 +24,6 @@ We had spent a lot of this lesson flying just above Goodwood so we skirted back 
 
 When we got back we had a quick debrief and decided I would get in some more time flying circuits. I went up and got practiced some landings in very strong headwind conditions. When I landed I found a selection of three Vans aircraft had shown up!<figure id="attachment_223" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-1024x461.jpg" alt="Vans Club" width="1024" height="461" class="size-large wp-image-223" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Vans Club</figcaption></figure>
+<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-1024x461.webp" alt="Vans Club" width="1024" height="461" class="size-large wp-image-223" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/vans-club.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Vans Club</figcaption></figure>
 
 After day three I of flying my confidence had really picked up. Just in time to be told I would be doing my first solo nav exercise!

@@ -5,13 +5,13 @@ date: 2017-07-02T13:43:54+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/07/02/debrief-wednesday-21st-june/
-background: /wp-content/uploads/2017/07/debrief-22.jpg
+background: /wp-content/uploads/2017/07/debrief-22.webp
 categories:
   - Debriefs
   - PPL
   - Trips
 ---
-#<img loading="lazy" class="alignnone size-large wp-image-219" src="{{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-1024x461.jpg" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+#<img loading="lazy" class="alignnone size-large wp-image-219" src="{{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/07/debrief-22.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 # <span style="font-weight: 400;">Debrief &#8211; Wednesday 21st June</span>
 
