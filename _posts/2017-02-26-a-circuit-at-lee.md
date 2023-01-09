@@ -5,7 +5,7 @@ date: 2017-02-26T20:01:34+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/02/26/a-circuit-at-lee/
-background: /wp-content/uploads/2017/02/featured-circuit-at-lee.jpg
+background: /wp-content/uploads/2017/02/featured-circuit-at-lee.webp
 categories:
   - PPL
 ---

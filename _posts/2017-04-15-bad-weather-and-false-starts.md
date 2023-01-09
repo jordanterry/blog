@@ -5,7 +5,7 @@ date: 2017-04-15T21:19:29+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/15/bad-weather-and-false-starts/
-background: /wp-content/uploads/2017/04/featured-image-weather.jpg
+background: /wp-content/uploads/2017/04/featured-image-weather.webp
 categories:
   - PPL
 ---

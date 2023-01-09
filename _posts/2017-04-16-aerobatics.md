@@ -5,7 +5,7 @@ date: 2017-04-16T20:10:24+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/16/aerobatics/
-background: /wp-content/uploads/2017/04/featured-about.jpg
+background: /wp-content/uploads/2017/04/featured-about.webp
 categories:
   - Aerobatics
   - PPL
@@ -22,7 +22,7 @@ I had an initial briefing with my instructor for the day Jim Gosling. We covered
 
 We headed out to the T-67 Firefly, a real beauty. Painted in yellow and it’s nose is covered with a shark grin that makes me think of a WW2 fighter. I was helped into a parachute and jumped into the left hand seat &#8211; which isn’t the captain’s seat in this plane &#8211; odd!<figure id="attachment_139" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-<img loading="lazy" class="wp-image-139 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.jpg" alt="Checking out the Firefly" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Checking out the Firefly</figcaption></figure>
+<img loading="lazy" class="wp-image-139 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.webp" alt="Checking out the Firefly" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Checking out the Firefly</figcaption></figure>
 
 We took off from Goodwood and headed in the direction of Thorney Island. Flying with a joystick was a new experience I am not used to and the plane was a lot more responsive in comparison to the PA-28 I normally fly. We climbed underneath a small bank of clouds but as we reached the island the clouds disappeared leaving us with a large playground to make the use of. It couldn’t have been more perfect.
 
@@ -38,4 +38,4 @@ We landed back on the grass at Goodwood and I haven’t stopped smiling since. I
 
 &nbsp;<figure id="attachment_140" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-<img loading="lazy" class="wp-image-140 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.jpg" alt="Putting on the parachute and pretending I am Biggles" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Putting on the parachute and pretending I am Biggles</figcaption></figure>
+<img loading="lazy" class="wp-image-140 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.webp" alt="Putting on the parachute and pretending I am Biggles" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Putting on the parachute and pretending I am Biggles</figcaption></figure>

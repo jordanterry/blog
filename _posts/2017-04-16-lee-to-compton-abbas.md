@@ -5,7 +5,7 @@ date: 2017-04-16T11:09:57+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/16/lee-to-compton-abbas/
-background: /wp-content/uploads/2017/04/featured-image-compton-abbas.jpg
+background: /wp-content/uploads/2017/04/featured-image-compton-abbas.webp
 categories:
   - PPL
   - Trips
@@ -61,4 +61,4 @@ It was very exciting flying further west than I had been before, seeing new land
 
 Below is the route we flew, Red is my Dad and Blue is me.<figure id="attachment_117" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-[<img loading="lazy" class="wp-image-117 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-1024x500.png" alt="The route we flew. Red was my Dad and Blue was me." width="1024" height="500" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-1024x500.png 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-300x146.png 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-768x375.png 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />]({{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route.png)<figcaption class="caption wp-caption-text">The route we flew. Red was my Dad and Blue was me.</figcaption></figure>
+[<img loading="lazy" class="wp-image-117 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-1024x500.webp" alt="The route we flew. Red was my Dad and Blue was me." width="1024" height="500" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-1024x500.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-300x146.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route-768x375.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />]({{ site.baseurl }}/wp-content/uploads/2017/04/compton-abbas-route.webp)<figcaption class="caption wp-caption-text">The route we flew. Red was my Dad and Blue was me.</figcaption></figure>

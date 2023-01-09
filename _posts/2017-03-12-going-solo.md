@@ -5,7 +5,7 @@ date: 2017-03-12T19:01:20+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/03/12/going-solo/
-background: /wp-content/uploads/2017/04/featured-going-solo.jpg
+background: /wp-content/uploads/2017/04/featured-going-solo.webp
 categories:
   - PPL
 ---
@@ -67,6 +67,6 @@ Whilst I rolled along the runway I received a message from Lee Tower congratulat
 
 Over a week later I am still smiling non-stop about going solo. It’s a feeling I will never forget.
 
-<img loading="lazy" class="aligncenter wp-image-66 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o-1024x768.jpg" alt="" width="525" height="394" srcset="{{ site.baseurl }}/wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o-1024x768.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o-300x225.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o-768x576.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o.jpg 1440w" sizes="(max-width: 525px) 100vw, 525px" />
+<img loading="lazy" class="aligncenter wp-image-66 size-large" src="wp-content/uploads/2017/03/17016911_1425955677426647_3648743872137711446_o.webp" alt="" width="525" height="394" />
 
 &nbsp;

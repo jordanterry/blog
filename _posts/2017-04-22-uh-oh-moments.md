@@ -5,11 +5,11 @@ date: 2017-04-22T21:59:32+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/22/uh-oh-moments/
-background: /wp-content/uploads/2017/04/featured-uh-oh.jpg
+background: /wp-content/uploads/2017/04/featured-uh-oh.webp
 categories:
   - PPL
 ---
-<figure id="attachment_150" class="thumbnail wp-caption alignnone"><img loading="lazy" class="size-large wp-image-150" src="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-1024x461.jpg" alt="" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Clouds</figcaption></figure>
+<figure id="attachment_150" class="thumbnail wp-caption alignnone"><img loading="lazy" class="size-large wp-image-150" src="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-1024x461.webp" alt="" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-uh-oh.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Clouds</figcaption></figure>
 
 You can’t learn to fly without having a few moments that make you go “uh-oh”. I think of an uh-oh moment as a situation that can lead to feeling uncomfortable or panicked which could then lead to me making a bad decision that could potentially have dire consequences.
 
