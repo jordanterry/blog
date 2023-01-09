@@ -5,7 +5,7 @@ date: 2017-09-02T11:31:28+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/09/02/my-cross-country/
-background: /wp-content/uploads/2017/09/feature-cross-country.jpg
+background: /wp-content/uploads/2017/09/feature-cross-country.webp
 categories:
   - PPL
 ---
@@ -16,10 +16,10 @@ My first attempt was was thwarted by forecasts of poor visibility and heavy rain
 
 My second attempt was struck down by forecasts of rain in the area of Swindon and Bournemouth. I headed down to the airfield ready to go but as I turned into the entry road heavy rain started falling. I felt a bit grumpy about it all at this point. The sun actually came out straight after this, but due to the bad forecast I wouldn’t be able to head out.
 
-<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-1024x461.jpg" alt="" width="1024" height="461" class="alignnone size-large wp-image-245" srcset="{{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-245" srcset="{{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/09/featured-cross-country-rain.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 My third attempt was supposed to be third time lucky. I spent all week looking at the forecast; sun, clear skies and warm temperatures. Imagine my dismay to wake up at 4pm to find out that weather warnings for strong winds were cropping up all over the south of England. I still went down to the airfield, but it was all called off! Instead I was able to fly around the Isle of Wight and get a bit of solo flying practice in. I also got to see the brand spanking new HMS Queen Elizabeth from a distance which was pretty cool!
 
-<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-1024x461.jpg" alt="" width="1024" height="461" class="alignnone size-large wp-image-243" srcset="{{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-243" srcset="{{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/09/feature-cross-country-two.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 So after three attempts I still haven’t been able to do my cross country and it looks like I won’t get another chance until atlas September 19th! I have another week booked off work to make the final push and get my flying license completed!
