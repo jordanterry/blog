@@ -84,7 +84,7 @@ Gradle’s nomenclature is projects, Android developments is projects. Module is
 
 A module is straightforward. The basic skeleton is a folder containing a single build.gradle.kts file.
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><image src="https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-194157.png" /><figcaption>Modules structures containing build.gradle.kts files</figcaption></figure></div>To turn this module skeleton into a full module we need to reference to it from a project settings.gradle. Here is an example from a project I am working on, at the bottom you can see a manifest of all Gradle modules being declared.
+<div class="wp-block-image"><figure class="aligncenter size-full"><image src="https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-194157.webp" /><figcaption>Modules structures containing build.gradle.kts files</figcaption></figure></div>To turn this module skeleton into a full module we need to reference to it from a project settings.gradle. Here is an example from a project I am working on, at the bottom you can see a manifest of all Gradle modules being declared.
 
 ```
 <pre class="wp-block-code">```
@@ -133,7 +133,7 @@ And finally, we need to add a source directory to it.
 
 A module is a set of folders, in the case of an api and implementation it might be a nested structure. But we reference them using colons instead of slashes. “core/xml-parser/api” becomes “core:xml-parser:api”.
 
-<div class="wp-block-image"><figure class="aligncenter size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-194605.png)<figcaption>A number of modules containing source sets</figcaption></figure></div>When syncing a project Gradle uses settings.gradle as a manifest for all projects. Don’t forget to add your module here.
+<div class="wp-block-image"><figure class="aligncenter size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-194605.webp)<figcaption>A number of modules containing source sets</figcaption></figure></div>When syncing a project Gradle uses settings.gradle as a manifest for all projects. Don’t forget to add your module here.
 
 The build.gradle.kts file in your module defines the type of module. Applying a plugin defines if it is a Kotlin, Java or Android module.
 
@@ -179,7 +179,7 @@ I warn you now, the tools I will suggest are not ground breaking. You may alread
 
 ### Project Structure
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195454-1024x553.png)<figcaption>The Project Structure dialog, providing a tree user interface to view your module structure with.</figcaption></figure>The project structure dialog is an excellent way to visualise modules in your code base. It is a bit like the settings.gradle file we saw above. It gives us a UI to navigate and visualise nesting.
+<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195454-1024x553.webp)<figcaption>The Project Structure dialog, providing a tree user interface to view your module structure with.</figcaption></figure>The project structure dialog is an excellent way to visualise modules in your code base. It is a bit like the settings.gradle file we saw above. It gives us a UI to navigate and visualise nesting.
 
 Within the Project Structure dialog contains a wizard for creating new modules. It abstracts away from the details of Gradle and makes it painless to create modules. I do encourage using this, but make sure you know what happens under the hood.
 
@@ -193,15 +193,15 @@ Over time, this project structure view will become valuable to you as you tame a
 
 ### Extract Interface
 
-<div class="wp-block-image"><figure class="aligncenter size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195729.png)<figcaption>Refactor -&gt; Extract Interface</figcaption></figure></div>Extract Interface is very powerful for those who are already in a modularised code base. Using the Extract Interface codebase makes it easy to split concretions.
+<div class="wp-block-image"><figure class="aligncenter size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195729.webp)<figcaption>Refactor -&gt; Extract Interface</figcaption></figure></div>Extract Interface is very powerful for those who are already in a modularised code base. Using the Extract Interface codebase makes it easy to split concretions.
 
-<div class="wp-block-image"><figure class="aligncenter size-full">![IntelliJ screenshot of the Extract Interface dialog.](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195756.png)<figcaption>The Extract Interface dialog, demonstrating some of the options</figcaption></figure></div>The tool allows us to extract a set of functions from a concrete class into a separate class. It will then rewrite your concretion and apply the interface to it. You also have an option to move your interface to another location. Like an api module, for example.
+<div class="wp-block-image"><figure class="aligncenter size-full">![IntelliJ screenshot of the Extract Interface dialog.](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-195756.webp)<figcaption>The Extract Interface dialog, demonstrating some of the options</figcaption></figure></div>The tool allows us to extract a set of functions from a concrete class into a separate class. It will then rewrite your concretion and apply the interface to it. You also have an option to move your interface to another location. Like an api module, for example.
 
 This one tool can do half of your work for you. It is a real productivity booster.
 
 ### Move
 
-<figure class="wp-block-image size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-200222.png)<figcaption>The Move Dialog.</figcaption></figure>“Move” is useful when you already have abstractions. When you select a class or classes you can move them.
+<figure class="wp-block-image size-full">![](https://jordanterry.co.uk/wp-content/uploads/2022/01/Capture-decran-2022-01-30-200222.webp)<figcaption>The Move Dialog.</figcaption></figure>“Move” is useful when you already have abstractions. When you select a class or classes you can move them.
 
 This is the second part of the “Extract Interface” defined above. Using this tool makes it easy to move classes throughout your code base.
 
