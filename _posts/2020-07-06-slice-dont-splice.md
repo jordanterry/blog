@@ -10,7 +10,7 @@ categories:
     - Coding
 ---
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.jpg)<figcaption>Photo by [Juja Han](https://unsplash.com/@juja_han?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/slice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</figcaption></figure>This weekend I’ve spent some time working on a side project written [TypeScript](https://www.typescriptlang.org/), I’ve never used it before so I’ve spent a lot of time referring to documentation and learning a lot. One thing stood out.
+<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.webp)<figcaption>Photo by [Juja Han](https://unsplash.com/@juja_han?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/slice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</figcaption></figure>This weekend I’ve spent some time working on a side project written [TypeScript](https://www.typescriptlang.org/), I’ve never used it before so I’ve spent a lot of time referring to documentation and learning a lot. One thing stood out.
 
 I had an array of data that I wanted to create a sub-list of elements starting from and index, `i`, to a range. You can do this by calling `array.slice`:
 
