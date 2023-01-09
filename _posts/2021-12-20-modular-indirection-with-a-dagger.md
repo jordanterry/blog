@@ -66,7 +66,7 @@ This sounds great in text. But as always a visualisation of how this relates to 
 
 I’ve used OkHttp in the example and I hope there are some familiar concepts in there.
 
-<figure class="wp-block-image size-full">!<img src="/wp-content/uploads/2021/12/A-Component-Graph.webp" alt="A Dagger Component that references a Module and @Injected classes being contrasted against the Direct Acyclic Graph it creates." /><figcaption>Dagger components and the graph they create.</figcaption></figure>We can see how the Dagger infrastructure builds ourselves a dependency graph. The component contains the graph and modules are contributing nodes and edges to the graph.
+<figure class="wp-block-image size-full"><img src="/wp-content/uploads/2021/12/A-Component-Graph.webp" alt="A Dagger Component that references a Module and @Injected classes being contrasted against the Direct Acyclic Graph it creates." /><figcaption>Dagger components and the graph they create.</figcaption></figure>We can see how the Dagger infrastructure builds ourselves a dependency graph. The component contains the graph and modules are contributing nodes and edges to the graph.
 
 Components can reference components. This is useful when we want to use dependencies that come from a separate dependency graph. This is going to be a key concept going forwards.
 

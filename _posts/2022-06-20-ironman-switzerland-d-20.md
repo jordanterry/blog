@@ -28,26 +28,26 @@ Getting back from Marbella I knew I had seven weeks until Switzerland and I wasn
 
 First week back involved resting and taking it easy.
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.52.26-1024x318.webp)</figure>The main issue was missing an open water swimming session. I don’t live near a lake and it is hard to motivate myself to get to one. This is a recurring issue and I regret it coming into Switzerland. Next time though..!
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.52.26-1024x318.webp" /></figure>The main issue was missing an open water swimming session. I don’t live near a lake and it is hard to motivate myself to get to one. This is a recurring issue and I regret it coming into Switzerland. Next time though..!
 
 Second week back was a big one.
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.53.03-1024x470.webp)</figure>I had some time off that should have been used for a trip to San Francisco. I didn’t go in then end and I was able to use some time off to get some serious training done. I also had a trip home and again.. didn’t get my open water swim done. I did however spend 5 hours on the turbo.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.53.03-1024x470.webp"/></figure>I had some time off that should have been used for a trip to San Francisco. I didn’t go in then end and I was able to use some time off to get some serious training done. I also had a trip home and again.. didn’t get my open water swim done. I did however spend 5 hours on the turbo.
 
 Third week, almost epic!
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.53.35-1024x432.webp)</figure>Had some wobbles on the water mid-week. But generally things looked good. I like my running had improved this week. I saw my heart rate drop lower than usual on my runs. Moving in the right direction.
+<figure class="wp-block-image size-large">!<img src="{{ site.baseurl }}/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.53.35-1024x432.webp"/></figure>Had some wobbles on the water mid-week. But generally things looked good. I like my running had improved this week. I saw my heart rate drop lower than usual on my runs. Moving in the right direction.
 
 Missed a three hour bike session the morning before Windsor Triathlon. Lazy.
 
 Fourth week, epic.
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.54.04-1024x518.webp)</figure>Biggest week of TSS I think I have ever done. I swam 4km for the first time ever in the pool (better late than never!). Lots of cycling on the turbo, which proved a challenge during a heatwave. Saturday I put in a 4 hour session with ~2,200m of climbing.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.54.04-1024x518.webp"/></figure>Biggest week of TSS I think I have ever done. I swam 4km for the first time ever in the pool (better late than never!). Lots of cycling on the turbo, which proved a challenge during a heatwave. Saturday I put in a 4 hour session with ~2,200m of climbing.
 
 Sunday I woke up ill. I dragged myself off the sofa and around a 1h 30m run, but it wasn’t great!
 
 Fifth Week, needed rest but consistent work.
 
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.58.17-1024x338.webp)</figure>Feeling ill today! An absolutely dreaded feeling so close to an event. I’ve been plugging cough medicine and lemsip.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/Screenshot-2022-06-20-at-20.58.17-1024x338.webp"/></figure>Feeling ill today! An absolutely dreaded feeling so close to an event. I’ve been plugging cough medicine and lemsip.
 
 Can’t wait to get stuck into this week though.

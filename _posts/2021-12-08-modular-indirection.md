@@ -86,11 +86,11 @@ The talks linked to above all suggest an architecture that divides an :api from 
 
 There are a few rules. Other projects that want to use our feature should only refer to the :api project. The :implementation module should only be consumed by a com.android.application project and the :di module.
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img src="https://jordanterry.co.uk/wp-content/uploads/2021/12/Networking-Api_Impl.webp"/><figcaption>The relationships in a module split by an :api and :implementation</figcaption></figure></div>You may notice that the parent :networking project references all internal modules, :api, :implementation and :di. This is not necessary but I like this as it allows our com.android.application modules to create a manifest of all required modules.
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="{{ site.baseurl }}/wp-content/uploads/2021/12/Networking-Api_Impl.webp"/><figcaption>The relationships in a module split by an :api and :implementation</figcaption></figure></div>You may notice that the parent :networking project references all internal modules, :api, :implementation and :di. This is not necessary but I like this as it allows our com.android.application modules to create a manifest of all required modules.
 
 Let’s recreate our first project graph again with our new :networking module structure.
 
-<figure class="wp-block-image size-full"><img src="https://jordanterry.co.uk/wp-content/uploads/2021/12/Theoretical-project-structure-2.webp"/><figcaption>The original graph now with a networking module with an :api and :implementation split.</figcaption></figure>Looking at this graph again we can see the improvement this should make. We’ve reduced the number of direct edges to our volatile :implementation module. Imagine invalidating the :implementation module we can see it has a much reduced impact when compared to :image-loading.
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/wp-content/uploads/2021/12/Theoretical-project-structure-2.webp"/><figcaption>The original graph now with a networking module with an :api and :implementation split.</figcaption></figure>Looking at this graph again we can see the improvement this should make. We’ve reduced the number of direct edges to our volatile :implementation module. Imagine invalidating the :implementation module we can see it has a much reduced impact when compared to :image-loading.
 
 There are a lot of interesting ways we can take this module structure. It simplifies creating one off applications (called sandboxes at Twitter), we can nest our tests and separate our fakes.
 
