@@ -46,9 +46,7 @@ This post explains my mental model of a problem we want to solve. Provide some c
 
 ## The Gradle graph
 
-```
-<pre class="wp-block-verse"><strong>I am not a Gradle pro, I am working on a mental model that I think makes sense. Would love some feedback on this!</strong>
-```
+**I am not a Gradle pro, I am working on a mental model that I think makes sense. Would love some feedback on this!**
 
 Lets look at how Gradle and build a mental model to look at the problem. I’m going to come back to this mental model a number of times in this post.
 

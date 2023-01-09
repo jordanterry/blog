@@ -6,11 +6,10 @@ author: jordan_terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=156'
 permalink: /some-thoughts-on-testing
+background: "/wp-content/uploads/2020/07/oguzhan-akdogan-qYMkkREOHa4-unsplash-1024x768.webp"
 categories:
     - Coding
 ---
-
-<figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2020/07/oguzhan-akdogan-qYMkkREOHa4-unsplash-1024x768.webp)<figcaption>Photo by [Oğuzhan Akdoğan](https://unsplash.com/@jeffgry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</figcaption></figure>I associate a number of things with writing test code.
 
 The first is finding peace of mind. In years gone by I have written some dodgy code that has gone to production, I still think about some of this code to this day. I still write dodgy code, but I’m able to stop it from going to production with a superpower I have gained. That superpower is to write tests for my code and mostly stop that code from being released (crashlytics will sometimes disagree). A good set of tests should be enough to give me confidence that what I have written actually works.
 

@@ -18,19 +18,15 @@ Under the hood, Kotlin is constrained to classes, the compiler must generate byt
 You may write a set of extensions on the `Fragment` type that are responsible aiding the retrieval of arguments:
 
 ```
-<pre class="wp-block-code">```
 // FragmentArgumentExtensions.kt
 fun Fragment.requireStringArgument(name: String): String {
     return arguments?.getString(name, null) ?: // throw
 }
 ```
-```
 
 The Kotlin compiler translates it into some bytecode that roughly looks like this:
 
 ```
-<pre class="wp-block-code">```
-
 public final class FragmentArgumentExtensionsKt {
     @NonNull
     public static String requireStringArgument(@NonNull Fragment fragment, String name) {
@@ -38,17 +34,14 @@ public final class FragmentArgumentExtensionsKt {
     }
 }
 ```
-```
 
 You may also have another file containing extensions to help you create a `ViewBinding` for this `Fragment`:
 
 ```
-<pre class="wp-block-code">```
 // FragmentViewBindingExtensions.kt
 fun <T : ViewBinding> Fragment.viewBinding(factory: (View) -> T): T {
     // Implementation
 }
-```
 ```
 
 This Kotlin would then be compiled into a class named `FragmentViewBindingExtensionsKt`.
@@ -72,10 +65,8 @@ This annotation tells the compiler that this file will be contribuing to a class
 When used, they should have the file qualifier and be the first two lines of code in your file.
 
 ```
-<pre class="wp-block-code">```
 @file:JvmMultifileClass
 @file:JvmName("KotlinExtensionsKt")
-```
 ```
 
 When added to our two files above, the Kotlin compiler will produce a single class under the hood.

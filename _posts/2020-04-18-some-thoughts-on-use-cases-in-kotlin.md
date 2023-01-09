@@ -17,7 +17,7 @@ Recently at the Guardian we’ve started to apply the use case pattern to our bu
 I like to call our use cases “functional use cases”? Why? Well, we make use of [operator overloading](https://kotlinlang.org/docs/reference/operator-overloading.html) to override the `invoke` function to make execution look like a function. Pretty simple really! Here is an example of how this might look:
 
 ```
-<pre class="wp-block-preformatted">class FunctionalUseCase() {
+class FunctionalUseCase() {
    operator fun invoke() {
        // Do something snazzy here.
    }
@@ -27,7 +27,8 @@ I like to call our use cases “functional use cases”? Why? Well, we make use 
 And when we invoke it:
 
 ```
-<pre class="wp-block-preformatted">val useCase = FunctionalUseCase()<br></br>useCase() // Not a function, but calling overloaded invoke function
+val useCase = FunctionalUseCase()
+useCase() // Not a function, but calling overloaded invoke function
 ```
 
 It isn’t revolutionary but I like writing our use cases like this. Here are some reasons, and some other musings I have on the topic of use cases.
@@ -41,19 +42,18 @@ It is flexible as you can add parameters whatever parameters you like to the inv
 One thing I’ve learned from use case “efforts” in the past is creating an opinionated use case such as one that uses RxJava to handle threading could be a mistake. It might look like this:
 
 ```
-<pre class="wp-block-preformatted">abstract class SingleUseCase<T>(<br></br>    private val observeOn: Scheduler, <br></br>    private val subscribeOn: Scheduler<br></br>) {
-```
-
-```
-<pre class="wp-block-preformatted">    fun execute(): Single<T> {<br></br>        return Single<br></br>            .fromCallable { doTheUseCase() }<br></br>            .observeOn(observeOn)<br></br>            .subscribeOn(subscribeOn)<br></br>    }
-```
-
-```
-<pre class="wp-block-preformatted">    abstract fun doTheUseCase(): T
-```
-
-```
-<pre class="wp-block-preformatted">}
+abstract class SingleUseCase<T>(
+    private val observeOn: Scheduler,
+    private val subscribeOn: Scheduler
+) {
+   fun execute(): Single<T> {
+       return Single.fromCallable {
+           doTheUseCase()
+       }.observeOn(observeOn)
+       .subscribeOn(subscribeOn)
+   }
+   abstract fun doTheUseCase(): T
+}
 ```
 
 This could lead to some sneaky misdirection making it hard for developers to find usages of their implementation of the abstract class, as generically wrapping some behaviour in another type will require an abstract function to fill in that behaviour. A developer won’t be able to find all usages of their implementation as their implementation will always be used in the super class.
@@ -65,13 +65,13 @@ Something I think about regularly is the single responsibility principle (I need
 Talking of developer experience, there is a particularly annoying gotcha with overloading the invoke function in Kotlin, it relates more to some behaviour in Android Studio/IntelliJ. But lets look at this class:
 
 ```
-<pre class="wp-block-preformatted">class AViewModel(private val useCase: UseCase) {
+class AViewModel(private val useCase: UseCase) {
+    fun start() {
+        useCase()
+    }
+}
 ```
 
-```
-<pre class="wp-block-preformatted">    fun start() {<br></br>        useCase()<br></br>    }<br></br>}
-```
-
-If you wanted to go to the source of `useCase` you would be forgiven for thinking you could click on `useCase `within the `start` function but you would be wrong. You will actually be taken to the definition of the property. To be taken to the source you’ll have to carefully aim your cursor on the final bracket: `useCase(<strong>)</strong>`**.** This is very frustrating if you are trying to quickly navigate through some code!
+If you wanted to go to the source of `useCase` you would be forgiven for thinking you could click on `useCase `within the `start` function but you would be wrong. You will actually be taken to the definition of the property. To be taken to the source you’ll have to carefully aim your cursor on the final bracket: `useCase()`**.** This is very frustrating if you are trying to quickly navigate through some code!
 
 This quickly turned into me complaining about some old code I have written and applauding some code I’m currently writing. I expect I’ll change my mind on this in the next year or so, but I hope some of these thoughts will be useful to someone!

@@ -49,7 +49,7 @@ Another reason is keeping safe or stopping (which you should be doing) has an im
   <li class="blocks-gallery-item">
     <figure><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" alt="" data-id="181" data-full-url="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" data-link="{{ site.baseurl }}/?attachment_id=181" class="wp-image-181" /></figure>
   </li>
-</ul></figure> 
+</ul>
 
 That is roughly 20 seconds where I&#8217;m not applying power, freewheeling or braking whilst I turn onto a main road. In a test of my ability to put power down consistently over a time period it really isn&#8217;t helpful. My consistent-ish power before this is ruined and then a power spike as I felt I need to catch up with lost power.
 
@@ -57,7 +57,7 @@ All of this slowing down and letting your power drop down into the 100 watts mak
 
 Even though I made my evening slightly dangerous and hard I managed to score myself a watts per kg (W/KG) that rates me as good/very good at pushing the pedals on my bike.<figure class="wp-block-image size-large">
 
-<img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp" alt="" class="wp-image-182" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-300x41.webp 300w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-768x105.webp 768w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29.webp 1504w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp" alt="" class="wp-image-182" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-300x41.webp 300w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-768x105.webp 768w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29.webp 1504w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 That value impacts my training and how hard I&#8217;ll be cycling over the next few months. A better route could have added another 5 watts to my FTP, meaning my training over the next few months could have been harder than it will be now, which could mean I would improve faster! That&#8217;s all pretty important as I&#8217;m trying to get better at triathlon and crack an age group top-25 of an Ironman event next year.&nbsp;
 

@@ -17,13 +17,9 @@ I can tell you already that having done a few sprint triathlons, some long bike 
 
 The first 6km started out pretty well. I started chugging along the Southsea seafront at just under my target pace of 5 min/km and I felt fine. As we worked our way into through Old Portsmouth and into the Portsmouth Naval base I started to feel a bit sore around my chest, perhaps a sign that I was running a little bit too fast? I decided to keep my pace and carry on running and the pain quickly faded &#8211; a good sign, or so I thought.&nbsp;
 
-One part of the run takes you through the city centre and out to a roundabout and back. This is where the wheels quickly came off the wagon! I made it through the first water station and I was as much of a terror to the volunteers as Patrick Lange as I tried to grab bottles of water:<figure class="wp-block-embed-imgur wp-block-embed is-type-rich is-provider-imgur">
+One part of the run takes you through the city centre and out to a roundabout and back. This is where the wheels quickly came off the wagon! I made it through the first water station and I was as much of a terror to the volunteers as Patrick Lange as I tried to grab bottles of water:
 
-<div class="wp-block-embed__wrapper">
-  <blockquote class="imgur-embed-pub" lang="en" data-id="P47uADb">
-    <a href="https://imgur.com/P47uADb">View post on imgur.com</a>
-  </blockquote>
-</div></figure>
+<blockquote class="imgur-embed-pub" lang="en" data-id="P47uADb" data-context="false" ><a href="//imgur.com/P47uADb"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 The bottles were a bit of a pain to open as I was running along so I found myself running with bottles for a while as I opened and then tried to drink gracefully. In hindsight I don&#8217;t think it is possible to drink gracefully whilst running; in future races I will just accept that water face happens and take in what I can. After the aid station I had to navigate a short obstacle course of jelly babies as someone ahead of me must have demonstrated some poor hand eye co-ordination whilst picking them up.
 
