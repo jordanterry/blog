@@ -21,7 +21,7 @@
 title: Jordan's Blog
 email: jordanfterry+blog@gmail.com
 description: "A blog on coding, flying, triathlon and more."
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.jordanterry.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: jekyll-theme-clean-blog
