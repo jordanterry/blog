@@ -11,7 +11,7 @@ twitter_share:
     - 'a:2:{s:8:"hashtags";a:1:{i:0;s:19:"Android #AndroidDev";}s:4:"text";s:47:"Practical Modularisation for Android Developers";}'
 twitter_card:
     - 'a:2:{s:5:"title";s:47:"Practical Modularisation for Android Developers";s:11:"description";s:107:"A dive into some tips and tricks to help you adopt an api/implementation module architecture. @JordNullable";}'
-background: /wp-content/uploads/2022/01/timelab-pro-yx20mpDyr2I-unsplash-825x510.jpg
+background: /wp-content/uploads/2022/01/timelab-pro-yx20mpDyr2I-unsplash-825x510.webp
 categories:
     - Android
     - Coding

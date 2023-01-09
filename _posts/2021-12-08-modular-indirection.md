@@ -7,7 +7,7 @@ excerpt: 'Introducing indirection into your modular structure can improve the in
 layout: post
 guid: 'https://jordanterry.co.uk/?p=341'
 permalink: /modular-indirection
-background: /wp-content/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.jpg
+background: /wp-content/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.webp
 categories:
     - Coding
     - Twitter

@@ -8,7 +8,7 @@ guid: 'https://jordanterry.co.uk/?p=456'
 permalink: /type-ii-pain
 eris_repeatable:
     - 'a:1:{i:0;s:0:"";}'
-background: /wp-content/uploads/2022/09/IMG_4108-825x510.jpg
+background: /wp-content/uploads/2022/09/IMG_4108-825x510.webp
 categories:
     - Sports
     - Triathlon

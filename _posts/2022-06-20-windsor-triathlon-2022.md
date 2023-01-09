@@ -8,7 +8,7 @@ guid: 'https://jordanterry.co.uk/?p=431'
 permalink: /windsor-triathlon-2022
 eris_repeatable:
     - 'a:1:{i:0;s:0:"";}'
-background: /wp-content/uploads/2022/06/0CE75E6D-6183-40CD-B78F-BC75ED85E8B0-e1655747677516-825x510.jpg
+background: /wp-content/uploads/2022/06/0CE75E6D-6183-40CD-B78F-BC75ED85E8B0-e1655747677516-825x510.webp
 categories:
     - Sports
     - Triathlon

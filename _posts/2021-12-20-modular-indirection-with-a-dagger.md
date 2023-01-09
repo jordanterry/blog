@@ -11,7 +11,7 @@ twitter_share:
     - 'a:1:{s:8:"hashtags";a:1:{i:0;s:10:"androiddev";}}'
 twitter_card:
     - 'a:2:{s:5:"title";s:33:"Modular indirection with a dagger";s:11:"description";s:85:"How we use Dagger to add dependency injection to our indirected modular architecture.";}'
-background: /wp-content/uploads/2021/12/igor-figueredo-qgf_mP2ibKE-unsplash-825x510.jpg
+background: /wp-content/uploads/2021/12/igor-figueredo-qgf_mP2ibKE-unsplash-825x510.webp
 categories:
     - Coding
 ---
