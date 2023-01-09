@@ -5,12 +5,12 @@ date: 2017-06-11T06:45:59+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/06/11/debrief-saturday-10th-june/
-background: /wp-content/uploads/2017/06/debrief-10th-june.jpg
+background: /wp-content/uploads/2017/06/debrief-10th-june.webp
 categories:
   - Debriefs
   - PPL
 ---
-<figure id="attachment_201" class="thumbnail wp-caption alignnone" style="width: 1034px"><img loading="lazy" class="size-large wp-image-201" src="{{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-1024x461.jpg" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Taken during the pre-flight walk around</figcaption></figure>
+<figure id="attachment_201" class="thumbnail wp-caption alignnone" style="width: 1034px"><img loading="lazy" class="size-large wp-image-201" src="{{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/06/debrief-10th-june.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Taken during the pre-flight walk around</figcaption></figure>
 
 There isn’t too much to report about this flight other than I spent some more time around the circuit. I hadn’t flown for two weeks so it was a good way to refamiliarise myself with how to fly.
 
