@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Slice don&amp;#8217;t Splice - Jordan&#39;s Blog
+    
+  </title>
+
+  <meta name="description" content="![](https://jordanterry.co.uk/wp-content/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.jpg)Photo by [Juja Han](https://unsplash.com/@juja_han?utm_so...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/slice-dont-splice">
+  <link rel="alternate" type="application/rss+xml" title="Jordan&#39;s Blog" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Jordan&#39;s Blog</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+  <header class="masthead">
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Slice don&#8217;t Splice</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">jordan_terry</a>
+              on July 06, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   1 min  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <figure class="wp-block-image size-large">![](https://jordanterry.co.uk/wp-content/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.jpg)<figcaption>Photo by [Juja Han](https://unsplash.com/@juja_han?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/slice?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)</figcaption></figure>
+<p>This weekend I’ve spent some time working on a side project written <a href="https://www.typescriptlang.org/">TypeScript</a>, I’ve never used it before so I’ve spent a lot of time referring to documentation and learning a lot. One thing stood out.</p>
+
+<p>I had an array of data that I wanted to create a sub-list of elements starting from and index, <code class="language-plaintext highlighter-rouge">i</code>, to a range. You can do this by calling <code class="language-plaintext highlighter-rouge">array.slice</code>:</p>
+
+<blockquote>
+  <p>“Extracts a section of the array and returns the new array”</p>
+
+  <p><cite>https://www.tutorialsteacher.com/typescript/typescript-array</cite></p>
+</blockquote>
+
+<p>Typescript, or the underlying Javascript also has a function that adds or removes elements from an array. This is called <code class="language-plaintext highlighter-rouge">array.splice</code>:</p>
+
+<blockquote>
+  <p>Adds or removes elements from the array</p>
+
+  <p><cite>https://www.tutorialsteacher.com/typescript/typescript-array</cite></p>
+</blockquote>
+
+<p>I suppose I don’t need to go into detail about what caused me to write this blog post, but I have some lessons:</p>
+
+<ul>
+  <li>Pay close detail to the functions you are writing or selecting from autocomplete.</li>
+  <li>Test every single piece of code you change, even if you think you are making a small change</li>
+  <li>Unit testing isn’t always enough to catch issues, especially when your unit is manipulating data being passed into it</li>
+</ul>
+
+<p>I’d also like to call out the concept of immutability. This would have saved a stupid developer from a stupid mistake.</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/why-are-we-bad-at-software-engineering-by-jake-voytko" data-toggle="tooltip" data-placement="top" title="Why are we bad at Software Engineering by Jake Voytko">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/some-thoughts-on-testing" data-toggle="tooltip" data-placement="top" title="Some thoughts on testing">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:jordanfterry+blog@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Modular indirection is the best direction - Jordan&#39;s Blog
+    
+  </title>
+
+  <meta name="description" content="Introducing indirection into your modular structure can improve the incremental build times of your android application.">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/modular-indirection">
+  <link rel="alternate" type="application/rss+xml" title="Jordan&#39;s Blog" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Jordan&#39;s Blog</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/wp-content/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Modular indirection is the best direction</h1>
+            
+            <span class="meta">Posted by
+              <a href="#">jordan_terry</a>
+              on December 08, 2021 &middot; <span class="reading-time" title="Estimated read time">
+  
+   12 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p><em>(If you think this title is bad you should see how I name variables!)</em></p>
+
+<p>Whilst I worked at the Guardian I worked in a monolithic codebase. The majority of code lived in a single module. This had the expected downsides:</p>
+
+<ul>
+  <li>slow incremental builds,</li>
+  <li>hard to discover code</li>
+  <li>quite a bit of known, but hidden, complexity!</li>
+</ul>
+
+<p>Our aim was to increase modularisation. This would bring faster incremental builds and increase better engineering practices. With lower coupling and increased cohesion we will see better code. We also had business goals to increase cross functional collaboration. Modularisation should encourage this.</p>
+
+<p>Modularising unearthed some impressive levels of coupling and a general lack of cohesiveness. Let’s not talk about our Dagger set up! This melange made it very difficult to break apart our monolith.</p>
+
+<p>It became clear that to tackle this problem we needed to standardise our approach. So, as with all good projects this meant a good deal of investigation into the best approaches.</p>
+
+<p>There were two sources I kept coming back to over and over again:</p>
+
+<ul>
+  <li>Ralf Wondratschek’s talk called <a href="https://www.droidcon.com/2019/11/15/android-at-scale-square/?video=380843878">Android at Scale @Square</a>.</li>
+  <li>Nacho Lopez and César Puerta’s talk called <a href="https://nlopez.io/scaling-dagger-di-in-a-modular-world/">Scaling Dagger DI in a Modular World</a></li>
+</ul>
+
+<p>Both talks give excellent insights into the world of modularisation in large codebases, it also gives insight into how we can tackle this with dependency injection (this post is going to avoid dependency injection in detail because it deserves it’s own!). I regularly re-watch those talks and I feel like I pick up on something new every time I watch them. Here are some top-level topics that both talks cover:</p>
+
+<ul>
+  <li>Creating modular code bases that don’t compromise on build speeds</li>
+  <li>Making good use of dependency injection (Dagger @Square and Scythe @Twitter) in a modular code base</li>
+  <li>Moving our monolithic code (:hairball, @Square and :legacy @Twitter) into smaller modules</li>
+</ul>
+
+<p>I left the Guardian and joined Twitter before we made large amounts of progress. Twitter is much further along in the modularisation process discussed above. It is so exciting to see something I have spent a whole year thinking about in action.</p>
+
+<p>Over this year I’ve done a fair bit of thinking and prototyping based upon the talks above and from my own ideas. I’ve gotten to a place where I am happy with what I’ve come up with. I will write a series of blog posts to delve into the benefits and some tooling ideas I have floating around in my head.</p>
+
+<p>This post explains my mental model of a problem we want to solve. Provide some concrete examples of a solution and then validate the improved approach.</p>
+
+<h2 id="the-gradle-graph">The Gradle graph</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre class="wp-block-verse"&gt;&lt;strong&gt;I am not a Gradle pro, I am working on a mental model that I think makes sense. Would love some feedback on this!&lt;/strong&gt;
+</code></pre></div></div>
+
+<p>Lets look at how Gradle and build a mental model to look at the problem. I’m going to come back to this mental model a number of times in this post.</p>
+
+<p>An important primitive in the world of Gradle is a <a href="https://docs.gradle.org/current/dsl/org.gradle.api.Project.html">project</a>, commonly referred to as a module. We can spot a project as it is a directory containing a build.gradle file. Gradle projects have 0..n nested sub-projects. Projects can nest content like code or resources in other sub-directories.</p>
+
+<p>Gradle builds a directed graph, this is a graph where the edges between nodes have a direction. We can not create a circular reference in a directed graph. Nodes are projects. Edges are relationships defined by a Gradle dependency e.g. implementation, api or kapt.</p>
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/wp-content/uploads/2021/12/Theoretical-project-structure.png" /><figcaption>Project graph of a small modular application.</figcaption></figure></div>
+<p>Changing the code in a project invalidates our project or any related projects. In the above example, a change in the :networking module may invalidate the six other modules.</p>
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/wp-content/uploads/2021/12/Theoretical-project-structure-Invalidation.png" /><figcaption>Project graph with invalidated dependencies.</figcaption></figure></div>
+<p>In general the code in each of these modules recompiles (not always true, but it is true in this mental model). We can push our black box of knowledge a little bit deeper by looking at what is a task.</p>
+
+<h3 id="tasks">Tasks</h3>
+
+<p>A <a href="https://docs.gradle.org/current/dsl/org.gradle.api.Task.html">task</a> is an idempotent piece of work that Gradle may execute to do a job. Because it is idempotent, Gradle is able to cache the result. If inputs are the same as a previous running of the task we know that we can use the cached result.</p>
+
+<p>Every Gradle plugin contains a set of tasks. For example, the Kotlin JVM plugin contains tasks that compile using kotlinc. The kapt plugin contains tasks that create java stubs from Kotlin files. The Android application project contains tasks to generate an AAB or APK. Tasks are added to a project by applying a plugin to a project. The plugin helps us to identify the type of project we are working with.</p>
+
+<h3 id="task-invalidation">Task invalidation</h3>
+
+<p>A Gradle task invalidates when new inputs to a task differ from the inputs to a cached version. The task must now be re-run to produce a new result. An input to a task can be a file or even the result of another task. Tasks may cross project boundaries and can validate another project’s tasks. This explains the large quantity of red arrows in the last graph.</p>
+
+<p>Incremental compilation is when Gradle only runs invalidated tasks. We want to keep invalidated to tasks to the smallest. This means reducing the number of edges in the graph. The more modules that need to be recompiled the longer your incremental builds may be.</p>
+
+<p>Our job as developers of a modularised codebase is to maintain a healthy project graph. As we begin to modularise a monolithic application we will see an improvement in build time. If we don’t manage this correctly, our invalidated project graph will begin to rival the incremental build time of our monolith.</p>
+
+<p>Another benefit for Gradle enterprise consumers is that smaller cached tasks can be easily shared across many users. We will begin to see improvements in our clean build time for developers.</p>
+
+<h2 id="tackling-with-indirection">Tackling with indirection</h2>
+
+<p>To resolve this we can make use of a bit of indirection and play some tricks with Gradle to reduce invalidated tasks.</p>
+
+<p>The talks linked to above all suggest an architecture that divides an :api from an :implementation. Let’s delve into this a bit deeper. Top-level projects must be split into at least three smaller projects:</p>
+
+<ul>
+  <li><strong>:api</strong> – Defines a static api that other modules can use</li>
+  <li>:<strong>implementation</strong> – Contains implementations for all abstractions defined in the :api module</li>
+  <li><strong>:di</strong> – This contains the code that wires together the <strong>:api</strong> to the <strong>:implementation</strong>.</li>
+</ul>
+
+<p>There are a few rules. Other projects that want to use our feature should only refer to the :api project. The :implementation module should only be consumed by a com.android.application project and the :di module.</p>
+
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="https://jordanterry.co.uk/wp-content/uploads/2021/12/Networking-Api_Impl.png" /><figcaption>The relationships in a module split by an :api and :implementation</figcaption></figure></div>
+<p>You may notice that the parent :networking project references all internal modules, :api, :implementation and :di. This is not necessary but I like this as it allows our com.android.application modules to create a manifest of all required modules.</p>
+
+<p>Let’s recreate our first project graph again with our new :networking module structure.</p>
+
+<figure class="wp-block-image size-full"><img src="https://jordanterry.co.uk/wp-content/uploads/2021/12/Theoretical-project-structure-2.png" /><figcaption>The original graph now with a networking module with an :api and :implementation split.</figcaption></figure>
+<p>Looking at this graph again we can see the improvement this should make. We’ve reduced the number of direct edges to our volatile :implementation module. Imagine invalidating the :implementation module we can see it has a much reduced impact when compared to :image-loading.</p>
+
+<p>There are a lot of interesting ways we can take this module structure. It simplifies creating one off applications (called sandboxes at Twitter), we can nest our tests and separate our fakes.</p>
+
+<p>The eagle eyed among you may notice that the :di module also references the :implementation module. This allows our :di module to downcast our implementations into the abstractions contained in our :api module. Like I mentioned above, this really deserves it’s own blog post!</p>
+
+<h2 id="validation">Validation</h2>
+
+<p>Wouldn’t it be great if we can validate that this approach actually brings the improvements I am promising. Well.. I can’t prove this right now but I have some ideas and it is actually the reason I wrote this blog post.</p>
+
+<p>I plan to create some tooling that can be used on a project implementing a module structure as I’ve defined above. The tooling will live within Android Studio/IntelliJ or separately through CI tooling.</p>
+
+<h3 id="invalidated-tasks">Invalidated Tasks</h3>
+
+<p>We measure our builds using time (or success or failure). Time has many variables:</p>
+
+<ul>
+  <li>your machine (slow/fast processor),</li>
+  <li>concurrent processes (1 or 100 browser tabs open)</li>
+  <li>or the status of your local Gradle daemon.</li>
+</ul>
+
+<p>Gradle has another indicator: measuring the number of tasks invalidated by a change. Whilst not giving us a concrete time impact we can infer the impact of those invalidated tasks.</p>
+
+<h3 id="searching-the-graph">Searching the graph</h3>
+
+<p>We can validate a two properties if we look into the shape of the Gradle project graph:</p>
+
+<ol>
+  <li>An :implementation module should only have a depth of two from a com.android.application node</li>
+  <li>Any :implementation module should have one direct sibling with an implementation edge (:di) and another reference from a parent module (it may have one or more testImplementation)</li>
+</ol>
+
+<p>If these properties are true, we know we have created an isolated :implementation module. We can safely change without worrying about the impact of our changes throughout the rest of our project graph.</p>
+
+<p>Property #1 is validatable by finding an application module node and starting a depth-first search from that node until we have found every :implementation module throughout our code base. If we find a module after visiting more than two nodes we know this module needs to be improved.</p>
+
+<p>We can confirm property #2 by confirming that every implementation module is visited twice. If we encounter it more than twice it is an indicator that the graph is incorrect.</p>
+
+<p>I hope this has been interesting for some developers out there, but this post has gotten a bit too lengthy! The next post in this series will talk about dependency injection in a modularised world and look into how the directed graph of dependency injection can work alongside our project graph!</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/learning-a-lot-at-twitter" data-toggle="tooltip" data-placement="top" title="Learning a lot at Twitter">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+          <a class="btn btn-primary float-right" href="/modular-indirection-with-a-dagger" data-toggle="tooltip" data-placement="top" title="Modular indirection with a dagger">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:jordanfterry+blog@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy;  2023</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+</body>
+
+</html>
