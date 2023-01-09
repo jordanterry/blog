@@ -5,7 +5,7 @@ date: 2018-02-23T15:39:27+00:00
 author: Jordan Terry
 layout: post
 permalink: /2018/02/23/after-the-hiatus/
-background: /wp-content/uploads/2018/02/afterthehiatus_header.png
+background: /wp-content/uploads/2018/02/afterthehiatus_header.webp
 categories:
   - PPL
 ---
