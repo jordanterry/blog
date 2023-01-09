@@ -5,12 +5,12 @@ date: 2017-05-15T14:35:39+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/05/15/debrief-saturday-15th-may/
-background: /wp-content/uploads/2017/05/15-may.jpg
+background: /wp-content/uploads/2017/05/15-may.webp
 categories:
   - Debriefs
   - PPL
 ---
-<img loading="lazy" class="alignnone size-large wp-image-188" src="{{ site.baseurl }}/wp-content/uploads/2017/05/15-may-1024x461.jpg" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/05/15-may-1024x461.jpg 1024w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may-300x135.jpg 300w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may-768x346.jpg 768w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may.jpg 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" class="alignnone size-large wp-image-188" src="{{ site.baseurl }}/wp-content/uploads/2017/05/15-may-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/05/15-may-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/05/15-may.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 A good chunk of my last eight hours in the air have been spent flying around the circuit and I have finally gained enough solo time that my instructor has the confidence to send me up on my own; from start to end.
 
