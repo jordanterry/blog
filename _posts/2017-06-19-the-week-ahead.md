@@ -5,11 +5,11 @@ date: 2017-06-19T21:21:57+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/06/19/the-week-ahead/
-background: /wp-content/uploads/2017/06/featured-week-ahead.webp
+background: /images/uploads/2017/06/featured-week-ahead.webp
 categories:
   - PPL
 ---
-<img loading="lazy" class="alignnone size-large wp-image-207" src="{{ site.baseurl }}/wp-content/uploads/2017/06/featured-week-ahead-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/06/featured-week-ahead-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-week-ahead-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-week-ahead-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-week-ahead.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" class="alignnone size-large wp-image-207" src="{{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 <span style="font-weight: 400;">A month and a half ago I booked a week off work with the aim of getting some serious flying time in. So every morning between 20th-24th June I will be getting up early in the morning and prepping myself for a morning of flying. I have been checking the weather non-stop in the lead up to this week and I have a week of sun and warm weather &#8211; I seem to have got pretty lucky!</span>
 

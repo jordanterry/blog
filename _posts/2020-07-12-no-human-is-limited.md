@@ -5,7 +5,7 @@ date: 2020-07-12T20:45:40+00:00
 author: jordan_terry
 layout: post
 permalink: /no-human-is-limited
-background: '/wp-content/uploads/2020/07/peter-okwara-Ny975HgWwbQ-unsplash-1024x805.webp'
+background: '/images/uploads/2020/07/peter-okwara-Ny975HgWwbQ-unsplash-1024x805.webp'
 categories:
   - Inspiration
 ---

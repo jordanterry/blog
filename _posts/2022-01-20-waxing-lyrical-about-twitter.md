@@ -6,7 +6,7 @@ author: jordan_terry
 layout: post
 guid: 'https://jordanterry.co.uk/?p=387'
 permalink: /waxing-lyrical-about-twitter
-background: /wp-content/uploads/2022/01/jeremy-bezanger-Jm1YUfYjpHI-unsplash-825x510.webp
+background: /images/uploads/2022/01/jeremy-bezanger-Jm1YUfYjpHI-unsplash-825x510.webp
 categories:
     - Twitter
 ---

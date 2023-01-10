@@ -6,7 +6,7 @@ author: jordan_terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=206'
 permalink: /merging-multiple-files-into-one-with-kotlin
-background: /wp-content/uploads/2021/08/Kotlin-Full-Color-Logo-on-White-RGB-e1637049937600.webp
+background: /images/uploads/2021/08/Kotlin-Full-Color-Logo-on-White-RGB-e1637049937600.webp
 categories:
     - Coding
 ---

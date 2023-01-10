@@ -11,7 +11,7 @@ twitter_share:
     - 'a:1:{s:8:"hashtags";a:1:{i:0;s:10:"androiddev";}}'
 twitter_card:
     - 'a:2:{s:5:"title";s:33:"Modular indirection with a dagger";s:11:"description";s:85:"How we use Dagger to add dependency injection to our indirected modular architecture.";}'
-background: /wp-content/uploads/2021/12/igor-figueredo-qgf_mP2ibKE-unsplash-825x510.webp
+background: /images/uploads/2021/12/igor-figueredo-qgf_mP2ibKE-unsplash-825x510.webp
 categories:
     - Coding
 ---
@@ -66,7 +66,7 @@ This sounds great in text. But as always a visualisation of how this relates to 
 
 I’ve used OkHttp in the example and I hope there are some familiar concepts in there.
 
-<figure class="wp-block-image size-full"><img src="/wp-content/uploads/2021/12/A-Component-Graph.webp" alt="A Dagger Component that references a Module and @Injected classes being contrasted against the Direct Acyclic Graph it creates." /><figcaption>Dagger components and the graph they create.</figcaption></figure>We can see how the Dagger infrastructure builds ourselves a dependency graph. The component contains the graph and modules are contributing nodes and edges to the graph.
+<figure class="wp-block-image size-full"><img src="/images/uploads/2021/12/A-Component-Graph.webp" alt="A Dagger Component that references a Module and @Injected classes being contrasted against the Direct Acyclic Graph it creates." /><figcaption>Dagger components and the graph they create.</figcaption></figure>We can see how the Dagger infrastructure builds ourselves a dependency graph. The component contains the graph and modules are contributing nodes and edges to the graph.
 
 Components can reference components. This is useful when we want to use dependencies that come from a separate dependency graph. This is going to be a key concept going forwards.
 
@@ -80,7 +80,7 @@ Using the :di module we can align the two graphs and attempt to create a single 
 
 If we draw both graphs separately and then together we can see that the two graphs do align.
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2021/12/Implementation-and-Dagger-Graphs-1003x1024.webp"/></figure>Project relationships enables objects inside projects to have a relationship with each other.
+<figure class="wp-block-image size-large"><img src="/images/uploads/2021/12/Implementation-and-Dagger-Graphs-1003x1024.webp"/></figure>Project relationships enables objects inside projects to have a relationship with each other.
 
 The combined graph above gives us information about the structure of our code. It will help us in our mission to modularise with indirection:
 
@@ -93,7 +93,7 @@ Modifying our :networking project to align with our new model. Gives us the same
 
 The :di module handles providing the :implementation in the shape of the :api module. To me, this is the module that is used to make our Dagger graph align with the project graph.
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2021/12/Implementation-and-api-profile-and-network-_di-1024x538.webp" /><figcaption>A lot of lines creeping into these diagrams!</figcaption></figure>The :di module above contains component and module classes; the graph and the nodes and edges.
+<figure class="wp-block-image size-large"><img src="/images/uploads/2021/12/Implementation-and-api-profile-and-network-_di-1024x538.webp" /><figcaption>A lot of lines creeping into these diagrams!</figcaption></figure>The :di module above contains component and module classes; the graph and the nodes and edges.
 
 We should treat the component as the single Dagger entry point into a Gradle project. There are a couple of rules to follow in our :di module:
 

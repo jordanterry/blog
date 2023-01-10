@@ -5,12 +5,12 @@ date: 2017-04-29T22:30:16+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/29/debrief-saturday-29th-april/
-background: /wp-content/uploads/2017/04/featured-debrief-two.webp
+background: /images/uploads/2017/04/featured-debrief-two.webp
 categories:
   - Debriefs
   - PPL
 ---
-<img loading="lazy" src="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-debrief-two-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-164" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/featured-debrief-two-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-debrief-two-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-debrief-two-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/featured-debrief-two.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-164" srcset="{{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 Another Saturday and another morning in the air! The weather was slightly overcast with some gaps and a light breeze blew from the north.
 

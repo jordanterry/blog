@@ -5,12 +5,12 @@ date: 2017-06-30T06:38:10+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/06/30/debrief-tuesday-20th-june/
-background: /wp-content/uploads/2017/06/featured-20th-june.webp
+background: /images/uploads/2017/06/featured-20th-june.webp
 categories:
   - Debriefs
   - PPL
 ---
-<img loading="lazy" class="alignnone size-large wp-image-212" src="{{ site.baseurl }}/wp-content/uploads/2017/06/featured-20th-june-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/06/featured-20th-june-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-20th-june-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-20th-june-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/06/featured-20th-june.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" class="alignnone size-large wp-image-212" src="{{ site.baseurl }}/images/uploads/2017/06/featured-20th-june-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/06/featured-20th-june-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/06/featured-20th-june-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/06/featured-20th-june-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/06/featured-20th-june.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 <span style="font-weight: 400;">Day one of my week of flying is over and it was an eventful one! I got 2.2 hours of flying time in and covered a lot of stuff.</span>
 

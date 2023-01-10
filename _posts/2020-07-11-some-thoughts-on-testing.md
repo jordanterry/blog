@@ -6,7 +6,7 @@ author: jordan_terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=156'
 permalink: /some-thoughts-on-testing
-background: "/wp-content/uploads/2020/07/oguzhan-akdogan-qYMkkREOHa4-unsplash-1024x768.webp"
+background: "/images/uploads/2020/07/oguzhan-akdogan-qYMkkREOHa4-unsplash-1024x768.webp"
 categories:
     - Coding
 ---

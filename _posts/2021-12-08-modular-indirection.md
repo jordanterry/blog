@@ -7,7 +7,7 @@ excerpt: 'Introducing indirection into your modular structure can improve the in
 layout: post
 guid: 'https://jordanterry.co.uk/?p=341'
 permalink: /modular-indirection
-background: /wp-content/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.webp
+background: /images/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.webp
 categories:
     - Coding
     - Twitter
@@ -54,9 +54,9 @@ An important primitive in the world of Gradle is a [project](https://docs.gradle
 
 Gradle builds a directed graph, this is a graph where the edges between nodes have a direction. We can not create a circular reference in a directed graph. Nodes are projects. Edges are relationships defined by a Gradle dependency e.g. implementation, api or kapt.
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/wp-content/uploads/2021/12/Theoretical-project-structure.webp"/><figcaption>Project graph of a small modular application.</figcaption></figure></div>Changing the code in a project invalidates our project or any related projects. In the above example, a change in the :networking module may invalidate the six other modules.
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/images/uploads/2021/12/Theoretical-project-structure.webp"/><figcaption>Project graph of a small modular application.</figcaption></figure></div>Changing the code in a project invalidates our project or any related projects. In the above example, a change in the :networking module may invalidate the six other modules.
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/wp-content/uploads/2021/12/Theoretical-project-structure-Invalidation.webp"/><figcaption>Project graph with invalidated dependencies.</figcaption></figure></div>In general the code in each of these modules recompiles (not always true, but it is true in this mental model). We can push our black box of knowledge a little bit deeper by looking at what is a task.
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="/images/uploads/2021/12/Theoretical-project-structure-Invalidation.webp"/><figcaption>Project graph with invalidated dependencies.</figcaption></figure></div>In general the code in each of these modules recompiles (not always true, but it is true in this mental model). We can push our black box of knowledge a little bit deeper by looking at what is a task.
 
 ### Tasks
 
@@ -86,11 +86,11 @@ The talks linked to above all suggest an architecture that divides an :api from 
 
 There are a few rules. Other projects that want to use our feature should only refer to the :api project. The :implementation module should only be consumed by a com.android.application project and the :di module.
 
-<div class="wp-block-image"><figure class="aligncenter size-full"><img src="{{ site.baseurl }}/wp-content/uploads/2021/12/Networking-Api_Impl.webp"/><figcaption>The relationships in a module split by an :api and :implementation</figcaption></figure></div>You may notice that the parent :networking project references all internal modules, :api, :implementation and :di. This is not necessary but I like this as it allows our com.android.application modules to create a manifest of all required modules.
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="{{ site.baseurl }}/images/uploads/2021/12/Networking-Api_Impl.webp"/><figcaption>The relationships in a module split by an :api and :implementation</figcaption></figure></div>You may notice that the parent :networking project references all internal modules, :api, :implementation and :di. This is not necessary but I like this as it allows our com.android.application modules to create a manifest of all required modules.
 
 Let’s recreate our first project graph again with our new :networking module structure.
 
-<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/wp-content/uploads/2021/12/Theoretical-project-structure-2.webp"/><figcaption>The original graph now with a networking module with an :api and :implementation split.</figcaption></figure>Looking at this graph again we can see the improvement this should make. We’ve reduced the number of direct edges to our volatile :implementation module. Imagine invalidating the :implementation module we can see it has a much reduced impact when compared to :image-loading.
+<figure class="wp-block-image size-full"><img src="{{ site.baseurl }}/images/uploads/2021/12/Theoretical-project-structure-2.webp"/><figcaption>The original graph now with a networking module with an :api and :implementation split.</figcaption></figure>Looking at this graph again we can see the improvement this should make. We’ve reduced the number of direct edges to our volatile :implementation module. Imagine invalidating the :implementation module we can see it has a much reduced impact when compared to :image-loading.
 
 There are a lot of interesting ways we can take this module structure. It simplifies creating one off applications (called sandboxes at Twitter), we can nest our tests and separate our fakes.
 

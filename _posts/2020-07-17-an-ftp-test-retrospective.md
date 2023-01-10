@@ -15,7 +15,7 @@ The test went pretty well and I&#8217;ve managed to up my FTP from 266w to 275w,
 An FTP test could be done two ways, an all out 20 minute effort or with two all out 8-minute efforts up a climb. I did the latter at a climb on Portsdown Hill just North of Fareham. I would be covering ~3.6km and climbing ~100m in that time. 
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-1024x421.webp" alt="" class="wp-image-176" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-1024x421.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-300x123.webp 300w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-768x316.webp 768w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00.webp 1358w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Portsdown Hill climb</figcaption></figure>
+  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-1024x421.webp" alt="" class="wp-image-176" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-1024x421.webp 1024w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-300x123.webp 300w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00-768x316.webp 768w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-17-at-06.40.00.webp 1358w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Portsdown Hill climb</figcaption></figure>
 </div>
 
 I thought I&#8217;d done a good job with planning, but I didn&#8217;t and I’ll explain why now.&nbsp;
@@ -23,19 +23,19 @@ I thought I&#8217;d done a good job with planning, but I didn&#8217;t and I’ll
 My first mistake was choosing a climb with a descent and a flat piece of road mixed it. Yes, it makes you faster, but it makes producing high power a lot harder and inconsistent compared to the rest of the climb. The relief of a descent also isn&#8217;t helpful. During a 100% effort climb, it is cruel to your mind and legs.
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01.webp" alt="" class="wp-image-177" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01.webp 406w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01-279x300.webp 279w" sizes="(max-width: 406px) 100vw, 406px" /><figcaption>Those pesky flats and descents</figcaption></figure>
+  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01.webp" alt="" class="wp-image-177" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01.webp 406w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-20.54.01-279x300.webp 279w" sizes="(max-width: 406px) 100vw, 406px" /><figcaption>Those pesky flats and descents</figcaption></figure>
 </div>
 
 I also didn&#8217;t pay close attention to the roads I would be using. Below you can see I go onto a main road and leave it all in the space of 30 seconds, crossing oncoming traffic.
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37.webp" alt="" class="wp-image-178" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37.webp 716w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37-300x184.webp 300w" sizes="(max-width: 716px) 100vw, 716px" /></figure>
+  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37.webp" alt="" class="wp-image-178" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37.webp 716w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.04.37-300x184.webp 300w" sizes="(max-width: 716px) 100vw, 716px" /></figure>
 </div>
 
 Also, making a left turn onto a busy and fast main road:
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26.webp" alt="" class="wp-image-179" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26.webp 376w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26-291x300.webp 291w" sizes="(max-width: 376px) 100vw, 376px" /></figure>
+  <figure class="aligncenter size-large"><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26.webp" alt="" class="wp-image-179" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26.webp 376w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.03.26-291x300.webp 291w" sizes="(max-width: 376px) 100vw, 376px" /></figure>
 </div>
 
 Two reasons why those route choices are a bad idea. First, and always first, is safety. Whether flying up a climb or descending onto a main road, it really isn&#8217;t smart to risk. Myself or a driver might not be paying full attention! I was fortunate it was a quiet day and I was able to keep an eye on any traffic that may have been passing and take the roads sensibly.
@@ -44,10 +44,10 @@ Another reason is keeping safe or stopping (which you should be doing) has an im
 
 <ul class="blocks-gallery-grid">
   <li class="blocks-gallery-item">
-    <figure><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp" alt="" data-id="180" data-full-url="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp" data-link="{{ site.baseurl }}/?attachment_id=180" class="wp-image-180" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp 96w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18-69x300.webp 69w" sizes="(max-width: 96px) 100vw, 96px" /></figure>
+    <figure><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp" alt="" data-id="180" data-full-url="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp" data-link="{{ site.baseurl }}/?attachment_id=180" class="wp-image-180" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18.webp 96w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.18-69x300.webp 69w" sizes="(max-width: 96px) 100vw, 96px" /></figure>
   </li>
   <li class="blocks-gallery-item">
-    <figure><img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" alt="" data-id="181" data-full-url="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" data-link="{{ site.baseurl }}/?attachment_id=181" class="wp-image-181" /></figure>
+    <figure><img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" alt="" data-id="181" data-full-url="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.14.26.webp" data-link="{{ site.baseurl }}/?attachment_id=181" class="wp-image-181" /></figure>
   </li>
 </ul>
 
@@ -57,7 +57,7 @@ All of this slowing down and letting your power drop down into the 100 watts mak
 
 Even though I made my evening slightly dangerous and hard I managed to score myself a watts per kg (W/KG) that rates me as good/very good at pushing the pedals on my bike.<figure class="wp-block-image size-large">
 
-<img src="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp" alt="" class="wp-image-182" srcset="{{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-300x41.webp 300w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-768x105.webp 768w, {{ site.baseurl }}/wp-content/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29.webp 1504w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img src="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp" alt="" class="wp-image-182" srcset="{{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-1024x140.webp 1024w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-300x41.webp 300w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29-768x105.webp 768w, {{ site.baseurl }}/images/uploads/2020/07/Screenshot-2020-07-16-at-21.25.29.webp 1504w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 That value impacts my training and how hard I&#8217;ll be cycling over the next few months. A better route could have added another 5 watts to my FTP, meaning my training over the next few months could have been harder than it will be now, which could mean I would improve faster! That&#8217;s all pretty important as I&#8217;m trying to get better at triathlon and crack an age group top-25 of an Ironman event next year.&nbsp;
 

@@ -5,7 +5,7 @@ date: 2017-09-02T10:21:57+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/09/02/first-year-of-flying-video/
-background: /wp-content/uploads/2017/09/featured-first-year-1.webp
+background: /images/uploads/2017/09/featured-first-year-1.webp
 categories:
   - Aerobatics
   - PPL

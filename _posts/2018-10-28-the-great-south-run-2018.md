@@ -5,8 +5,8 @@ date: 2018-10-28T10:09:28+00:00
 author: jordan_terry
 layout: post
 permalink: /the-great-south-run-2018
-image: /wp-content/uploads/2018/10/0.webp
-background: '/wp-content/uploads/2018/10/0.webp'
+image: /images/uploads/2018/10/0.webp
+background: '/images/uploads/2018/10/0.webp'
 categories:
   - Triathlon
 ---

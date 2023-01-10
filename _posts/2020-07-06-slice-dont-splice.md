@@ -6,7 +6,7 @@ author: jordan_terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=151'
 permalink: /slice-dont-splice
-background: "wp-content/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.webp"
+background: "images/uploads/2020/07/juja-han-l3KOZAMPBOU-unsplash-1024x683.webp"
 categories:
     - Coding
 ---

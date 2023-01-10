@@ -8,7 +8,7 @@ guid: 'https://jordanterry.co.uk/?p=431'
 permalink: /windsor-triathlon-2022
 eris_repeatable:
     - 'a:1:{i:0;s:0:"";}'
-background: /wp-content/uploads/2022/06/0CE75E6D-6183-40CD-B78F-BC75ED85E8B0-e1655747677516-825x510.webp
+background: /images/uploads/2022/06/0CE75E6D-6183-40CD-B78F-BC75ED85E8B0-e1655747677516-825x510.webp
 categories:
     - Sports
     - Triathlon
@@ -24,19 +24,19 @@ Windsor is an Olympic distance: 1.5km swim, 40km bike and 10km run. I had never 
 
 Thais had also registered. It was fun signing up to do an event together. She definitely doesn’t like triathlon as much as me (she doesn’t seem to like watching the whole 8 hours of the Ironman World Champs at Kona??). But, she does enjoy throwing herself into a challenge.
 
-<figure class="wp-block-image size-large"><img alt="Lots of bikes racked up and ready to go." src="{{ site.baseurl }}/wp-content/uploads/2022/06/1DC04E6A-CF47-41BE-B552-8441528B0D50-1024x576.webp"/><figcaption class="wp-element-caption">Bike racked</figcaption></figure>The Windsor triathlon requires you rack your bike up the day before. So Saturday morning we found ourselves on the way to Windsor to drop off the bikes. I had overslept and missed a scheduled three hour turbo session (this still bothers me). Thais had a 6:30am start so we’d booked a hotel for the night.
+<figure class="wp-block-image size-large"><img alt="Lots of bikes racked up and ready to go." src="{{ site.baseurl }}/images/uploads/2022/06/1DC04E6A-CF47-41BE-B552-8441528B0D50-1024x576.webp"/><figcaption class="wp-element-caption">Bike racked</figcaption></figure>The Windsor triathlon requires you rack your bike up the day before. So Saturday morning we found ourselves on the way to Windsor to drop off the bikes. I had overslept and missed a scheduled three hour turbo session (this still bothers me). Thais had a 6:30am start so we’d booked a hotel for the night.
 
-<figure class="wp-block-image size-large"><img alt="Thais giving the thumbs up sign. Bike helmet on with sunglasses. Looking effortlessly cool" src="{{ site.baseurl }}/wp-content/uploads/2022/06/IMG_6691-768x1024.webp"/></figure>Dropping off the bikes was a smooth process. I got some free nutrition and stared at bikes. After dropping off the bikes we headed to Richmond for an afternoon tea for my Mum’s birthday.
+<figure class="wp-block-image size-large"><img alt="Thais giving the thumbs up sign. Bike helmet on with sunglasses. Looking effortlessly cool" src="{{ site.baseurl }}/images/uploads/2022/06/IMG_6691-768x1024.webp"/></figure>Dropping off the bikes was a smooth process. I got some free nutrition and stared at bikes. After dropping off the bikes we headed to Richmond for an afternoon tea for my Mum’s birthday.
 
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/IMG_6694-768x1024.webp" /></figure>Perfect carb loading if you ask me.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/images/uploads/2022/06/IMG_6694-768x1024.webp" /></figure>Perfect carb loading if you ask me.
 
 Once back in Windsor it was time for a Wagamamas and then an early bed.
 
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-11-at-8.03.41-PM-edited.webp"/>)<figcaption class="wp-element-caption">Always wanted to do one of these photos</figcaption></figure>Triathlon mornings are great. Alarm set for before 5am, a peaceful morning snack, a nice coffee. Slight panic as you realise time has flown by and it is less than 30 minutes until your girlfriends start time! (Also branding hair is so difficult).
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/images/uploads/2022/06/WhatsApp-Image-2022-06-11-at-8.03.41-PM-edited.webp"/>)<figcaption class="wp-element-caption">Always wanted to do one of these photos</figcaption></figure>Triathlon mornings are great. Alarm set for before 5am, a peaceful morning snack, a nice coffee. Slight panic as you realise time has flown by and it is less than 30 minutes until your girlfriends start time! (Also branding hair is so difficult).
 
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-12-at-4.09.40-PM-768x1024.webp"/>)<figcaption class="wp-element-caption">Who doesn’t like being up this early?!</figcaption></figure>It wasn’t long until I dropped off Thais and waved her off. She looked a bit nervous, but she was going to do great.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/images/uploads/2022/06/WhatsApp-Image-2022-06-12-at-4.09.40-PM-768x1024.webp"/>)<figcaption class="wp-element-caption">Who doesn’t like being up this early?!</figcaption></figure>It wasn’t long until I dropped off Thais and waved her off. She looked a bit nervous, but she was going to do great.
 
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/IMG_6711-1024x768.webp" />)<figcaption class="wp-element-caption">What a poser</figcaption></figure>I watched her wave get going and then wondered back to transition. I still had an hour to go until I started! Plenty of time to spend queuing for the porta-loo (if this is your first triathlon blog post, everyone talks about porta-loos). I then watched Thais finish the swim and get out onto the bike.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/images/uploads/2022/06/IMG_6711-1024x768.webp" />)<figcaption class="wp-element-caption">What a poser</figcaption></figure>I watched her wave get going and then wondered back to transition. I still had an hour to go until I started! Plenty of time to spend queuing for the porta-loo (if this is your first triathlon blog post, everyone talks about porta-loos). I then watched Thais finish the swim and get out onto the bike.
 
 I felt so proud seeing her finish, she’d spent the last week feeling ill with a (non-covid) cough.
 
@@ -80,7 +80,7 @@ Unfortunately, my trademark stomach issues started kicking in. Not wanting to ca
 
 The highlight of the run was seeing Thais a couple of times on the run. Extremely proud to see her get across the finish line. She has a half Ironman coming up in October so this is a good confidence booster.
 
-<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-12-at-4.09.39-PM-768x1024.webp"/><figcaption class="wp-element-caption">Two happy triathletes.</figcaption></figure>I was just happy to have finished an event. I finished the Windsor triathlon in 2 hours 43 minutes. It wasn’t a perfect day out and I am sure I had more in the tank. The whole day was a comfortable effort, I think a 2h 30 was on the cards if I had been willing to suffer more.
+<figure class="wp-block-image size-large"><img src="{{ site.baseurl }}/images/uploads/2022/06/WhatsApp-Image-2022-06-12-at-4.09.39-PM-768x1024.webp"/><figcaption class="wp-element-caption">Two happy triathletes.</figcaption></figure>I was just happy to have finished an event. I finished the Windsor triathlon in 2 hours 43 minutes. It wasn’t a perfect day out and I am sure I had more in the tank. The whole day was a comfortable effort, I think a 2h 30 was on the cards if I had been willing to suffer more.
 
 I had to use my imagination and dreams of completing goals to get myself through a tough year or so. Actually succeeding at an event feels like I have had my tank of motivation and enthusiasm top-ed up.
 

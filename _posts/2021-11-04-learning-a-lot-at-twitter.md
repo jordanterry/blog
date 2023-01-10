@@ -6,7 +6,7 @@ author: jordan_terry
 layout: post
 guid: 'https://jordanterry.co.uk/?p=213'
 permalink: /learning-a-lot-at-twitter
-background: /wp-content/uploads/2021/11/twitter.webp
+background: /images/uploads/2021/11/twitter.webp
 categories:
     - Coding
     - Twitter

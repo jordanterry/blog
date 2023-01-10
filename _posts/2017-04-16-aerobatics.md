@@ -5,7 +5,7 @@ date: 2017-04-16T20:10:24+00:00
 author: Jordan Terry
 layout: post
 permalink: /2017/04/16/aerobatics/
-background: /wp-content/uploads/2017/04/featured-about.webp
+background: /images/uploads/2017/04/featured-about.webp
 categories:
   - Aerobatics
   - PPL
@@ -22,7 +22,7 @@ I had an initial briefing with my instructor for the day Jim Gosling. We covered
 
 We headed out to the T-67 Firefly, a real beauty. Painted in yellow and it’s nose is covered with a shark grin that makes me think of a WW2 fighter. I was helped into a parachute and jumped into the left hand seat &#8211; which isn’t the captain’s seat in this plane &#8211; odd!<figure id="attachment_139" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-<img loading="lazy" class="wp-image-139 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.webp" alt="Checking out the Firefly" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/firefly-featured.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Checking out the Firefly</figcaption></figure>
+<img loading="lazy" class="wp-image-139 size-large" src="{{ site.baseurl }}/images/uploads/2017/04/firefly-featured-1024x461.webp" alt="Checking out the Firefly" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/04/firefly-featured-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/firefly-featured-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/firefly-featured-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/firefly-featured.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Checking out the Firefly</figcaption></figure>
 
 We took off from Goodwood and headed in the direction of Thorney Island. Flying with a joystick was a new experience I am not used to and the plane was a lot more responsive in comparison to the PA-28 I normally fly. We climbed underneath a small bank of clouds but as we reached the island the clouds disappeared leaving us with a large playground to make the use of. It couldn’t have been more perfect.
 
@@ -32,10 +32,10 @@ I don’t think I can do the feeling of aerobatics justice with words. My body i
   <br />
 </center>As quickly as it began it was all over; we were heading back to the airfield. There was one demonstration left: The Flick Roll. I’ve watched the video back countless times and I am still in awe. The whole plane tumbled in a direction I can’t explain.
 
-<img loading="lazy" class="alignnone size-large wp-image-141" src="{{ site.baseurl }}/wp-content/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-1024x550.webp" alt="" width="1024" height="550" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-1024x550.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-300x161.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-768x413.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23.webp 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
+<img loading="lazy" class="alignnone size-large wp-image-141" src="{{ site.baseurl }}/images/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-1024x550.webp" alt="" width="1024" height="550" srcset="{{ site.baseurl }}/images/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-1024x550.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-300x161.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23-768x413.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/Screen-Shot-2017-04-16-at-21.07.23.webp 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
 
 We landed back on the grass at Goodwood and I haven’t stopped smiling since. I know I will be back at Ultimate High to get my fix and improve my flying skills in the near future.
 
 &nbsp;<figure id="attachment_140" class="thumbnail wp-caption alignnone" style="width: 1034px">
 
-<img loading="lazy" class="wp-image-140 size-large" src="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.webp" alt="Putting on the parachute and pretending I am Biggles" width="1024" height="461" srcset="{{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-1024x461.webp 1024w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-300x135.webp 300w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute-768x346.webp 768w, {{ site.baseurl }}/wp-content/uploads/2017/04/aerobatics-parachute.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Putting on the parachute and pretending I am Biggles</figcaption></figure>
+<img loading="lazy" class="wp-image-140 size-large" src="{{ site.baseurl }}/images/uploads/2017/04/aerobatics-parachute-1024x461.webp" alt="Putting on the parachute and pretending I am Biggles" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/04/aerobatics-parachute-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/aerobatics-parachute-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/aerobatics-parachute-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/aerobatics-parachute.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption class="caption wp-caption-text">Putting on the parachute and pretending I am Biggles</figcaption></figure>

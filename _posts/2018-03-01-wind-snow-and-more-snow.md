@@ -5,7 +5,7 @@ date: 2018-03-01T14:05:46+00:00
 author: Jordan Terry
 layout: post
 permalink: /2018/03/01/wind-snow-and-more-snow/
-background: /wp-content/uploads/2018/03/windsnowandmoresnow.webp
+background: /images/uploads/2018/03/windsnowandmoresnow.webp
 categories:
   - PPL
 ---
