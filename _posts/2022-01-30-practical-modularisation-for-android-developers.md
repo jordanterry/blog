@@ -7,10 +7,6 @@ excerpt: "Modularisation.. You cannot escape it as an Android Developer. As your
 layout: post
 guid: 'https://jordanterry.co.uk/?p=393'
 permalink: /practical-modularisation-for-android-developers
-twitter_share:
-    - 'a:2:{s:8:"hashtags";a:1:{i:0;s:19:"Android #AndroidDev";}s:4:"text";s:47:"Practical Modularisation for Android Developers";}'
-twitter_card:
-    - 'a:2:{s:5:"title";s:47:"Practical Modularisation for Android Developers";s:11:"description";s:107:"A dive into some tips and tricks to help you adopt an api/implementation module architecture. @JordNullable";}'
 background: /images/uploads/2022/01/timelab-pro-yx20mpDyr2I-unsplash-825x510.webp
 categories:
     - Android
@@ -87,7 +83,6 @@ A module is straightforward. The basic skeleton is a folder containing a single 
 <div class="wp-block-image"><figure class="aligncenter size-full"><image src="{{ site.baseurl }}/images/uploads/2022/01/Capture-decran-2022-01-30-194157.webp" /><figcaption>Modules structures containing build.gradle.kts files</figcaption></figure></div>To turn this module skeleton into a full module we need to reference to it from a project settings.gradle. Here is an example from a project I am working on, at the bottom you can see a manifest of all Gradle modules being declared.
 
 ```
-<pre class="wp-block-code">```
 rootProject.name = 'scheduler'
 enableFeaturePreview("VERSION_CATALOGS")
 apply from: 'buildSrc/dependencies.gradle.kts'
@@ -126,7 +121,6 @@ include 'core:xml-parser'
 include 'core:xml-parser:api'
 include 'core:xml-parser:implementation'
 include 'core:xml-parser:di'
-```
 ```
 
 And finally, we need to add a source directory to it.

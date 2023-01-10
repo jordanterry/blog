@@ -37,7 +37,6 @@ The majority of my experience with this in the past has been to apply scripts in
 I am used to working with complicated Gradle files. Which can make fixing issues miserable! Does this look familiar?
 
 ```
-<pre class="wp-block-code">```
 plugins {
     id("kotlin-android")
     id("kotlin-kapt")
@@ -60,8 +59,6 @@ android {
     }
 }
 
-
-```
 ```
 
 You may then have a similar Gradle file across many projects. Moving to Java 11 suddenly becomes a manual process. You can ease the pain by using project wide variables to hold values. You can remove the pain with a Convention Plugin.
@@ -73,11 +70,9 @@ A convention plugin allows us to define configurations, or conventions, for buil
 A convention is represented by a Gradle script or a Plugin. They will live in a build logic module that will register plugins with Gradle. The module is then applied via your `pluginManagement` .
 
 ```
-<pre class="wp-block-code">```
 pluginManagement {
     includeBuild("build-logic")
 }
-```
 ```
 
 Once included all projects can access your plugin.
@@ -95,7 +90,6 @@ One of the real benefits to me is that it makes Gradle build files feel more lif
 Here’s a simple example of how we can create a Kotlin convention:
 
 ```
-<pre class="wp-block-code">```
 class KotlinConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         target.pluginManager.apply("org.jetbrains.kotlin.jvm")
@@ -105,12 +99,10 @@ class KotlinConventionPlugin : Plugin<Project> {
     }
 }
 ```
-```
 
 We can then add this to the build using the `build.gradle.kts` file in our `build-logic` module.
 
 ```
-<pre class="wp-block-code">```
 gradlePlugin {
     plugins {
         register("kotlinApplication") {
@@ -120,16 +112,13 @@ gradlePlugin {
     }
 }
 ```
-```
 
 A project can then apply this like any other plugin.
 
 ```
-<pre class="wp-block-code">```
 plugins {
     id("example.kotlin)
 }
-```
 ```
 
 If you want to update the JVM target you can do that in a single file and have all projects update.
@@ -143,7 +132,6 @@ When creating conventions we should split conventions logically. For example, if
 Hilt is a dependency injection library that uses kapt. We can write a convention plugin as follows:
 
 ```
-<pre class="wp-block-code">```
 class HiltConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
     with(target) {
@@ -158,39 +146,32 @@ class HiltConventionPlugin : Plugin<Project> {
     }
 }
 ```
-```
 
 This library applies the kapt plugin, hilt plugin and adds the related dependencies. The dependencies here are hard coded as an example but you should make use of the VersionCatalog extension like this:
 
 ```
-<pre class="wp-block-code">```
 val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
 dependencies {
     "implementation"(libs.findLibrary("hilt.android").get())
     "kapt"(libs.findLibrary("hilt.compiler").get())
 }
 ```
-```
 
 We can register the plugin:
 
 ```
-<pre class="wp-block-code">```
 register("hiltConvention") {
     id = "example.hilt"
     implementationClass = "HiltConventionPlugin"
 }
 ```
-```
 
 Then apply it:
 
 ```
-<pre class="wp-block-code">```
 plugins {
     id("example.hilt")
 }
-```
 ```
 
 Now, updating the version or swapping from `kapt` to `ksp` only needs a developer to change a single plugin. Not many projects.
