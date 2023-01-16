@@ -20,3 +20,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
