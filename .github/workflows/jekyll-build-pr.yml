@@ -7,10 +7,9 @@
 name: Build Jekyll
 
 on:
-  # Runs on pushes targeting the default branch
   pull_request:
-    types: [opened, edited, reopened]
-
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
