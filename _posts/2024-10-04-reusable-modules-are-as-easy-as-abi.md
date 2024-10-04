@@ -14,7 +14,7 @@ categories:
 
 # Reusable Modules - Its as easy as ABI
 
-I recently gave a lighning talk at Kotlin London. This is a Kotlin that was hosted at the Marks & Spencer offices (I work there!).
+I recently gave a lighning talk at [Kotlin London](https://www.meetup.com/kotlin-london/). This is a Kotlin that was hosted at the Marks & Spencer offices (I work there!). Kotlin London is a great event, please come along!
 
 I gave a talk aimed at helping other developers think about reusable modules. I aimed to give some context about Kotlin & Gradle and then tie it together on the topic of ABIs.
 
