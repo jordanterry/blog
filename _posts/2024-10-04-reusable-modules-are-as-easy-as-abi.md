@@ -4,6 +4,7 @@ date: '2024-10-04T10:56:21+00:00'
 author: jordan_terry
 layout: post
 permalink: /reusable-modules-easy-as-abi
+background: /images/presentations/easy-as-abi/kotlin-london-header.webp
 
 categories:
     - Android
