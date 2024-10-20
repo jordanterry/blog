@@ -44,7 +44,7 @@ The majority of my experience with this in the past has been to apply scripts in
 
 I am used to working with complicated Gradle files. Which can make fixing issues miserable! Does this look familiar?
 
-```
+```kotlin
 plugins {
     id("kotlin-android")
     id("kotlin-kapt")
@@ -55,8 +55,8 @@ plugins {
 android {
     minSdk 30
     defaultConfig {
-    minSdk = 21
-    targetSdk = 30
+        minSdk = 21
+        targetSdk = 30
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8.toString()
@@ -79,7 +79,7 @@ A convention plugin allows us to define configurations, or conventions, for buil
 A convention is represented by a Gradle script or a Plugin. They will live in a build logic module that will register
 plugins with Gradle. The module is then applied via your `pluginManagement` .
 
-```
+```kotlin
 pluginManagement {
     includeBuild("build-logic")
 }
@@ -101,12 +101,12 @@ feel predictable.
 
 Here’s a simple example of how we can create a Kotlin convention:
 
-```
+```kotlin
 class KotlinConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         target.pluginManager.apply("org.jetbrains.kotlin.jvm")
         target.tasks.withType<KotlinCompile> {
-             kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8.toString()
+            kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8.toString()
         }
     }
 }
@@ -114,7 +114,7 @@ class KotlinConventionPlugin : Plugin<Project> {
 
 We can then add this to the build using the `build.gradle.kts` file in our `build-logic` module.
 
-```
+```kotlin
 gradlePlugin {
     plugins {
         register("kotlinApplication") {
@@ -127,9 +127,9 @@ gradlePlugin {
 
 A project can then apply this like any other plugin.
 
-```
+```kotlin
 plugins {
-    id("example.kotlin)
+    id("example.kotlin")
 }
 ```
 
@@ -144,26 +144,26 @@ When creating conventions we should split conventions logically. For example, if
 
 Hilt is a dependency injection library that uses kapt. We can write a convention plugin as follows:
 
-```
+```kotlin
 class HiltConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
-    with(target) {
-        with(pluginManager) {
-            apply("org.jetbrains.kotlin.kapt")
-            apply("dagger.hilt.android.plugin")
-        }
-        dependencies {
-            add("implementation", "com.google.dagger:hilt-android:2.44")
-            add("kapt", "com.google.dagger:hilt-android-compiler:2.44")
+        with(target) {
+            with(pluginManager) {
+                apply("org.jetbrains.kotlin.kapt")
+                apply("dagger.hilt.android.plugin")
+            }
+            dependencies {
+                add("implementation", "com.google.dagger:hilt-android:2.44")
+                add("kapt", "com.google.dagger:hilt-android-compiler:2.44")
+            }
         }
     }
-}
 ```
 
 This library applies the kapt plugin, hilt plugin and adds the related dependencies. The dependencies here are hard
 coded as an example but you should make use of the VersionCatalog extension like this:
 
-```
+```kotlin
 val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
 dependencies {
     "implementation"(libs.findLibrary("hilt.android").get())
@@ -173,7 +173,7 @@ dependencies {
 
 We can register the plugin:
 
-```
+```kotlin
 register("hiltConvention") {
     id = "example.hilt"
     implementationClass = "HiltConventionPlugin"
@@ -182,7 +182,7 @@ register("hiltConvention") {
 
 Then apply it:
 
-```
+```kotlin
 plugins {
     id("example.hilt")
 }
