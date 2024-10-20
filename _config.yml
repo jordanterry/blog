@@ -1,7 +1,8 @@
 # Meta Data
 title: ''
-author: Jordan Terry
-email: jordanfterry+blog@gmail.com
+author:
+  name: Jordan Terry
+  email: "jordanfterry+blog@gmail.com"
 description: "Coding, Sports, Flying and more."
 baseurl: ""
 url: "http://www.jordanterry.co.uk"
@@ -11,11 +12,15 @@ github_username: jordanterry
 
 # Theming
 theme: minima
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/jordanterry" }
+    - { platform: mastodon, user_url: "https://androiddev.social/@jordan_terry" }
 
 header_pages:
   - index.html
 
-# Build
+
 markdown: kramdown
 paginate: 15
 plugins:
