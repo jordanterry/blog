@@ -10,16 +10,18 @@ url: "http://www.jordanterry.co.uk"
 github_username: jordanterry
 
 # Theming
-theme: jekyll-theme-clean-blog
+theme: minima
+
+header_pages:
+  - index.html
 
 # Build
 markdown: kramdown
 paginate: 15
-paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
 
 exclude:
   - Gemfile
