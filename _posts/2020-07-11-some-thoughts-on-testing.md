@@ -2,7 +2,7 @@
 id: 156
 title: 'Some thoughts on testing'
 date: '2020-07-11T08:31:18+00:00'
-author: jordan_terry
+author: Jordan Terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=156'
 permalink: /some-thoughts-on-testing

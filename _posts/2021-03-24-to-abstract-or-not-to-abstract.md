@@ -2,7 +2,7 @@
 id: 195
 title: 'To abstract or not to abstract'
 date: '2021-03-24T08:53:59+00:00'
-author: jordan_terry
+author: Jordan Terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=195'
 permalink: /to-abstract-or-not-to-abstract

@@ -2,7 +2,7 @@
 id: 123
 title: January 2019 in sports
 date: 2019-02-02T19:07:38+00:00
-author: jordan_terry
+author: Jordan Terry
 layout: post
 permalink: /january-2019-in-sports
 categories:

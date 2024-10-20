@@ -2,7 +2,7 @@
 id: 198
 title: 'Experimenting in a legacy code base'
 date: '2021-04-07T22:10:20+00:00'
-author: jordan_terry
+author: Jordan Terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=198'
 permalink: /experimenting-in-a-legacy-code-base

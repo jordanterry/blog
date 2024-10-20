@@ -2,7 +2,7 @@
 id: 151
 title: 'Slice don&#8217;t Splice'
 date: '2020-07-06T08:06:54+00:00'
-author: jordan_terry
+author: Jordan Terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=151'
 permalink: /slice-dont-splice

@@ -2,7 +2,7 @@
 id: 175
 title: An FTP test retrospective
 date: 2020-07-17T06:09:39+00:00
-author: jordan_terry
+author: Jordan Terry
 layout: post
 permalink: /an-ftp-test-retrospective
 categories:

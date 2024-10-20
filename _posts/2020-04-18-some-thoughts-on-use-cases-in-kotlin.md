@@ -2,7 +2,7 @@
 id: 137
 title: "Some thoughts on use cases in\_Kotlin"
 date: '2020-04-18T10:23:33+00:00'
-author: jordan_terry
+author: Jordan Terry
 layout: post
 guid: 'http://jordanterry.co.uk/?p=137'
 permalink: /some-thoughts-on-use-cases-in-kotlin

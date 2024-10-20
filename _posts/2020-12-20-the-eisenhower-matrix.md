@@ -1,7 +1,7 @@
 ---
 title: The Eisenhower Matrix
 date: 2020-12-20T21:53:57+00:00
-author: jordan_terry
+author: Jordan Terry
 permalink: /the-eisenhower-matrix
 categories:
   - Triathlon
