@@ -4,6 +4,7 @@ date: '2024-10-28T10:56:21+00:00'
 author: Jordan Terry
 layout: post
 permalink: /reusable-modules-easy-as-abi-lightning-blog
+background: /images/posts/easy-as-abi-header.jpg
 excerpt: |
   A "lightning blog" to accompany a lightning talk I have recently given at Kotlin London. I dig into the importance of visibility modifiers and declaring dependencies.
 
@@ -232,3 +233,5 @@ Tony Robalik is produced a post on ABIs:
 
 - [Dependency Analysis Gradle Plugin: What's an ABI?](https://dev.to/autonomousapps/dependency-analysis-gradle-plugin-what-s-an-abi-3l2h) -
   this should be required reading for all devs
+
+[Thanks to Derek Sutton on Unsplash for the cover photo](https://unsplash.com/photos/green-and-white-striped-textile-JffzrDFKanU).
