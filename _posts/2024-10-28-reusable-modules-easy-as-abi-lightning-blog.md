@@ -15,8 +15,10 @@ categories:
 ---
 
 
-In this post I’m going to share my mental model for evaluating if a Gradle moduls in your project is reusable. This is
-a « lightning post » which pairs up with a lightning talk I have recently given at Kotlin London.
+In this post I’m going to share my mental model for evaluating if a Gradle moduls in your project is reusable. This
+pairs up with a lightning talk (also
+called [Reusable Modules - It's as easy as ABI](https://www.jordanterry.co.uk/reusable-modules-easy-as-abi)) I have
+recently given at Kotlin London.
 
 We'll start by looking at two key concepts:
 
