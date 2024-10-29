@@ -1,5 +1,5 @@
 ---
-title: 'Reusable Modules - Its as easy as ABI'
+title: 'Reusable Modules - Its as easy as ABI, lightning talk'
 date: '2024-10-04T10:56:21+00:00'
 author: Jordan Terry
 layout: post
