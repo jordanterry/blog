@@ -4,7 +4,7 @@ date: '2024-10-04T10:56:21+00:00'
 author: Jordan Terry
 layout: post
 permalink: /reusable-modules-easy-as-abi
-background: /images/presentations/easy-as-abi/kotlin-london-header.webp
+background: /images/posts/easy-as-abi-kotlin-london.webp
 excerpt: |
     A brief summary of a lightning talk I gave at Kotlin London on October 10th 2024.
     I delve into how we can create reusable modules. We look at how visibility modifiers such as `public` and `private` work with Gradle dependency declerations to impact a modules Application Binary Interface.
