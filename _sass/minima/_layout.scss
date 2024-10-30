@@ -339,13 +339,3 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
-
-
-
-.site-title::before {
-	content: url("/assets/jordan-terry-logo.webp");
-	display: inline-block;
-	position: relative;
-	width: 37px;
-	top: 5px;
-}
