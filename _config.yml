@@ -21,6 +21,8 @@ minima:
 header_pages:
   - index.html
 
+include: 
+  - .well-known
 
 markdown: kramdown
 paginate: 15
