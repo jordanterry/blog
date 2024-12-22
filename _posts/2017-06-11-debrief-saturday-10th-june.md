@@ -1,6 +1,6 @@
 ---
 id: 200
-title: 'Debrief &#8211; Saturday 10th June'
+title: 'Debrief: Saturday 10th June'
 date: 2017-06-11T06:45:59+00:00
 author: Jordan Terry
 layout: post

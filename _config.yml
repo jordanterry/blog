@@ -1,12 +1,8 @@
-# Meta Data
-title: ''
-author:
-  name: Jordan Terry
-  email: "jordanfterry+blog@gmail.com"
-description: "Coding, Sports, Flying and more."
+title: "Jordan Terry"
+description: ""
 baseurl: ""
-url: "http://www.jordanterry.co.uk"
-google_analytics: "G-B5WY7FZCS8"
+url: "https://www.jordanterry.co.uk"
+google_analytics: 'G-B5WY7FZCS8'
 
 # Social Media
 github_username: jordanterry
@@ -18,12 +14,8 @@ minima:
     - { platform: github,  user_url: "https://github.com/jordanterry" }
     - { platform: mastodon, user_url: "https://androiddev.social/@jordan_terry" }
 
-header_pages:
-  - index.html
-
-
 markdown: kramdown
-paginate: 15
+paginate: 10
 plugins:
   - jekyll-feed
   - jekyll-paginate
