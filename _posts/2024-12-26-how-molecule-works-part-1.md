@@ -92,8 +92,10 @@ Under the hood Molecule sets up the compose runtime. This consists of a few thin
    `UnitApplier`](https://github.com/cashapp/molecule/blob/4cd38f4764e940915d32f38cc8f8ed7e6bbe7337/molecule-runtime/src/commonMain/kotlin/app/cash/molecule/molecule.kt#L205-L211).
 5. `ObserverHandler` - this is an entry into the snapshot system.. I think! I haven’t quite worked this one out.
 1. I have these two blog posts queued to
-   read - [**How derivedStateOf works: a deep d(er)ive](https://blog.zachklipp.com/how-derivedstateof-works-a-deep-d-er-ive/)**
-   and [**Talk: Deriving derived state: derivedStateOf explained](https://blog.zachklipp.com/talk-deriving-derived-state-derivedstateof-explained/).**
+   read - [**How derivedStateOf works: a deep d(er)ive
+   **](https://blog.zachklipp.com/how-derivedstateof-works-a-deep-d-er-ive/)
+   and [**Talk: Deriving derived state: derivedStateOf explained
+   **](https://blog.zachklipp.com/talk-deriving-derived-state-derivedstateof-explained/).
 
 I suggest diving into the code on [
 `CashApp/Molecule/molecule.kt`](https://github.com/cashapp/molecule/blob/trunk/molecule-runtime/src/commonMain/kotlin/app/cash/molecule/molecule.kt)
