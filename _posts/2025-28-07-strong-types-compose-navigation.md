@@ -11,8 +11,6 @@ categories:
 
 ---
 
-# Strongly Typed APIs - Compose Navigation Transitions
-
 A nice detail I’ve noticed in the Compose Navigation library is the usage of strong types. 
 
 Let’s take a look at the [NavHost](https://developer.android.com/reference/kotlin/androidx/navigation/compose/package-summary#NavHost(androidx.navigation.NavHostController,androidx.navigation.NavGraph,androidx.compose.ui.Modifier,androidx.compose.ui.Alignment,kotlin.Function1,kotlin.Function1,kotlin.Function1,kotlin.Function1,kotlin.Function1)) composable API. 
