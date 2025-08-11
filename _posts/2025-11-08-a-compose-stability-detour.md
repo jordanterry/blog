@@ -11,8 +11,6 @@ categories:
 
 ---
 
-## Parsing Compose's Stability Metrics
-
 If you’re an Android Developer and have not been living under a stone, you’ll know what Jetpack Compose is. 
 
 Compose is a declarative way to build a tree of nodes with `@Composable` functions, it monitors the parameters of those functions to know when to recreate part of the tree of nodes. Most Android Developers build a tree of nodes that represent a user interface. 
