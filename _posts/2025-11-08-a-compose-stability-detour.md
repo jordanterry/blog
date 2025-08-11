@@ -1,6 +1,6 @@
 ---
 title: "Parsing Compose's Stability Metrics"
-date: '2025-11-08T00:80:00+00:00'
+date: '2025-11-08T00:08:00+00:00'
 author: Jordan Terry
 layout: post
 permalink: /parsing-composes-stability-metrics
