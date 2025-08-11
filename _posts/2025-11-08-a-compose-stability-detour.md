@@ -108,7 +108,7 @@ fun HighlightedSnacks(
 
 ANTLR allows us to define a g4 file that represents a Grammar. Commonly, we’ll split it into a Lexer and a Parser. The Lexer represents the “tokens”, and the Parser shows how those “tokens” form a language. Here’s an example from the official [Kotlin grammar definition](https://kotlinlang.org/docs/reference/grammar.html). 
 
-Sadly, the source code for the Compose metrics output is built using a string builder; not a language definition in sight. So let’s build one using ANTLR and see how far we get! 
+Sadly, the source code for the Compose metrics does not have a [language definition](https://cs.android.com/android-studio/kotlin/+/master:plugins/compose/compiler-hosted/src/main/java/androidx/compose/compiler/plugins/kotlin/BuildMetrics.kt). So let’s build one using ANTLR and see how far we get! 
 
 ### Parsing a function
 
