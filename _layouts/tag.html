@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<div class="tag-archive">
+  <header class="tag-header">
+    <h1 class="tag-title">Posts tagged "{{ page.tag }}"</h1>
+  </header>
+
+  <div class="post-list">
+    {%- assign posts = site.tags[page.tag] | sort: 'date' | reverse -%}
+    {%- if posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in posts -%}
+          <li style="display:flex;flex-direction:row;column-gap:0.5rem">
+            <a style="flex:1" class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+            <span class="post-meta">{{ post.date | date: "%a %d %B %y" }}</span>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      <p>No posts with this tag yet.</p>
+    {%- endif -%}
+  </div>
+</div>

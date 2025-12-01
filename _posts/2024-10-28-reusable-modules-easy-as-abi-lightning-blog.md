@@ -9,10 +9,7 @@ excerpt: |
   A "lightning blog" to accompany a lightning talk I have recently given at Kotlin London. I dig into the importance of visibility modifiers and declaring dependencies.
 
 categories:
-  - Android
-  - Coding
-  - Gradle
-  - Kotlin
+  - Software
 ---
 
 

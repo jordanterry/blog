@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/07/18/lee-to-kemble/
 background: /images/uploads/2017/07/featured-lee-to-kemble.webp
 categories:
-  - PPL
+  - Flying
   - Trips
 ---
 <img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/07/featured-lee-to-kemble-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-227" srcset="{{ site.baseurl }}/images/uploads/2017/07/featured-lee-to-kemble-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/07/featured-lee-to-kemble-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/07/featured-lee-to-kemble-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/07/featured-lee-to-kemble.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

@@ -18,7 +18,10 @@
          </label>
 
          <div class="trigger">
-           <!--<a class="page-link" href="/">Home</a>-->
+           <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
+           <a class="page-link" href="{{ '/categories/talks/' | relative_url }}">Talks</a>
+           <a class="page-link" href="{{ '/categories/software/' | relative_url }}">Software</a>
+           <a class="page-link" href="{{ '/categories/flying/' | relative_url }}">Aviation</a>
          </div>
        </nav>
        {%- endif -%}

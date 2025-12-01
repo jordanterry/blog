@@ -8,7 +8,7 @@ permalink: /2017/05/15/debrief-saturday-15th-may/
 background: /images/uploads/2017/05/15-may.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <img loading="lazy" class="alignnone size-large wp-image-188" src="{{ site.baseurl }}/images/uploads/2017/05/15-may-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/05/15-may-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/05/15-may-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/05/15-may-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/05/15-may.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

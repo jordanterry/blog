@@ -7,7 +7,7 @@ layout: post
 permalink: /2018/02/23/after-the-hiatus/
 background: /images/uploads/2018/02/afterthehiatus_header.webp
 categories:
-  - PPL
+  - Flying
 ---
 My last post was written a while ago as I was waiting to finally do my qualifying cross country and then finally pass my practical exams and get my PPL. Well.. seven months later and I’m still waiting. I have been constantly thwarted by bad weather every time I attempt to go flying.
 

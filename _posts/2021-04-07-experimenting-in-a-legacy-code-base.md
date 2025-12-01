@@ -7,7 +7,7 @@ layout: post
 guid: 'http://jordanterry.co.uk/?p=198'
 permalink: /experimenting-in-a-legacy-code-base
 categories:
-    - Coding
+    - Software
 ---
 
 I work on what could be called a “legacy code base”. We’ve just crossed the 10 year anniversary of the first commit. Between then and now over 40 developers have contributed. Many features have come and gone, and the platform we develop for has changed beyond recognition and so have our ways of writing code.

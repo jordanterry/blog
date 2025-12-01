@@ -7,7 +7,7 @@ layout: post
 guid: 'http://jordanterry.co.uk/?p=137'
 permalink: /some-thoughts-on-use-cases-in-kotlin
 categories:
-    - Uncategorized
+    - Software
 ---
 
 Originally published here on Medium: <https://medium.com/@jordanfterry/some-thoughts-on-use-cases-in-kotlin-6ac8021cbcf1>

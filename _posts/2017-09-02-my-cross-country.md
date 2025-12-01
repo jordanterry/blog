@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/09/02/my-cross-country/
 background: /images/uploads/2017/09/feature-cross-country.webp
 categories:
-  - PPL
+  - Flying
 ---
 
 August was set to be the month that I finally passed my flying license; nine months of flying and I was set to finally have my PPL. It was not meant to be! One of the last things I had to do was complete my cross country; fly 150nm solo and make three landings and three different airfields. I attempted it three times in August and each time it was cancelled by bad weather!

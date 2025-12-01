@@ -7,7 +7,7 @@ layout: post
 permalink: /2018/03/01/wind-snow-and-more-snow/
 background: /images/uploads/2018/03/windsnowandmoresnow.webp
 categories:
-  - PPL
+  - Flying
 ---
 Once again I have been defeated by the weather an another attempt to complete my qualifying cross country.
 

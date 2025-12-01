@@ -8,8 +8,7 @@ layout: post
 permalink: /modular-indirection
 background: /images/uploads/2021/12/norbert-kowalczyk-PQHOmT-vkgA-unsplash-825x510.webp
 categories:
-    - Coding
-    - Twitter
+    - Software
 ---
 
 *(If you think this title is bad you should see how I name variables!)*

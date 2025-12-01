@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/06/19/the-week-ahead/
 background: /images/uploads/2017/06/featured-week-ahead.webp
 categories:
-  - PPL
+  - Flying
 ---
 <img loading="lazy" class="alignnone size-large wp-image-207" src="{{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/06/featured-week-ahead.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
 

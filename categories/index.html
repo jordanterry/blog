@@ -1,0 +1,22 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+<div class="categories-list">
+  {%- for category_data in site.data.categories -%}
+    {%- assign posts = site.categories[category_data.name] -%}
+    {%- if posts.size > 0 -%}
+      <div class="category-item">
+        <h2>
+          <a href="{{ site.baseurl }}/categories/{{ category_data.slug }}/">
+            {{ category_data.name }}
+          </a>
+        </h2>
+        <p class="category-description">{{ category_data.description }}</p>
+        <p class="post-count">{{ posts.size }} post{% if posts.size != 1 %}s{% endif %}</p>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+</div>

@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/02/26/a-circuit-at-lee/
 background: /images/uploads/2017/02/featured-circuit-at-lee.webp
 categories:
-  - PPL
+  - Flying
 ---
 <figure id="attachment_74" class="thumbnail wp-caption aligncenter" style="width: 848px"><img loading="lazy" class="size-full wp-image-74" src="{{ site.baseurl }}/images/uploads/2017/04/IMG_20170118_143203.webp" alt="" width="838" height="628" srcset="{{ site.baseurl }}/images/uploads/2017/04/IMG_20170118_143203.webp 838w, {{ site.baseurl }}/images/uploads/2017/04/IMG_20170118_143203-300x225.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/IMG_20170118_143203-768x576.webp 768w" sizes="(max-width: 838px) 100vw, 838px" /><figcaption class="caption wp-caption-text">View from the cockpit</figcaption></figure>
 

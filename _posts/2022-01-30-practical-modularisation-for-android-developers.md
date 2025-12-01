@@ -9,8 +9,7 @@ guid: 'https://jordanterry.co.uk/?p=393'
 permalink: /practical-modularisation-for-android-developers
 background: /images/uploads/2022/01/timelab-pro-yx20mpDyr2I-unsplash-825x510.webp
 categories:
-    - Android
-    - Coding
+    - Software
 ---
 
 Modularisation.. You cannot escape it as an Android Developer. As your code base gets larger well modularised code

@@ -8,7 +8,7 @@ permalink: /2017/07/22/debrief-tuesday-18th-july/
 background: /images/uploads/2017/07/debrief-20-july.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/07/debrief-20-july-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-232" srcset="{{ site.baseurl }}/images/uploads/2017/07/debrief-20-july-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/07/debrief-20-july-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/07/debrief-20-july-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/07/debrief-20-july.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

@@ -1,13 +1,9 @@
 ---
-id: 431
 title: 'Windsor Triathlon 2022'
 date: '2022-06-20T17:55:31+00:00'
 author: Jordan Terry
 layout: post
-guid: 'https://jordanterry.co.uk/?p=431'
 permalink: /windsor-triathlon-2022
-eris_repeatable:
-    - 'a:1:{i:0;s:0:"";}'
 background: /images/uploads/2022/06/0CE75E6D-6183-40CD-B78F-BC75ED85E8B0-e1655747677516-825x510.webp
 categories:
     - Sports

@@ -1,0 +1,27 @@
+- slug: software
+  name: Software
+  description: Software development, coding, tools, and techniques
+
+- slug: android
+  name: Android
+  description: Android development, apps, and platform
+
+- slug: flying
+  name: Flying
+  description: Flying, PPL training, and aerobatics
+
+- slug: career
+  name: Career
+  description: Career development and professional growth
+
+- slug: sports
+  name: Sports
+  description: Sports, fitness, and triathlons
+
+- slug: personal
+  name: Personal
+  description: Personal thoughts and experiences
+
+- slug: talks
+  name: Talks
+  description: Talks I've given.

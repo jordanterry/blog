@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/04/27/reinforcement-learning-from-others/
 background: /images/uploads/2017/04/featured-reinforcement.webp
 categories:
-  - PPL
+  - Flying
   - Reinforcement
 ---
 <img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/04/featured-reinforcement-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-160" srcset="{{ site.baseurl }}/images/uploads/2017/04/featured-reinforcement-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/featured-reinforcement-300x135.jpg 300w, {{ site.baseurl }}/images/uploads/2017/04/featured-reinforcement-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/featured-reinforcement.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

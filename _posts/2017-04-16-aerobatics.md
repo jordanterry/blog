@@ -8,7 +8,7 @@ permalink: /2017/04/16/aerobatics/
 background: /images/uploads/2017/04/featured-about.webp
 categories:
   - Aerobatics
-  - PPL
+  - Flying
 ---
 To me Aerobatics is the pinnacle of aviation; performing stunts in flying machines that no flying machine has the right to be doing.
 

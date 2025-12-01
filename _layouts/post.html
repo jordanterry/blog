@@ -23,12 +23,28 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
+      {%- endif -%}
+      {%- if page.categories.size > 0 -%}
+        • {% for category in page.categories -%}
+          <a href="{{ site.baseurl }}/categories/{{ category | downcase | replace: ' ', '-' }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
       {%- endif -%}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.tags.size > 0 -%}
+    <footer class="post-footer">
+      <div class="post-tags">
+        <strong>Tags:</strong>
+        {%- for tag in page.tags -%}
+          <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
+      </div>
+    </footer>
+  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

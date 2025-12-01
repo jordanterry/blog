@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/03/12/going-solo/
 background: /images/uploads/2017/04/featured-going-solo.webp
 categories:
-  - PPL
+  - Flying
 ---
 In my last post I spoke about my experience of the circuit with my instructor beside me and often with my Dad sat in the back. In this post I’m going to go over the same thing; except this time I am doing it on my own.
 

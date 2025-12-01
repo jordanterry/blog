@@ -8,7 +8,7 @@ permalink: /2017/07/03/debrief-thursday-22nd-june/
 background: /images/uploads/2017/07/featured-23.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/07/featured-23-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-222" srcset="{{ site.baseurl }}/images/uploads/2017/07/featured-23-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/07/featured-23-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/07/featured-23-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/07/featured-23.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

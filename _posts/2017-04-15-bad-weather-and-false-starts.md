@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/04/15/bad-weather-and-false-starts/
 background: /images/uploads/2017/04/featured-image-weather.webp
 categories:
-  - PPL
+  - Flying
 ---
 <figure id="attachment_110" class="thumbnail wp-caption alignnone"><img loading="lazy" class="wp-image-110 size-large" src="{{ site.baseurl }}/images/uploads/2017/04/IMG_20161105_153425-1024x768.webp" alt="Clouds at 2 o'clock" srcset="{{ site.baseurl }}/images/uploads/2017/04/IMG_20161105_153425-1024x768.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/IMG_20161105_153425-300x225.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/IMG_20161105_153425-768x576.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Clouds at 2 o&#8217;clock</figcaption></figure>
 

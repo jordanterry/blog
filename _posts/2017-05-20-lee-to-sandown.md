@@ -7,7 +7,7 @@ layout: post
 permalink: /2017/05/20/lee-to-sandown/
 background: /images/uploads/2017/05/trip-sandown.webp
 categories:
-  - PPL
+  - Flying
   - Trips
 ---
 

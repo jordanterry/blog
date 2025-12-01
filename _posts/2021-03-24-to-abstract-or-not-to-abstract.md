@@ -7,7 +7,7 @@ layout: post
 guid: 'http://jordanterry.co.uk/?p=195'
 permalink: /to-abstract-or-not-to-abstract
 categories:
-    - Coding
+    - Software
 ---
 
 The longer I’ve written software the more I debate with myself about whether I should be adding an abstraction or not adding an abstraction.

@@ -8,7 +8,7 @@ layout: post
 permalink: /modular-indirection-with-a-dagger
 background: /images/uploads/2021/12/igor-figueredo-qgf_mP2ibKE-unsplash-825x510.webp
 categories:
-    - Coding
+    - Software
 ---
 
 In my [last blog post](https://jordanterry.co.uk/modular-indirection) I made a top-level overview of how a modular

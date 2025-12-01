@@ -8,7 +8,7 @@ permalink: /2017/05/08/debrief-saturday-6th-may/
 background: /images/uploads/2017/05/featured-debrief-05-may.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <figure id="attachment_178" class="thumbnail wp-caption alignnone" style="width: 1034px"><img loading="lazy" class="size-large wp-image-178" src="{{ site.baseurl }}/images/uploads/2017/05/featured-debrief-05-may-1024x461.webp" alt="" srcset="{{ site.baseurl }}/images/uploads/2017/05/featured-debrief-05-may-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-05-may-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-05-may-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-05-may.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="caption wp-caption-text">Sky above Lee</figcaption></figure>

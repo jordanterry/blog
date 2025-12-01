@@ -1,0 +1,98 @@
+/* Category and Tag Styles */
+
+.post-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+  font-size: 0.9rem;
+}
+
+.post-categories,
+.post-tags {
+  margin-bottom: 0.5rem;
+}
+
+.post-categories a,
+.post-tags a {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.post-categories a:hover,
+.post-tags a:hover {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+
+/* Categories list page */
+.categories-list {
+  margin-top: 2rem;
+}
+
+.category-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.category-item:last-child {
+  border-bottom: none;
+}
+
+.category-item h2 {
+  margin-bottom: 0.5rem;
+}
+
+.category-item h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.category-item h2 a:hover {
+  color: #0066cc;
+}
+
+.category-description {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.post-count {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* Category archive page */
+.category-archive,
+.tag-archive {
+  margin-top: 2rem;
+}
+
+.category-header,
+.tag-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.category-title,
+.tag-title {
+  margin-bottom: 0.5rem;
+}
+
+/* Tags page */
+.tag-item h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag-count {
+  font-weight: normal;
+  color: #999;
+}

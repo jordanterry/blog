@@ -8,7 +8,7 @@ permalink: /2017/04/29/debrief-saturday-29th-april/
 background: /images/uploads/2017/04/featured-debrief-two.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <img loading="lazy" src="{{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-1024x461.webp" alt="" width="1024" height="461" class="alignnone size-large wp-image-164" srcset="{{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/04/featured-debrief-two.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />

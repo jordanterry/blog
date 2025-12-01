@@ -7,8 +7,7 @@ layout: post
 permalink: /2017/04/16/lee-to-compton-abbas/
 background: /images/uploads/2017/04/featured-image-compton-abbas.webp
 categories:
-  - PPL
-  - Trips
+  - Flying
 ---
 After spending many a lesson in the circuit at Lee taking-off and landing, it was finally time to leave the circuit and do some actual flying. After the circuit comes navigation. There is lots to learn and put into practice.
 

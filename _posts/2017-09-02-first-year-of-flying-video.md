@@ -8,7 +8,7 @@ permalink: /2017/09/02/first-year-of-flying-video/
 background: /images/uploads/2017/09/featured-first-year-1.webp
 categories:
   - Aerobatics
-  - PPL
+  - Flying
 format: video
 ---
 As I am approaching the end of my first year of flying I thought it would be good to put together a short video from the footage I have taken over the year.

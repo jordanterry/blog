@@ -8,7 +8,6 @@ excerpt: |
   What even is a software engineer, anyway? I'm not really sure, but here are some sporadic thoughts on what I think we should be doing.
 
 categories:
-  - Career
   - Software
 
 ---

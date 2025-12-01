@@ -8,7 +8,7 @@ permalink: /2017/07/02/debrief-wednesday-21st-june/
 background: /images/uploads/2017/07/debrief-22.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
   - Trips
 ---
 

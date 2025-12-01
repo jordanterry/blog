@@ -10,8 +10,7 @@ permalink: /a-brief-look-at-gradles-convention-plugins
 excerpt: |
     Gradle is essential for building Android apps, and Convention Plugins can simplify multi-project codebases by enforcing consistent build logic across modules. They help avoid misconfigurations, reduce repetitive code, and make managing changes, like updating Java or Kotlin versions, more efficient. With Convention Plugins, you can streamline configurations like Kotlin compiler options, dependency injection setups, and SDK versions, ensuring consistency and reducing complexity in large projects.
 categories:
-    - Android
-    - Coding
+    - Software
 ---
 
 Gradle is the glue that binds our code together that allows us to build an Android application. Exposure to Gradle can

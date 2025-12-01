@@ -8,7 +8,7 @@ permalink: /2017/05/05/debrief-ground-school-tuesday-2nd-may/
 background: /images/uploads/2017/05/featured-debrief-navigation.webp
 categories:
   - Debriefs
-  - PPL
+  - Flying
 ---
 
 <img loading="lazy" class="alignnone size-large wp-image-174" src="{{ site.baseurl }}/images/uploads/2017/05/featured-debrief-navigation-1024x461.webp" alt="" width="1024" height="461" srcset="{{ site.baseurl }}/images/uploads/2017/05/featured-debrief-navigation-1024x461.webp 1024w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-navigation-300x135.webp 300w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-navigation-768x346.webp 768w, {{ site.baseurl }}/images/uploads/2017/05/featured-debrief-navigation.webp 2000w" sizes="(max-width: 1024px) 100vw, 1024px" />
