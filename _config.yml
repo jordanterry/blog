@@ -11,8 +11,9 @@ github_username: jordanterry
 theme: minima
 minima:
   social_links:
-    - { platform: github,  user_url: "https://github.com/jordanterry" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jordan-terry/" }
     - { platform: mastodon, user_url: "https://androiddev.social/@jordan_terry" }
+    - { platform: github,  user_url: "https://github.com/jordanterry" }
 
 include: 
   - .well-known

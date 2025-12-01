@@ -10,7 +10,7 @@ excerpt: |
     I delve into how we can create reusable modules. We look at how visibility modifiers such as `public` and `private` work with Gradle dependency declerations to impact a modules Application Binary Interface.
 
 categories:
-    - Software
+    - Talks
 ---
 
 I recently gave a lighning talk at [Kotlin London](https://www.meetup.com/kotlin-london/). This is a Kotlin that was
