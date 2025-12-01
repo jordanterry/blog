@@ -12,4 +12,5 @@ I've been sitting on some improvements to a previous talk I have given by the sa
 
 This was a special event for me as I traveled to it with work, I was able to meet some CDMX based colleagues in person. Note to remember, Mexico City is very high!
 
-[Meetup](https://www.meetup.com/mobile-development-mexico/events/311691310/?eventOrigin=your_events)
+- [Meetup](https://www.meetup.com/mobile-development-mexico/events/311691310/?eventOrigin=your_events)
+- [Speakerdeck link](https://speakerdeck.com/jordan_terry/reusable-modules-its-as-easy-as-abi)

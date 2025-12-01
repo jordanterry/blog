@@ -1,5 +1,5 @@
 ---
-title: "Dev Community Android NYC & DC - Reusable Modules: It's as easy as ABI"
+title: "Android NYC Meetup - Reusable Modules: It's as Easy as ABI"
 date: '2025-11-20T00:08:00+00:00'
 author: Jordan Terry
 layout: post

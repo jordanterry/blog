@@ -1,5 +1,5 @@
 ---
-title: "Droidcon Lisbon - Modular Indirection"
+title: "Droidcon Lisbon 2022 - Modular Indirection"
 date: '2022-04-21T00:08:00+00:00'
 author: Jordan Terry
 layout: post

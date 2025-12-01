@@ -1,5 +1,5 @@
 ---
-title: "Compose Stability Metrics - Parsing"
+title: "ANTLR & Compose: Parsing Stability Metrics with Grammars"
 date: '2025-08-11T00:08:00+00:00'
 author: Jordan Terry
 layout: post

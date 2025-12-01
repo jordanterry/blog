@@ -1,5 +1,5 @@
 ---
-title: "Droidcon London - Developer Productivity on a Budget"
+title: "Droidcon London 2023 - Developer Productivity on a Budget"
 date: '2023-10-26T00:08:00+00:00'
 author: Jordan Terry
 layout: post

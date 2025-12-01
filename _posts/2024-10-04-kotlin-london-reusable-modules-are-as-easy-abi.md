@@ -1,5 +1,5 @@
 ---
-title: 'Kotlin London - Reusable Modules - Its as easy as ABI'
+title: "Kotlin London - Reusable Modules: It's as Easy as ABI"
 date: '2024-10-04T10:56:21+00:00'
 author: Jordan Terry
 layout: post
