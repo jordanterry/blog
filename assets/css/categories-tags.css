@@ -1,9 +1,11 @@
-/* Category and Tag Styles */
+/* ============================================
+   CATEGORY AND TAG STYLES
+   ============================================ */
 
 .post-footer {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid var(--color-border, #e8e8e8);
   font-size: 0.9rem;
 }
 
@@ -12,25 +14,127 @@
   margin-bottom: 0.5rem;
 }
 
+/* Default category/tag badge style */
 .post-categories a,
 .post-tags a {
   display: inline-block;
-  padding: 0.2rem 0.5rem;
-  margin: 0.2rem;
+  padding: 0.3rem 0.75rem;
+  margin: 0.25rem 0.25rem 0.25rem 0;
   background-color: #f0f0f0;
-  border-radius: 3px;
+  border-radius: 12px;
   text-decoration: none;
   color: #333;
-  transition: background-color 0.2s;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  letter-spacing: 0.02em;
 }
 
 .post-categories a:hover,
 .post-tags a:hover {
-  background-color: #e0e0e0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
 }
 
-/* Categories list page */
+/* ============================================
+   COLOR-CODED CATEGORY BADGES
+   ============================================ */
+
+/* Software - Blue */
+.post-categories a[href*="software"],
+.category-item a[href*="software"] {
+  background-color: var(--color-software, #0066cc);
+  color: white;
+}
+
+.post-categories a[href*="software"]:hover,
+.category-item a[href*="software"]:hover {
+  background-color: var(--color-primary-dark, #0052a3);
+  color: white;
+}
+
+/* Android - Green */
+.post-categories a[href*="android"],
+.category-item a[href*="android"] {
+  background-color: var(--color-android, #3DDC84);
+  color: #003300;
+}
+
+.post-categories a[href*="android"]:hover,
+.category-item a[href*="android"]:hover {
+  background-color: #2BC56D;
+  color: #003300;
+}
+
+/* Talks - Coral */
+.post-categories a[href*="talks"],
+.category-item a[href*="talks"] {
+  background-color: var(--color-talks, #FF6B6B);
+  color: white;
+}
+
+.post-categories a[href*="talks"]:hover,
+.category-item a[href*="talks"]:hover {
+  background-color: #FF5252;
+  color: white;
+}
+
+/* Flying - Sky Blue */
+.post-categories a[href*="flying"],
+.category-item a[href*="flying"] {
+  background-color: var(--color-flying, #4A90E2);
+  color: white;
+}
+
+.post-categories a[href*="flying"]:hover,
+.category-item a[href*="flying"]:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+/* Career - Purple */
+.post-categories a[href*="career"],
+.category-item a[href*="career"] {
+  background-color: var(--color-career, #9B59B6);
+  color: white;
+}
+
+.post-categories a[href*="career"]:hover,
+.category-item a[href*="career"]:hover {
+  background-color: #8E44AD;
+  color: white;
+}
+
+/* Sports - Orange */
+.post-categories a[href*="sports"],
+.category-item a[href*="sports"] {
+  background-color: var(--color-sports, #FF8C42);
+  color: white;
+}
+
+.post-categories a[href*="sports"]:hover,
+.category-item a[href*="sports"]:hover {
+  background-color: #FF7622;
+  color: white;
+}
+
+/* Personal - Pink */
+.post-categories a[href*="personal"],
+.category-item a[href*="personal"] {
+  background-color: var(--color-personal, #E85D75);
+  color: white;
+}
+
+.post-categories a[href*="personal"]:hover,
+.category-item a[href*="personal"]:hover {
+  background-color: #D63D5D;
+  color: white;
+}
+
+/* ============================================
+   CATEGORIES LIST PAGE
+   ============================================ */
 .categories-list {
   margin-top: 2rem;
 }
@@ -38,7 +142,7 @@
 .category-item {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid var(--color-border, #e8e8e8);
 }
 
 .category-item:last-child {
@@ -50,25 +154,27 @@
 }
 
 .category-item h2 a {
-  color: #333;
+  color: var(--color-dark, #333);
   text-decoration: none;
 }
 
 .category-item h2 a:hover {
-  color: #0066cc;
+  color: var(--color-primary, #0066cc);
 }
 
 .category-description {
-  color: #666;
+  color: var(--color-text-light, #666);
   margin-bottom: 0.5rem;
 }
 
 .post-count {
   font-size: 0.9rem;
-  color: #999;
+  color: var(--color-text-lighter, #999);
 }
 
-/* Category archive page */
+/* ============================================
+   CATEGORY ARCHIVE PAGE
+   ============================================ */
 .category-archive,
 .tag-archive {
   margin-top: 2rem;
@@ -78,7 +184,7 @@
 .tag-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #e8e8e8;
+  border-bottom: 2px solid var(--color-border, #e8e8e8);
 }
 
 .category-title,
@@ -86,7 +192,9 @@
   margin-bottom: 0.5rem;
 }
 
-/* Tags page */
+/* ============================================
+   TAGS PAGE
+   ============================================ */
 .tag-item h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -94,5 +202,5 @@
 
 .tag-count {
   font-weight: normal;
-  color: #999;
+  color: var(--color-text-lighter, #999);
 }

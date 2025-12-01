@@ -1,9 +1,46 @@
-/* Custom Typography - Inter Font */
+/*
+ * Custom Styles for Jordan Terry's Blog
+ * Color Palette & Typography
+ */
 
+/* ============================================
+   COLOR PALETTE
+   ============================================ */
+:root {
+  /* Primary Colors */
+  --color-primary: #0066cc;        /* Original blue - for links and primary actions */
+  --color-primary-dark: #0052a3;   /* Darker blue for hover states */
+  --color-android: #3DDC84;        /* Android green - accent color */
+  --color-accent: #FF6B6B;         /* Coral - for emphasis */
+
+  /* Neutrals */
+  --color-dark: #1a1a1a;           /* Rich black for text */
+  --color-text: #333333;           /* Main text color */
+  --color-text-light: #666666;     /* Secondary text */
+  --color-text-lighter: #999999;   /* Tertiary text */
+  --color-border: #e8e8e8;         /* Borders */
+  --color-bg-light: #f8f9fa;       /* Light backgrounds */
+
+  /* Category Colors */
+  --color-software: #0066cc;       /* Blue */
+  --color-android: #3DDC84;        /* Android green */
+  --color-talks: #FF6B6B;          /* Coral/red */
+  --color-flying: #4A90E2;         /* Sky blue */
+  --color-career: #9B59B6;         /* Purple */
+  --color-sports: #FF8C42;         /* Orange */
+  --color-personal: #E85D75;       /* Pink */
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-text);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -12,19 +49,194 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   font-weight: 600;
   letter-spacing: -0.02em;
-}
-
-/* Improve readability */
-body {
-  font-weight: 400;
-  line-height: 1.7;
+  color: var(--color-dark);
 }
 
 h1 { font-weight: 700; }
 h2 { font-weight: 600; }
 h3 { font-weight: 600; }
 
-/* Code blocks with Inter's monospace cousin */
+/* Code blocks */
 code, pre {
   font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+}
+
+/* Inline code */
+code {
+  background-color: var(--color-bg-light);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--color-dark);
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--color-bg-light);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* ============================================
+   SITE HEADER
+   ============================================ */
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+/* ============================================
+   POST STYLES
+   ============================================ */
+.post-title {
+  color: var(--color-dark);
+  line-height: 1.2;
+}
+
+.post-meta {
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content h1 { font-size: 2rem; }
+.post-content h2 { font-size: 1.5rem; }
+.post-content h3 { font-size: 1.25rem; }
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+blockquote {
+  border-left: 4px solid var(--color-android);
+  padding-left: 1rem;
+  margin-left: 0;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* ============================================
+   HOME PAGE POST LIST - CATEGORY PILLS
+   ============================================ */
+.post-category-pill {
+  margin-top: 0.35rem;
+}
+
+.category-pill {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.category-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+}
+
+/* Color-coded category pills */
+.category-pill[href*="software"] {
+  background-color: var(--color-software);
+  color: white;
+}
+
+.category-pill[href*="software"]:hover {
+  background-color: var(--color-primary-dark);
+  color: white;
+}
+
+.category-pill[href*="android"] {
+  background-color: var(--color-android);
+  color: #003300;
+}
+
+.category-pill[href*="android"]:hover {
+  background-color: #2BC56D;
+  color: #003300;
+}
+
+.category-pill[href*="talks"] {
+  background-color: var(--color-talks);
+  color: white;
+}
+
+.category-pill[href*="talks"]:hover {
+  background-color: #FF5252;
+  color: white;
+}
+
+.category-pill[href*="flying"] {
+  background-color: var(--color-flying);
+  color: white;
+}
+
+.category-pill[href*="flying"]:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.category-pill[href*="career"] {
+  background-color: var(--color-career);
+  color: white;
+}
+
+.category-pill[href*="career"]:hover {
+  background-color: #8E44AD;
+  color: white;
+}
+
+.category-pill[href*="sports"] {
+  background-color: var(--color-sports);
+  color: white;
+}
+
+.category-pill[href*="sports"]:hover {
+  background-color: #FF7622;
+  color: white;
+}
+
+.category-pill[href*="personal"] {
+  background-color: var(--color-personal);
+  color: white;
+}
+
+.category-pill[href*="personal"]:hover {
+  background-color: #D63D5D;
+  color: white;
 }
