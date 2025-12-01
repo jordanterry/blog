@@ -1,6 +1,6 @@
 ---
 title: "Dev Community Android NYC & DC - Reusable Modules: It's as easy as ABI"
-date: '2025-11-28T00:08:00+00:00'
+date: '2025-11-20T00:08:00+00:00'
 author: Jordan Terry
 layout: post
 permalink: /dev-community-android-reusable-modules
