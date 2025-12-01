@@ -1,5 +1,5 @@
 ---
-title: "Parsing Compose's Stability Metrics"
+title: "Compose Stability Metrics - Parsing"
 date: '2025-08-11T00:08:00+00:00'
 author: Jordan Terry
 layout: post
