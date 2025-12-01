@@ -1,9 +1,9 @@
 ---
-title: "Droidcon Portugal - Modular Indirection"
+title: "Droidcon Lisbon - Modular Indirection"
 date: '2022-04-21T00:08:00+00:00'
 author: Jordan Terry
 layout: post
-permalink: /droidcon-portugal-modular-indirection
+permalink: /droidcon-lisbon-modular-indirection
 categories:
   - Talks
 ---
