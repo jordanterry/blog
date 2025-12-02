@@ -36,13 +36,13 @@ Contrast this to the an **imperative** alternative:
 
 ```kotlin
 fun sharks(): List<Animal> {
-	val sharks = arrayListOf<Animal>()
-	for (animal in animals) {
-		if (animal.family == "Sharks") {
-			sharks.add(animal)
-		}
-	}
-	return sharks
+    val sharks = arrayListOf<Animal>()
+    for (animal in animals) {
+        if (animal.family == "Sharks") {
+            sharks.add(animal)
+        }
+    }
+    return sharks
 }
 ```
 
@@ -61,14 +61,14 @@ To lift another shark-related example from the book, here is a HTML data model:
 
 ```html
 <ul>
-	<li class="selected">
-		<p>Sharks</p>
-		<!-- More HTML -->
-	</li>
-	<li>
-		<p>Whales</p>
-		<!-- More HTML -->
-	</li>
+    <li class="selected">
+        <p>Sharks</p>
+        <!-- More HTML -->
+    </li>
+    <li>
+        <p>Whales</p>
+        <!-- More HTML -->
+    </li>
 </ul>
 ```
 
@@ -76,7 +76,7 @@ Cascading Style Sheets (CSS) are used to style different elements in the data mo
 
 ```css
 li.selected > p {
-	background-color: blue;
+    background-color: blue;
 }
 ```
 
@@ -91,14 +91,14 @@ All of this talk of data models and query languages is very exciting. It got me 
 ```kotlin
 @Composable
 fun AnimalList() {
-	Column {
-		Row {
-			Text("Sharks")
-		}
-		Row {
-			Text("Whales")
-		}
-	}
+    Column {
+        Row {
+            Text("Sharks")
+        }
+        Row {
+            Text("Whales")
+        }
+    }
 }
 ```
 
@@ -107,18 +107,18 @@ At runtime, the UI can be updated to change the background colour:
 ```diff
 @Composable
 fun AnimalList() {
-	Column {
-		Row {
-			Text(
-				"Sharks",
-+				modifier = Modifier
-+					.background(Colors.Blue)
-			)
-		}
-		Row {
-			Text("Whales")
-		}
-	}
+    Column {
+        Row {
+            Text(
+                "Sharks",
++                modifier = Modifier
++	                .background(Colors.Blue)
+            )
+        }
+        Row {
+            Text("Whales")
+        }
+    }
 }
 ```
 
