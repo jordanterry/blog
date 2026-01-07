@@ -7,9 +7,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.10.0"
+gem "jekyll", "~> 4.3.4"
 gem "nokogiri", ">= 1.16.8"
-gem "github-pages", "~> 232", group: :jekyll_plugins
+
+# Required for Ruby 3.4+
+gem "csv"
+gem "logger"
+gem "base64"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5.1"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -18,6 +22,7 @@ gem "minima", "~> 2.5.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-paginate"
 end
 gem "jekyll-remote-theme"
 

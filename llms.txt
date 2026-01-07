@@ -1,0 +1,14 @@
+---
+layout: null
+---
+# Jordan Terry
+
+> Senior Android Engineer at Etsy. 10+ years experience. Speaker. Building mobile products that make the right thing easy.
+
+I'm a Senior Android Engineer currently working at Etsy. I'm passionate about mobile development, modular architecture, and building great user experiences. I regularly speak at conferences and meetups about Android development.
+
+## Blog Posts
+
+{% for post in site.posts %}
+- [{{ post.title }}](/llm{{ post.url | remove_trailing_slash }}.md): {{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}
+{% endfor %}

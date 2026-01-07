@@ -15,8 +15,15 @@ minima:
     - { platform: mastodon, user_url: "https://androiddev.social/@jordan_terry" }
     - { platform: github,  user_url: "https://github.com/jordanterry" }
 
-include: 
+include:
   - .well-known
+  - llms.txt
+
+defaults:
+  - scope:
+      path: "llm/*"
+    values:
+      sitemap: false
 
 markdown: kramdown
 paginate: 10
