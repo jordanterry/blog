@@ -29,3 +29,7 @@
 - slug: achievements
   name: Achievements
   description: Notable accomplishments, wins, and milestones worth celebrating. A running brag doc of things I'm proud of.
+
+- slug: projects
+  name: Projects
+  description: Side projects, open source tools, and experiments. Building things to learn and solve problems.

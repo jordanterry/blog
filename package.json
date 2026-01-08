@@ -1,0 +1,14 @@
+{
+  "name": "jordanterry-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jordan Terry's blog with JSON Resume integration",
+  "scripts": {
+    "resume:validate": "resume validate",
+    "resume:export": "resume export --theme jsonresume-theme-stackoverflow resume.html"
+  },
+  "dependencies": {
+    "resume-cli": "^3.0.0",
+    "jsonresume-theme-stackoverflow": "^2.1.0"
+  }
+}
