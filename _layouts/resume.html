@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.data.resume.basics.name }} - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --slate-700: #475569;
+      --slate-800: #334155;
+      --gray-800: #1f2937;
+      --gray-600: #4b5563;
+      --gray-500: #6b7280;
+      --gray-400: #9ca3af;
+      --slate-300: #cbd5e1;
+      --slate-200: #e2e8f0;
+      --slate-400: #94a3b8;
+      --white: #ffffff;
+      --company-color: #2f4f4f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--gray-600);
+      background-color: #f1f5f9;
+      padding: 2rem;
+    }
+
+    .resume-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: var(--white);
+      box-shadow: 0 0 60px rgba(0, 0, 0, 0.12);
+      display: grid;
+      grid-template-columns: 320px 1fr;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: linear-gradient(180deg, var(--slate-700) 0%, var(--slate-800) 100%);
+      color: var(--white);
+      padding: 50px 35px;
+    }
+
+    .sidebar h1 {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .sidebar .label {
+      font-size: 14px;
+      color: var(--slate-300);
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar-section h3 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--slate-200);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .sidebar-section p,
+    .sidebar-section a {
+      font-size: 14px;
+      color: var(--slate-300);
+      line-height: 1.7;
+    }
+
+    .sidebar-section a {
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .sidebar-section a:hover {
+      color: var(--white);
+    }
+
+    .contact-item {
+      margin-bottom: 10px;
+    }
+
+    .profile-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .skill-tag {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: var(--slate-200);
+    }
+
+    .languages-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .language-entry {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .language-name {
+      color: var(--slate-200);
+    }
+
+    .language-level {
+      color: var(--slate-400);
+      font-size: 13px;
+    }
+
+    .interests-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .interest-tag {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      color: var(--slate-300);
+    }
+
+    /* Main Content */
+    .main-content {
+      padding: 60px 50px;
+    }
+
+    .summary {
+      font-size: 16px;
+      color: var(--gray-600);
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--slate-200);
+    }
+
+    section {
+      margin-bottom: 45px;
+      page-break-inside: avoid;
+    }
+
+    section h2 {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--gray-800);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 25px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--slate-700);
+      position: relative;
+    }
+
+    section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 60px;
+      height: 2px;
+      background: var(--slate-400);
+    }
+
+    .entry {
+      margin-bottom: 30px;
+      page-break-inside: avoid;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .entry-title {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gray-800);
+    }
+
+    .entry-title a {
+      color: var(--gray-800);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .entry-title a:hover {
+      color: var(--slate-700);
+    }
+
+    .entry-company {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--company-color);
+    }
+
+    .entry-date {
+      font-size: 14px;
+      color: var(--gray-500);
+      font-weight: 500;
+    }
+
+    .entry-summary {
+      color: var(--gray-600);
+      margin-bottom: 12px;
+    }
+
+    .highlights {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .highlights li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+      color: var(--gray-600);
+    }
+
+    .highlights li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--slate-400);
+      font-weight: bold;
+    }
+
+    .education-entry .entry-title {
+      font-size: 16px;
+    }
+
+    .education-entry .institution {
+      color: var(--gray-500);
+      font-size: 15px;
+    }
+
+    /* Achievements */
+    .achievements-list {
+      list-style: none;
+    }
+
+    .achievements-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--slate-200);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .achievements-list li:last-child {
+      border-bottom: none;
+    }
+
+    .achievements-list a {
+      color: var(--gray-800);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .achievements-list a:hover {
+      color: var(--slate-700);
+    }
+
+    .achievement-date {
+      color: var(--gray-500);
+      font-size: 14px;
+    }
+
+    /* Publications */
+    .publication-entry {
+      margin-bottom: 20px;
+    }
+
+    .publication-meta {
+      font-size: 14px;
+      color: var(--gray-500);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 30px;
+      border-top: 1px solid var(--slate-200);
+      color: var(--gray-500);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--slate-700);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .resume-container {
+        box-shadow: none;
+        max-width: 100%;
+      }
+
+      .sidebar {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      section {
+        page-break-inside: avoid;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .resume-container {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        padding: 40px 30px;
+      }
+
+      .main-content {
+        padding: 40px 30px;
+      }
+
+      body {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .entry-header {
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      section h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    {% assign resume = site.data.resume %}
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>{{ resume.basics.name }}</h1>
+      <p class="label">{{ resume.basics.label }}</p>
+
+      {% if resume.basics.email or resume.basics.location or resume.basics.url %}
+      <div class="sidebar-section">
+        <h3>Contact</h3>
+        {% if resume.basics.email %}
+        <div class="contact-item">{{ resume.basics.email }}</div>
+        {% endif %}
+        {% if resume.basics.location %}
+        <div class="contact-item">{{ resume.basics.location.city }}, {{ resume.basics.location.region }}</div>
+        {% endif %}
+        {% if resume.basics.url %}
+        <div class="contact-item"><a href="{{ resume.basics.url }}">{{ resume.basics.url | remove: 'https://' }}</a></div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if resume.basics.profiles.size > 0 %}
+      <div class="sidebar-section">
+        <h3>Profiles</h3>
+        <div class="profile-links">
+          {% for profile in resume.basics.profiles %}
+          <a href="{{ profile.url }}" target="_blank">{{ profile.network }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if resume.skills.size > 0 %}
+      <div class="sidebar-section">
+        <h3>Skills</h3>
+        <div class="skills-list">
+          {% for skill in resume.skills %}
+            {% for keyword in skill.keywords %}
+            <span class="skill-tag">{{ keyword }}</span>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if resume.languages.size > 0 %}
+      <div class="sidebar-section">
+        <h3>Languages</h3>
+        <div class="languages-sidebar">
+          {% for lang in resume.languages %}
+          <div class="language-entry">
+            <span class="language-name">{{ lang.language }}</span>
+            <span class="language-level">{{ lang.fluency }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if resume.interests.size > 0 %}
+      <div class="sidebar-section">
+        <h3>Interests</h3>
+        <div class="interests-list">
+          {% for interest in resume.interests %}
+            {% for keyword in interest.keywords %}
+            <span class="interest-tag">{{ keyword }}</span>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if resume.education.size > 0 %}
+      <div class="sidebar-section">
+        <h3>Education</h3>
+        {% for edu in resume.education %}
+        <div class="contact-item">
+          <strong>{{ edu.studyType }}</strong><br>
+          {{ edu.area }}<br>
+          <span style="color: var(--slate-400); font-size: 13px;">{{ edu.institution }}, {{ edu.endDate | date: "%Y" }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      {% if resume.basics.summary %}
+      <p class="summary">{{ resume.basics.summary }}</p>
+      {% endif %}
+
+      {% if resume.work.size > 0 %}
+      <section>
+        <h2>Experience</h2>
+        {% for job in resume.work %}
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">{{ job.position }}</span>
+            <span class="entry-date">
+              {{ job.startDate | date: "%b %Y" }} — {% if job.endDate %}{{ job.endDate | date: "%b %Y" }}{% else %}Present{% endif %}
+            </span>
+          </div>
+          <div class="entry-company">{{ job.name }}</div>
+          {% if job.summary %}<p class="entry-summary">{{ job.summary }}</p>{% endif %}
+          {% if job.highlights.size > 0 %}
+          <ul class="highlights">
+            {% for highlight in job.highlights %}
+            <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% assign achievement_posts = site.posts | where_exp: "post", "post.categories contains 'achievements'" %}
+      {% if achievement_posts.size > 0 %}
+      <section>
+        <h2>Achievements</h2>
+        <ul class="achievements-list">
+          {% for post in achievement_posts limit: 5 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="achievement-date">{{ post.date | date: "%b %Y" }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      {% if resume.publications.size > 0 %}
+      <section>
+        <h2>Talks & Publications</h2>
+        {% for pub in resume.publications %}
+        <div class="entry publication-entry">
+          <div class="entry-header">
+            <span class="entry-title">{% if pub.url %}<a href="{{ pub.url }}">{{ pub.name }}</a>{% else %}{{ pub.name }}{% endif %}</span>
+            <span class="entry-date">{{ pub.releaseDate | date: "%b %Y" }}</span>
+          </div>
+          <p class="publication-meta">{{ pub.publisher }}{% if pub.summary %} — {{ pub.summary }}{% endif %}</p>
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if resume.certificates.size > 0 %}
+      <section>
+        <h2>Certificates</h2>
+        {% for cert in resume.certificates %}
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">{{ cert.name }}</span>
+            <span class="entry-date">{{ cert.date | date: "%b %Y" }}</span>
+          </div>
+          <p class="entry-summary">{{ cert.issuer }}</p>
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      <footer>
+        <p>Last updated: {{ resume.meta.lastModified | date: "%B %Y" }}</p>
+        <p>Also available as <a href="/resume.json">JSON</a> | <a href="/resume.md">Markdown</a></p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

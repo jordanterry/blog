@@ -12,18 +12,26 @@ theme: minima
 minima:
   social_links:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/jordan-terry/" }
-    - { platform: mastodon, user_url: "https://androiddev.social/@jordan_terry" }
     - { platform: github,  user_url: "https://github.com/jordanterry" }
 
 include:
   - .well-known
   - llms.txt
+  - resume.json
+  - resume.md
 
 defaults:
   - scope:
       path: "llm/*"
     values:
       sitemap: false
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
 
 markdown: kramdown
 paginate: 10

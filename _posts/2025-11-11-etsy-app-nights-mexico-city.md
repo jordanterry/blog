@@ -6,6 +6,10 @@ layout: post
 permalink: /app-dev-nights-mexico-city
 categories:
   - Talks
+talk:
+  event: "App Dev Nights Mexico City"
+  summary: "Talk on building reusable modules with an introduction to build systems and Application Binary Interfaces."
+  slides_url: "https://speakerdeck.com/jordan_terry/reusable-modules-its-as-easy-as-abi"
 ---
 
 I've been sitting on some improvements to a previous talk I have given by the same name. This presentation seeked to improve upon it. I've added an introduction to build systems and how they work, this provides a nice introduction into the world of Application Binary Interfaces. 

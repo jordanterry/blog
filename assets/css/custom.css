@@ -240,3 +240,11 @@ blockquote {
   background-color: #D63D5D;
   color: white;
 }
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.footer-separator {
+  margin: 0 0.5rem;
+  color: var(--color-text-lighter);
+}

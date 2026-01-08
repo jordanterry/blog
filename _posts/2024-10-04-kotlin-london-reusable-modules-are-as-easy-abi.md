@@ -11,6 +11,10 @@ excerpt: |
 
 categories:
     - Talks
+talk:
+  event: "Kotlin London"
+  summary: "Lightning talk on building reusable Android modules with stable ABIs."
+  slides_url: "https://speakerdeck.com/jordan_terry/resuable-modules-its-as-easy-as-abi"
 ---
 
 I recently gave a lighning talk at [Kotlin London](https://www.meetup.com/kotlin-london/). This is a Kotlin that was

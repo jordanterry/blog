@@ -6,6 +6,11 @@ layout: post
 permalink: /droidcon-london-developer-productivity-on-a-budget
 categories:
   - Talks
+talk:
+  event: "Droidcon London"
+  summary: "Talk on improving developer experience without large infrastructure investments."
+  slides_url: "https://speakerdeck.com/player/3cf9570cf5054858878b0bc33428f753"
+  video_url: "https://vimeo.com/881875801"
 ---
 
 I gave this talk as part of a two man show with my good friend Adam Ahmed. At the time, we both worked on platform teams at two separate companies. We found we were doing similar things and doing them with a small amount of resource. We thought that we should share our work with the wider world! 

@@ -1,0 +1,185 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jordan Terry",
+    "label": "Staff Android Developer | Speaker, Aviator, Coder",
+    "image": "",
+    "email": "jordanfterry@gmail.com",
+    "phone": "+44 07786 932967",
+    "url": "https://jordanterry.co.uk",
+    "summary": "Experienced Android engineer with over 10 years specializing in Kotlin, Dagger, MVVM/MVI architecture, Jetpack Compose, and Gradle build optimization. Strong in designing scalable systems, handling complex concurrency, and building custom plugins to enhance development workflows. Advocate for observability to ensure smooth, proactive project delivery. Passionate about aviation and endurance sports.",
+    "location": {
+      "city": "Brooklyn",
+      "region": "New York",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jordan-terry",
+        "url": "https://www.linkedin.com/in/jordan-terry/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jordanterry",
+        "url": "https://github.com/jordanterry"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Etsy",
+      "position": "Senior Android Engineer",
+      "url": "https://www.etsy.com",
+      "startDate": "2023-01-01",
+      "summary": "Working in the Search and Android domains at Etsy, building mobile products that make the right thing easy. Specializing in Gradle, Kotlin, Android, Testing and Strong Typing.",
+      "highlights": [
+        "Search domain expertise: Contributing to Android search experiences for Etsy's marketplace.",
+        "Build systems optimization: Applying Gradle expertise to improve developer experience and build performance.",
+        "Kotlin expertise: Leveraging deep knowledge of Coroutines and Flows for robust, concurrent code.",
+        "Represented the company as a speaker at Droidcon London and Kotlin London."
+      ]
+    },
+    {
+      "name": "Marks & Spencer",
+      "position": "Senior Android Engineer",
+      "url": "https://www.marksandspencer.com",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Building Android applications for Marks & Spencer, specializing in Gradle, Kotlin, Android, Testing and Strong Typing.",
+      "highlights": []
+    },
+    {
+      "name": "Twitter",
+      "position": "Software Developer II",
+      "url": "https://twitter.com",
+      "startDate": "2021-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Contributed to the Android Twitter Blue experience and worked on advertising and unified card stack systems, gaining valuable experience in large-scale development across both Android and backend systems.",
+      "highlights": [
+        "Developed features for Twitter Blue and core advertising systems.",
+        "Gained hands-on experience with observability, using tools like Interana to monitor and resolve production issues early.",
+        "Represented the company as a speaker at Droidcon Lisbon."
+      ]
+    },
+    {
+      "name": "The Guardian",
+      "position": "Android Developer",
+      "url": "https://www.theguardian.com",
+      "startDate": "2018-01-01",
+      "endDate": "2021-12-31",
+      "summary": "As part of the mobile apps team, I contributed to key technical and product initiatives that drove project success.",
+      "highlights": [
+        "Led Kotlin Migration and modularization of a complex codebase, optimizing Gradle builds and improving maintainability.",
+        "Developed key product features like Sign in with Apple (custom Android solution), personalized marketing messaging, and a premium subscription tier."
+      ]
+    },
+    {
+      "name": "ClearScore",
+      "position": "Android Developer",
+      "url": "https://www.clearscore.com",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-31",
+      "summary": "Joined during a pivotal transition from a hybrid app to a fully native Android experience at a fast-paced startup. First opportunity to use Kotlin in production.",
+      "highlights": [
+        "Contributed to the transition from hybrid to native Android.",
+        "Early adopter of Kotlin in production environment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Southampton Solent University",
+      "area": "Software Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2011-09-01",
+      "endDate": "2014-06-30"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Android Development",
+      "level": "Expert",
+      "keywords": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android SDK",
+        "MVVM/MVI Architecture",
+        "Coroutines",
+        "Flows"
+      ]
+    },
+    {
+      "name": "Build Systems",
+      "level": "Expert",
+      "keywords": [
+        "Gradle",
+        "Convention Plugins",
+        "Build Optimization",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "level": "Advanced",
+      "keywords": [
+        "Dependency Injection",
+        "Dagger/Hilt",
+        "Modularization",
+        "Scalable Systems"
+      ]
+    },
+    {
+      "name": "Observability",
+      "level": "Advanced",
+      "keywords": [
+        "New Relic",
+        "Interana",
+        "Production Monitoring",
+        "Build Metrics"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "🇬🇧 English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "🇫🇷 French",
+      "fluency": "B1/B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Aviation",
+      "keywords": [
+        "Student Pilot",
+        "VFR Flying"
+      ]
+    },
+    {
+      "name": "Endurance Sports",
+      "keywords": [
+        "Ultra Running",
+        "Triathlon",
+        "Cycling"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Motorsports",
+        "Tennis",
+        "Reading"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://jordanterry.co.uk/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-01-07"
+  }
+}
