@@ -28,12 +28,24 @@ module Jekyll
       talk_posts.map do |post|
         talk_data = post.data['talk'] || {}
 
+        # Build summary with resource links (using markdown format for theme compatibility)
+        base_summary = talk_data['summary'] || post.data['excerpt']&.to_s&.strip
+        resource_links = []
+        resource_links << "[Slides](#{talk_data['slides_url']})" if talk_data['slides_url']
+        resource_links << "[Video](#{talk_data['video_url']})" if talk_data['video_url']
+
+        summary_with_links = if resource_links.any?
+          "#{base_summary} — #{resource_links.join(' | ')}"
+        else
+          base_summary
+        end
+
         {
           'name' => post.data['title'],
           'publisher' => talk_data['event'] || extract_event_from_title(post.data['title']),
           'releaseDate' => post.data['date'].strftime('%Y-%m-%d'),
-          'url' => talk_data['slides_url'] || "#{site.config['url']}#{post.url}",
-          'summary' => talk_data['summary'] || post.data['excerpt']&.to_s&.strip
+          'url' => "#{site.config['url']}#{post.url}",
+          'summary' => summary_with_links
         }.compact
       end
     end
