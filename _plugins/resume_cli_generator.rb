@@ -48,9 +48,6 @@ module Jekyll
           if File.exist?(resume_html_path)
             html_content = File.read(resume_html_path)
 
-            # Reorder sections: Work, Languages, Skills (instead of Skills, Work, ..., Languages)
-            html_content = reorder_sections(html_content)
-
             # Store the HTML content in site data for use in templates
             site.data['resume_html'] = html_content
 
@@ -70,34 +67,6 @@ module Jekyll
     end
 
     private
-
-    def reorder_sections(html)
-      # Extract sections by their IDs
-      # Current order: summary, skills, work, projects, education, publications, languages, interests
-      # Desired order: summary, work, languages, skills, projects, education, publications, interests
-
-      sections = {}
-      section_pattern = /<section id="(\w+)">(.*?)<\/section>/m
-
-      # Extract all sections
-      html.scan(section_pattern) do |id, content|
-        sections[id] = "<section id=\"#{id}\">#{content}</section>"
-      end
-
-      return html if sections.empty?
-
-      # Define desired order
-      desired_order = %w[summary work languages skills projects education publications interests]
-
-      # Build reordered sections HTML
-      reordered = desired_order.map { |id| sections[id] }.compact.join("\n      ")
-
-      # Replace all sections with reordered version
-      # Find the container that holds sections and replace its content
-      html.gsub(/<section id="skills">.*<section id="interests">.*?<\/section>/m) do |_match|
-        reordered
-      end
-    end
 
     def extract_body_content(html)
       # Extract content between <body> and </body> tags
