@@ -3,9 +3,14 @@ layout: null
 ---
 # Jordan Terry
 
-> Senior Android Engineer at Etsy. 10+ years experience. Speaker. Building mobile products that make the right thing easy.
+> {{ site.data.resume.basics.label }}
 
-I'm a Senior Android Engineer currently working at Etsy. I'm passionate about mobile development, modular architecture, and building great user experiences. I regularly speak at conferences and meetups about Android development.
+{{ site.data.resume.basics.summary }}
+
+## About Me
+
+- [Resume/CV](/resume.md): Full professional background, experience, skills, and achievements
+- [Resume JSON](/resume.json): Machine-readable resume in JSON Resume format
 
 ## Blog Posts
 
