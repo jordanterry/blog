@@ -73,17 +73,9 @@
                       </ul>
                     {{/if}}
                     {{#if city}}
-                      {{#if postalCode}}
-                        <ul>
-                          <li>Postal Code & City</li>
-                          <li>{{postalCode}} {{city}}</li>
-                        </ul>
-                      {{/if}}
-                    {{/if}}
-                    {{#if region}}
                       <ul>
-                        <li>Region</li>
-                        <li>{{region}}</li>
+                        <li>City</li>
+                        <li>{{city}}{{#if region}}, {{region}}{{/if}}</li>
                       </ul>
                     {{/if}}
                   </div>
