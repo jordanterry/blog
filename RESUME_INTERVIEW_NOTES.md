@@ -95,6 +95,16 @@ The MVI architecture enforces proper structured concurrency through message-base
 - Speaking: Etsy event in Mexico City (CDMX) for local hiring
 - Speaking: NYC event
 
+**Nerd Club (Book Club):**
+- Founded a technical book club at Etsy
+- Currently reading "Designing Data-Intensive Applications"
+- 1 hour/week for engineers to discuss chapters
+- **Impact:**
+  - Relate concepts back to tools used at work
+  - Growing shared understanding of data structures and algorithms
+  - Team bonding within and across teams
+  - Drives better collaboration
+
 ### Search Metrics
 - *Still gathering specific numbers*
 

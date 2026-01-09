@@ -7,7 +7,7 @@
     "email": "jordanfterry@gmail.com",
     "phone": "+44 07786 932967",
     "url": "https://jordanterry.co.uk",
-    "summary": "Experienced Android engineer with over 10 years specializing in Kotlin, Dagger, MVVM/MVI architecture, Jetpack Compose, and Gradle build optimization. Strong in designing scalable systems, handling complex concurrency, and building custom plugins to enhance development workflows. Advocate for observability to ensure smooth, proactive project delivery. Passionate about aviation and endurance sports.",
+    "summary": "Staff Android Engineer with 10+ years building developer tools and safety-focused systems at scale. Designed compile-time validation systems and structured concurrency architectures, reducing coroutine errors by 5%. Advocate for making correct code easy to write and wrong code hard to ship. Conference speaker (Droidcon, Kotlin London) and mentor. Passionate about aviation and endurance sports.",
     "location": {
       "city": "Brooklyn",
       "region": "New York",
@@ -32,12 +32,15 @@
       "position": "Senior Android Engineer",
       "url": "https://www.etsy.com",
       "startDate": "2023-01-01",
-      "summary": "Working in the Search and Android domains at Etsy, building mobile products that make the right thing easy. Specializing in Gradle, Kotlin, Android, Testing and Strong Typing.",
+      "summary": "Search team engineer driving safety-first architecture and developer productivity for Etsy's marketplace app.",
       "highlights": [
-        "Search domain expertise: Contributing to Android search experiences for Etsy's marketplace.",
-        "Build systems optimization: Applying Gradle expertise to improve developer experience and build performance.",
-        "Kotlin expertise: Leveraging deep knowledge of Coroutines and Flows for robust, concurrent code.",
-        "Represented the company as a speaker at Droidcon London and Kotlin London."
+        "Introduced JSON Schema validation for API contracts, enabling compile-time type safety and preventing malformed responses from reaching production",
+        "Designed MVI architecture enforcing structured concurrency, eliminating scope mismanagement bugs causing race conditions and double-refreshes",
+        "Reduced coroutine continuation errors by ~5% through compiler verification systems; influenced iOS team's Swift 6 structured concurrency adoption",
+        "Champion production observability using New Relic for proactive monitoring, debugging, and performance optimization",
+        "Transformed testing culture from low buy-in to team-wide adoption by demonstrating value and improving Turbine test patterns",
+        "Founded 'Nerd Club' technical book club (currently: Designing Data-Intensive Applications), driving cross-team collaboration and shared learning",
+        "Speaker at company events in Mexico City and NYC supporting hiring and community building"
       ]
     },
     {
@@ -46,8 +49,14 @@
       "url": "https://www.marksandspencer.com",
       "startDate": "2022-01-01",
       "endDate": "2022-12-31",
-      "summary": "Building Android applications for Marks & Spencer, specializing in Gradle, Kotlin, Android, Testing and Strong Typing.",
-      "highlights": []
+      "summary": "Platform engineer focused on build systems, shared tooling, and developer productivity for M&S's retail app.",
+      "highlights": [
+        "Reduced build times by 50%+ through Gradle optimization and CI/CD pipeline improvements",
+        "Built shared tooling used across 60+ repositories, establishing reusable patterns for the organization",
+        "Implemented OAuth authentication system, gaining deep understanding of security and auth flows",
+        "Established build metrics and observability practices to track developer productivity improvements",
+        "Co-presented 'Developer Productivity on a Budget' at Droidcon London, sharing build optimization strategies"
+      ]
     },
     {
       "name": "Twitter",
@@ -55,23 +64,27 @@
       "url": "https://twitter.com",
       "startDate": "2021-01-01",
       "endDate": "2022-12-31",
-      "summary": "Contributed to the Android Twitter Blue experience and worked on advertising and unified card stack systems, gaining valuable experience in large-scale development across both Android and backend systems.",
+      "summary": "Built premium features for Twitter Blue and cross-platform systems at scale (millions of DAUs).",
       "highlights": [
-        "Developed features for Twitter Blue and core advertising systems.",
-        "Gained hands-on experience with observability, using tools like Interana to monitor and resolve production issues early.",
-        "Represented the company as a speaker at Droidcon Lisbon."
+        "Built cross-platform data syncing using GraphQL subscriptions, coordinating real-time state across iOS, Android, and web",
+        "Developed unified card rendering system ensuring consistent behavior across all platform surfaces",
+        "Established observability practices using Interana for proactive production monitoring and issue detection",
+        "Represented Twitter as speaker at Droidcon Lisbon on build systems"
       ]
     },
     {
       "name": "The Guardian",
-      "position": "Android Developer",
+      "position": "Android Developer (Tech Lead responsibilities)",
       "url": "https://www.theguardian.com",
       "startDate": "2018-01-01",
       "endDate": "2021-12-31",
-      "summary": "As part of the mobile apps team, I contributed to key technical and product initiatives that drove project success.",
+      "summary": "Led technical initiatives and product features for The Guardian's Android app over a 4-year tenure.",
       "highlights": [
-        "Led Kotlin Migration and modularization of a complex codebase, optimizing Gradle builds and improving maintainability.",
-        "Developed key product features like Sign in with Apple (custom Android solution), personalized marketing messaging, and a premium subscription tier."
+        "Led full Kotlin migration from Java, establishing patterns adopted across the codebase",
+        "Drove modularization of monolithic codebase, improving build times and maintainability through Gradle optimization",
+        "Built premium subscription system for paid content access and subscriber management",
+        "Implemented Sign in with Apple for Android (custom OAuth solution), expanding authentication options",
+        "Developed personalized marketing messaging system to drive user engagement"
       ]
     },
     {
@@ -80,10 +93,10 @@
       "url": "https://www.clearscore.com",
       "startDate": "2017-01-01",
       "endDate": "2018-12-31",
-      "summary": "Joined during a pivotal transition from a hybrid app to a fully native Android experience at a fast-paced startup. First opportunity to use Kotlin in production.",
+      "summary": "Joined during transition from hybrid to native Android at a fast-paced fintech startup.",
       "highlights": [
-        "Contributed to the transition from hybrid to native Android.",
-        "Early adopter of Kotlin in production environment."
+        "Contributed to full native Android rewrite, replacing hybrid app architecture",
+        "Early production Kotlin adoption, establishing foundation for modern Android development"
       ]
     }
   ],
@@ -101,35 +114,53 @@
   "projects": [],
   "skills": [
     {
-      "name": "Android Development",
+      "name": "Mobile & Cross-Platform",
       "level": "Expert",
       "keywords": [
         "Kotlin",
-        "Jetpack Compose",
         "Android SDK",
-        "MVVM/MVI Architecture",
+        "Jetpack Compose",
         "Coroutines",
-        "Flows"
+        "Flows",
+        "Structured Concurrency",
+        "iOS collaboration",
+        "GraphQL"
       ]
     },
     {
-      "name": "Build Systems",
+      "name": "Safety & Correctness",
+      "level": "Expert",
+      "keywords": [
+        "Type-safe API contracts",
+        "JSON Schema validation",
+        "Compile-time verification",
+        "Structured concurrency patterns",
+        "Testing patterns",
+        "Turbine",
+        "Flow testing"
+      ]
+    },
+    {
+      "name": "Build Systems & Developer Productivity",
       "level": "Expert",
       "keywords": [
         "Gradle",
         "Convention Plugins",
         "Build Optimization",
-        "CI/CD"
+        "CI/CD pipelines",
+        "Shared tooling",
+        "Developer workflow automation"
       ]
     },
     {
-      "name": "Architecture",
+      "name": "Architecture & Systems",
       "level": "Advanced",
       "keywords": [
+        "MVI/MVVM patterns",
         "Dependency Injection",
-        "Dagger/Hilt",
         "Modularization",
-        "Scalable Systems"
+        "Scalable systems",
+        "OAuth/Authentication"
       ]
     },
     {
@@ -138,8 +169,8 @@
       "keywords": [
         "New Relic",
         "Interana",
-        "Production Monitoring",
-        "Build Metrics"
+        "Production monitoring",
+        "Build metrics"
       ]
     }
   ],
@@ -181,6 +212,6 @@
   "meta": {
     "canonical": "https://jordanterry.co.uk/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-01-07"
+    "lastModified": "2026-01-08"
   }
 }
