@@ -8,7 +8,13 @@
     "resume:export": "resume export --theme jsonresume-theme-stackoverflow resume.html"
   },
   "dependencies": {
-    "resume-cli": "^3.0.0",
-    "jsonresume-theme-stackoverflow": "^2.1.0"
+    "jsonresume-theme-actual": "^0.2.2",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "resume-cli": "^3.0.0"
   }
 }

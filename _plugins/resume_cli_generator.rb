@@ -1,6 +1,7 @@
 require 'json'
 require 'open3'
 require 'tmpdir'
+require 'fileutils'
 
 module Jekyll
   class ResumeCLIGenerator < Generator
@@ -9,6 +10,9 @@ module Jekyll
 
     def generate(site)
       return unless site.data['resume']
+
+      # Apply local theme customizations
+      apply_theme_customizations(site)
 
       Jekyll.logger.info "Resume CLI:", "Generating resume HTML with JSON Resume CLI..."
 
@@ -33,7 +37,7 @@ module Jekyll
           resume_cmd,
           'export',
           resume_html_path,
-          '--theme', 'jsonresume-theme-stackoverflow',
+          '--theme', 'jsonresume-theme-paper',
           '--resume', resume_json_path
         ]
 
@@ -67,6 +71,16 @@ module Jekyll
     end
 
     private
+
+    def apply_theme_customizations(site)
+      local_template = File.join(site.source, '_themes', 'paper', 'resume.template')
+      target_template = File.join(site.source, 'node_modules', 'jsonresume-theme-paper', 'resume.template')
+
+      if File.exist?(local_template) && File.exist?(File.dirname(target_template))
+        FileUtils.cp(local_template, target_template)
+        Jekyll.logger.info "Resume CLI:", "Applied local paper theme customizations"
+      end
+    end
 
     def extract_body_content(html)
       # Extract content between <body> and </body> tags

@@ -5,7 +5,7 @@
     "label": "Staff Android Developer | Speaker, Aviator, Coder",
     "image": "",
     "email": "jordanfterry@gmail.com",
-    "phone": "+44 07786 932967",
+    "phone": "+1 347 482 9832",
     "url": "https://jordanterry.co.uk",
     "summary": "Staff Android Engineer with 10+ years building developer tools and safety-focused systems at scale. Designed compile-time validation systems and structured concurrency architectures, reducing coroutine errors by 5%. Advocate for making correct code easy to write and wrong code hard to ship. Conference speaker (Droidcon, Kotlin London) and mentor. Passionate about aviation and endurance sports.",
     "location": {
@@ -106,7 +106,8 @@
       "area": "Software Engineering",
       "studyType": "Bachelor's Degree",
       "startDate": "2011-09-01",
-      "endDate": "2014-06-30"
+      "endDate": "2014-06-30",
+      "score": "First Class"
     }
   ],
   "certificates": [],

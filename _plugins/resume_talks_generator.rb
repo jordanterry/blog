@@ -32,7 +32,7 @@ module Jekyll
           'name' => post.data['title'],
           'publisher' => talk_data['event'] || extract_event_from_title(post.data['title']),
           'releaseDate' => post.data['date'].strftime('%Y-%m-%d'),
-          'url' => talk_data['slides_url'] || "#{site.config['url']}#{post.url}",
+          'url' => "#{site.config['url']}#{post.url}",
           'summary' => talk_data['summary'] || post.data['excerpt']&.to_s&.strip
         }.compact
       end
