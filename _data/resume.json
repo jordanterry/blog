@@ -31,7 +31,7 @@
       "name": "Etsy",
       "position": "Senior Android Engineer",
       "url": "https://www.etsy.com",
-      "startDate": "2023-01-01",
+      "startDate": "2025-01-21",
       "summary": "Search team engineer driving safety-first architecture and developer productivity for Etsy's marketplace app.",
       "highlights": [
         "Introduced JSON Schema validation for API contracts, enabling compile-time type safety and preventing malformed responses from reaching production",
@@ -47,8 +47,8 @@
       "name": "Marks & Spencer",
       "position": "Senior Android Engineer",
       "url": "https://www.marksandspencer.com",
-      "startDate": "2022-01-01",
-      "endDate": "2022-12-31",
+      "startDate": "2023-02-28",
+      "endDate": "2024-12-19",
       "summary": "Platform engineer focused on build systems, shared tooling, and developer productivity for M&S's retail app.",
       "highlights": [
         "Reduced build times by 50%+ through Gradle optimization and CI/CD pipeline improvements",
@@ -62,8 +62,8 @@
       "name": "Twitter",
       "position": "Software Developer II",
       "url": "https://twitter.com",
-      "startDate": "2021-01-01",
-      "endDate": "2022-12-31",
+      "startDate": "2021-08-31",
+      "endDate": "2022-11-19",
       "summary": "Built premium features for Twitter Blue and cross-platform systems at scale (millions of DAUs).",
       "highlights": [
         "Built cross-platform data syncing using GraphQL subscriptions, coordinating real-time state across iOS, Android, and web",
