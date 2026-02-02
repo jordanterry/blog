@@ -36,7 +36,7 @@ sass:
 
 markdown: kramdown
 highlighter: rouge
-paginate: 10
+paginate: 20
 plugins:
   - jekyll-feed
   - jekyll-paginate

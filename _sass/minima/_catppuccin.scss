@@ -122,6 +122,35 @@ $ctp-mocha-crust: #11111b;
   --color-career: var(--ctp-mauve);
   --color-sports: var(--ctp-peach);
   --color-personal: var(--ctp-pink);
+
+  // Pico CSS variable overrides (Light - Latte)
+  --pico-background-color: #{$ctp-latte-base};
+  --pico-color: #{$ctp-latte-text};
+  --pico-muted-color: #{$ctp-latte-subtext0};
+  --pico-muted-border-color: #{$ctp-latte-surface0};
+  --pico-primary: #{$ctp-latte-blue};
+  --pico-primary-hover: #{$ctp-latte-sapphire};
+  --pico-primary-focus: #{rgba($ctp-latte-blue, 0.25)};
+  --pico-primary-inverse: #{$ctp-latte-base};
+  --pico-secondary: #{$ctp-latte-mauve};
+  --pico-secondary-hover: #{$ctp-latte-lavender};
+  --pico-contrast: #{$ctp-latte-text};
+  --pico-contrast-inverse: #{$ctp-latte-base};
+  --pico-card-background-color: #{$ctp-latte-mantle};
+  --pico-card-sectioning-background-color: #{$ctp-latte-crust};
+  --pico-code-background-color: #{$ctp-latte-mantle};
+  --pico-code-color: #{$ctp-latte-text};
+  --pico-blockquote-border-color: #{$ctp-latte-mauve};
+  --pico-table-border-color: #{$ctp-latte-surface0};
+  --pico-form-element-background-color: #{$ctp-latte-mantle};
+  --pico-form-element-border-color: #{$ctp-latte-surface1};
+  --pico-form-element-focus-color: #{$ctp-latte-blue};
+  --pico-switch-background-color: #{$ctp-latte-surface1};
+  --pico-switch-checked-background-color: #{$ctp-latte-blue};
+  --pico-del-color: #{$ctp-latte-red};
+  --pico-ins-color: #{$ctp-latte-green};
+  --pico-mark-background-color: #{$ctp-latte-yellow};
+  --pico-mark-color: #{$ctp-latte-crust};
 }
 
 // ============================================
@@ -161,6 +190,35 @@ $ctp-mocha-crust: #11111b;
   --ctp-sapphire: #{$ctp-mocha-sapphire};
   --ctp-blue: #{$ctp-mocha-blue};
   --ctp-lavender: #{$ctp-mocha-lavender};
+
+  // Pico CSS variable overrides (Dark - Mocha)
+  --pico-background-color: #{$ctp-mocha-base};
+  --pico-color: #{$ctp-mocha-text};
+  --pico-muted-color: #{$ctp-mocha-subtext0};
+  --pico-muted-border-color: #{$ctp-mocha-surface0};
+  --pico-primary: #{$ctp-mocha-blue};
+  --pico-primary-hover: #{$ctp-mocha-sapphire};
+  --pico-primary-focus: #{rgba($ctp-mocha-blue, 0.25)};
+  --pico-primary-inverse: #{$ctp-mocha-crust};
+  --pico-secondary: #{$ctp-mocha-mauve};
+  --pico-secondary-hover: #{$ctp-mocha-lavender};
+  --pico-contrast: #{$ctp-mocha-text};
+  --pico-contrast-inverse: #{$ctp-mocha-base};
+  --pico-card-background-color: #{$ctp-mocha-mantle};
+  --pico-card-sectioning-background-color: #{$ctp-mocha-crust};
+  --pico-code-background-color: #{$ctp-mocha-mantle};
+  --pico-code-color: #{$ctp-mocha-text};
+  --pico-blockquote-border-color: #{$ctp-mocha-mauve};
+  --pico-table-border-color: #{$ctp-mocha-surface0};
+  --pico-form-element-background-color: #{$ctp-mocha-mantle};
+  --pico-form-element-border-color: #{$ctp-mocha-surface1};
+  --pico-form-element-focus-color: #{$ctp-mocha-blue};
+  --pico-switch-background-color: #{$ctp-mocha-surface1};
+  --pico-switch-checked-background-color: #{$ctp-mocha-blue};
+  --pico-del-color: #{$ctp-mocha-red};
+  --pico-ins-color: #{$ctp-mocha-green};
+  --pico-mark-background-color: #{$ctp-mocha-yellow};
+  --pico-mark-color: #{$ctp-mocha-crust};
 }
 
 // ============================================
@@ -201,6 +259,35 @@ $ctp-mocha-crust: #11111b;
     --ctp-sapphire: #{$ctp-mocha-sapphire};
     --ctp-blue: #{$ctp-mocha-blue};
     --ctp-lavender: #{$ctp-mocha-lavender};
+
+    // Pico CSS variable overrides (Dark - Mocha)
+    --pico-background-color: #{$ctp-mocha-base};
+    --pico-color: #{$ctp-mocha-text};
+    --pico-muted-color: #{$ctp-mocha-subtext0};
+    --pico-muted-border-color: #{$ctp-mocha-surface0};
+    --pico-primary: #{$ctp-mocha-blue};
+    --pico-primary-hover: #{$ctp-mocha-sapphire};
+    --pico-primary-focus: #{rgba($ctp-mocha-blue, 0.25)};
+    --pico-primary-inverse: #{$ctp-mocha-crust};
+    --pico-secondary: #{$ctp-mocha-mauve};
+    --pico-secondary-hover: #{$ctp-mocha-lavender};
+    --pico-contrast: #{$ctp-mocha-text};
+    --pico-contrast-inverse: #{$ctp-mocha-base};
+    --pico-card-background-color: #{$ctp-mocha-mantle};
+    --pico-card-sectioning-background-color: #{$ctp-mocha-crust};
+    --pico-code-background-color: #{$ctp-mocha-mantle};
+    --pico-code-color: #{$ctp-mocha-text};
+    --pico-blockquote-border-color: #{$ctp-mocha-mauve};
+    --pico-table-border-color: #{$ctp-mocha-surface0};
+    --pico-form-element-background-color: #{$ctp-mocha-mantle};
+    --pico-form-element-border-color: #{$ctp-mocha-surface1};
+    --pico-form-element-focus-color: #{$ctp-mocha-blue};
+    --pico-switch-background-color: #{$ctp-mocha-surface1};
+    --pico-switch-checked-background-color: #{$ctp-mocha-blue};
+    --pico-del-color: #{$ctp-mocha-red};
+    --pico-ins-color: #{$ctp-mocha-green};
+    --pico-mark-background-color: #{$ctp-mocha-yellow};
+    --pico-mark-color: #{$ctp-mocha-crust};
   }
 }
 
@@ -242,19 +329,24 @@ a {
 }
 
 .site-title {
-  color: var(--color-text) !important;
+  color: var(--ctp-text) !important;
 
   &:hover {
-    color: var(--color-link) !important;
+    color: var(--ctp-blue) !important;
   }
 }
 
 .page-link {
-  color: var(--color-text);
+  color: var(--ctp-text) !important;
 
   &:hover {
-    color: var(--color-link);
+    color: var(--ctp-blue) !important;
   }
+}
+
+// Ensure nav trigger label is visible
+.site-nav .nav-trigger ~ label[for="nav-trigger"] {
+  color: var(--ctp-text) !important;
 }
 
 // Code blocks
@@ -333,4 +425,80 @@ h1, h2, h3, h4, h5, h6,
 .post-list-item,
 .post-list > li {
   background-color: transparent !important;
+}
+
+// Social media list - remove bullets
+.social-media-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+
+  li {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    &::before {
+      content: none !important;
+    }
+
+    &::marker {
+      content: none !important;
+    }
+  }
+
+  a {
+    padding: 0.25rem !important;
+  }
+}
+
+// Fix Pico's abbr/title styling that shows text
+[title] {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+// Hide Pico's focus labels / link text display
+a[rel="me"]::before,
+a[rel="me"]::after,
+.social-media-list a::before,
+.social-media-list a::after {
+  content: none !important;
+  display: none !important;
+}
+
+// Ensure SVG icons display properly
+.svg-icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+// Social links container in footer
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Footer spacing
+.site-footer {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+
+  .wrapper {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .footer-col-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }

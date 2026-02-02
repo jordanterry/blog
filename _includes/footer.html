@@ -2,10 +2,9 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
+    {%- if site.author %}
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -14,17 +13,18 @@
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
       </div>
+      {%- if site.description and site.description != "" %}
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
+      {%- endif %}
     </div>
+    {%- endif %}
 
     <div class="social-links">
       {%- include social.html -%}
     </div>
-
   </div>
 
 </footer>

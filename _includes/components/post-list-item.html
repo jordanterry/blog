@@ -1,6 +1,8 @@
 <li class="post-list-item">
-  <a class="post-list-item__link post-link" href="{{ include.post.url | relative_url }}">
-    {{ include.post.title | escape }}
-  </a>
-  <span class="post-list-item__date post-meta">{{ include.post.date | date: "%a %d %B %y" }}</span>
+  <div class="post-list-item__header">
+    <a class="post-list-item__link post-link" href="{{ include.post.url | relative_url }}">
+      {{ include.post.title | escape }}
+    </a>
+    <span class="post-list-item__date post-meta">{{ include.post.date | date: "%a %d %B %y" }}</span>
+  </div>
 </li>

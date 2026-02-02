@@ -203,8 +203,20 @@
 
 .post-list-item {
   display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.post-list-item__header {
+  display: flex;
   flex-direction: row;
   column-gap: 0.5rem;
+  align-items: baseline;
 }
 
 .post-list-item__link {
@@ -215,6 +227,7 @@
   color: var(--color-text-light, #666);
   font-size: 0.9rem;
 }
+
 
 // ============================================
 // BUTTON COMPONENT
@@ -245,6 +258,18 @@
   }
 }
 
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--ctp-surface1, #bcc0cc);
+  color: var(--ctp-text, #4c4f69) !important;
+
+  &:hover {
+    background-color: var(--ctp-surface0, #ccd0da);
+    border-color: var(--ctp-surface2, #acb0be);
+    color: var(--ctp-text, #4c4f69) !important;
+  }
+}
+
 // ============================================
 // PAGINATION COMPONENT
 // ============================================
@@ -259,6 +284,10 @@
 
 .pagination__link {
   @extend .btn;
-  @extend .btn-primary;
+  @extend .btn-outline;
+}
+
+.pagination__link--next {
+  margin-left: auto;
 }
 

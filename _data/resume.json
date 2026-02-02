@@ -36,8 +36,6 @@
       "highlights": [
         "Introduced JSON Schema validation for API contracts, enabling compile-time type safety and preventing malformed responses from reaching production",
         "Designed MVI architecture enforcing structured concurrency, eliminating scope mismanagement bugs causing race conditions and double-refreshes",
-        "Reduced coroutine continuation errors by ~5% through compiler verification systems; influenced iOS team's Swift 6 structured concurrency adoption",
-        "Champion production observability using New Relic for proactive monitoring, debugging, and performance optimization",
         "Transformed testing culture from low buy-in to team-wide adoption by demonstrating value and improving Turbine test patterns",
         "Founded 'Nerd Club' technical book club (currently: Designing Data-Intensive Applications), driving cross-team collaboration and shared learning",
         "Speaker at company events in Mexico City and NYC supporting hiring and community building"
@@ -54,6 +52,7 @@
         "Reduced build times by 50%+ through Gradle optimization and CI/CD pipeline improvements",
         "Built shared tooling used across 60+ repositories, establishing reusable patterns for the organization",
         "Implemented OAuth authentication system, gaining deep understanding of security and auth flows",
+        "Champion production observability using New Relic for proactive monitoring, debugging, and performance optimization",
         "Established build metrics and observability practices to track developer productivity improvements",
         "Co-presented 'Developer Productivity on a Budget' at Droidcon London, sharing build optimization strategies"
       ]
@@ -76,7 +75,7 @@
       "name": "The Guardian",
       "position": "Android Developer (Tech Lead responsibilities)",
       "url": "https://www.theguardian.com",
-      "startDate": "2018-01-01",
+      "startDate": "2018-03-01",
       "endDate": "2021-12-31",
       "summary": "Led technical initiatives and product features for The Guardian's Android app over a 4-year tenure.",
       "highlights": [
@@ -91,8 +90,8 @@
       "name": "ClearScore",
       "position": "Android Developer",
       "url": "https://www.clearscore.com",
-      "startDate": "2017-01-01",
-      "endDate": "2018-12-31",
+      "startDate": "2017-01-04",
+      "endDate": "2018-02-25",
       "summary": "Joined during transition from hybrid to native Android at a fast-paced fintech startup.",
       "highlights": [
         "Contributed to full native Android rewrite, replacing hybrid app architecture",
