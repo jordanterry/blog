@@ -16,12 +16,7 @@ layout: base
       {%- assign posts = posts | sort: 'date' | reverse -%}
       <ul class="post-list">
         {%- for post in posts -%}
-          <li style="display:flex;flex-direction:row;column-gap:0.5rem">
-            <a style="flex:1" class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-            <span class="post-meta">{{ post.date | date: "%a %d %B %y" }}</span>
-          </li>
+          {% include components/post-list-item.html post=post %}
         {%- endfor -%}
       </ul>
     {%- else -%}

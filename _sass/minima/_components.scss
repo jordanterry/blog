@@ -1,0 +1,264 @@
+// ============================================
+// DESIGN SYSTEM COMPONENTS
+// ============================================
+
+// ============================================
+// BADGE COMPONENT
+// Base badge styles consolidated from category-pill and post-categories/post-tags
+// ============================================
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  background-color: #f0f0f0;
+  color: #333;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+  }
+}
+
+// Small badge variant (for homepage pills)
+.badge--small {
+  padding: 0.15rem 0.5rem;
+  font-size: 0.65rem;
+  border-radius: 10px;
+}
+
+// Category color modifiers
+.badge--software {
+  background-color: var(--color-software, #0066cc);
+  color: white;
+
+  &:hover {
+    background-color: var(--color-primary-dark, #0052a3);
+    color: white;
+  }
+}
+
+.badge--android {
+  background-color: var(--color-android, #3DDC84);
+  color: #003300;
+
+  &:hover {
+    background-color: #2BC56D;
+    color: #003300;
+  }
+}
+
+.badge--talks {
+  background-color: var(--color-talks, #FF6B6B);
+  color: white;
+
+  &:hover {
+    background-color: #FF5252;
+    color: white;
+  }
+}
+
+.badge--flying {
+  background-color: var(--color-flying, #4A90E2);
+  color: white;
+
+  &:hover {
+    background-color: #357ABD;
+    color: white;
+  }
+}
+
+.badge--career {
+  background-color: var(--color-career, #9B59B6);
+  color: white;
+
+  &:hover {
+    background-color: #8E44AD;
+    color: white;
+  }
+}
+
+.badge--sports {
+  background-color: var(--color-sports, #FF8C42);
+  color: white;
+
+  &:hover {
+    background-color: #FF7622;
+    color: white;
+  }
+}
+
+.badge--personal {
+  background-color: var(--color-personal, #E85D75);
+  color: white;
+
+  &:hover {
+    background-color: #D63D5D;
+    color: white;
+  }
+}
+
+.badge--achievements {
+  background-color: #FFD700;
+  color: #333;
+
+  &:hover {
+    background-color: #FFC700;
+    color: #333;
+  }
+}
+
+.badge--projects {
+  background-color: #20B2AA;
+  color: white;
+
+  &:hover {
+    background-color: #1A9E97;
+    color: white;
+  }
+}
+
+// Apply badge styles to existing category/tag selectors for backwards compatibility
+.category-pill,
+.post-categories a,
+.post-tags a,
+.category-item a {
+  @extend .badge;
+}
+
+// Category-specific styling via href attribute selectors (backwards compatibility)
+.category-pill[href*="software"],
+.post-categories a[href*="software"],
+.category-item a[href*="software"] {
+  @extend .badge--software;
+}
+
+.category-pill[href*="android"],
+.post-categories a[href*="android"],
+.category-item a[href*="android"] {
+  @extend .badge--android;
+}
+
+.category-pill[href*="talks"],
+.post-categories a[href*="talks"],
+.category-item a[href*="talks"] {
+  @extend .badge--talks;
+}
+
+.category-pill[href*="flying"],
+.post-categories a[href*="flying"],
+.category-item a[href*="flying"] {
+  @extend .badge--flying;
+}
+
+.category-pill[href*="career"],
+.post-categories a[href*="career"],
+.category-item a[href*="career"] {
+  @extend .badge--career;
+}
+
+.category-pill[href*="sports"],
+.post-categories a[href*="sports"],
+.category-item a[href*="sports"] {
+  @extend .badge--sports;
+}
+
+.category-pill[href*="personal"],
+.post-categories a[href*="personal"],
+.category-item a[href*="personal"] {
+  @extend .badge--personal;
+}
+
+.category-pill[href*="achievements"],
+.post-categories a[href*="achievements"],
+.category-item a[href*="achievements"] {
+  @extend .badge--achievements;
+}
+
+.category-pill[href*="projects"],
+.post-categories a[href*="projects"],
+.category-item a[href*="projects"] {
+  @extend .badge--projects;
+}
+
+// Small variant for homepage category pills
+.post-category-pill {
+  margin-top: 0.35rem;
+
+  .category-pill {
+    @extend .badge--small;
+  }
+}
+
+// ============================================
+// POST LIST ITEM COMPONENT
+// ============================================
+
+.post-list-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.post-list-item__link {
+  flex: 1;
+}
+
+.post-list-item__date {
+  color: var(--color-text-light, #666);
+  font-size: 0.9rem;
+}
+
+// ============================================
+// BUTTON COMPONENT
+// ============================================
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  background-color: var(--color-primary, #0066cc);
+  color: white !important;
+
+  &:hover {
+    background-color: var(--color-primary-dark, #0052a3);
+    color: white !important;
+  }
+}
+
+// ============================================
+// PAGINATION COMPONENT
+// ============================================
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.pagination__link {
+  @extend .btn;
+  @extend .btn-primary;
+}
+

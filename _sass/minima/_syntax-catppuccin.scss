@@ -1,0 +1,234 @@
+// ============================================
+// CATPPUCCIN SYNTAX HIGHLIGHTING
+// Based on https://python.catppuccin.com/pygments/
+// Compatible with Rouge/Pygments
+// ============================================
+
+// Line numbers
+td.linenos .normal,
+span.linenos,
+td.linenos .special,
+span.linenos.special {
+  color: var(--ctp-text);
+  background-color: var(--ctp-mantle);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+// Highlighted lines
+pre .hll,
+code .hll,
+.highlight .hll {
+  background-color: var(--ctp-surface0);
+}
+
+// Base code styling
+pre,
+code,
+.highlight {
+  background: var(--ctp-mantle);
+  color: var(--ctp-text);
+}
+
+// Wrapper for code blocks
+.highlighter-rouge .highlight,
+figure.highlight {
+  background: var(--ctp-mantle);
+  border-radius: 6px;
+}
+
+// Comments
+.highlight .c,   // Comment
+.highlight .ch,  // Comment.Hashbang
+.highlight .cm,  // Comment.Multiline
+.highlight .cpf, // Comment.PreprocFile
+.highlight .c1,  // Comment.Single
+.highlight .cs { // Comment.Special
+  color: var(--ctp-overlay2);
+}
+
+// Preprocessor
+.highlight .cp { // Comment.Preproc
+  color: var(--ctp-pink);
+}
+
+// Errors
+.highlight .err,
+.highlight .g {
+  color: var(--ctp-text);
+}
+
+// Keywords
+.highlight .k,   // Keyword
+.highlight .kc,  // Keyword.Constant
+.highlight .kn,  // Keyword.Namespace
+.highlight .kr { // Keyword.Reserved
+  color: var(--ctp-mauve);
+}
+
+.highlight .kd { // Keyword.Declaration
+  color: var(--ctp-mauve);
+  font-style: italic;
+}
+
+.highlight .kp { // Keyword.Pseudo
+  color: var(--ctp-pink);
+}
+
+.highlight .kt { // Keyword.Type
+  color: var(--ctp-yellow);
+}
+
+// Literals and names
+.highlight .l,
+.highlight .n,
+.highlight .x,
+.highlight .p {
+  color: var(--ctp-text);
+}
+
+// Operators
+.highlight .o { // Operator
+  color: var(--ctp-sky);
+}
+
+.highlight .ow { // Operator.Word
+  color: var(--ctp-mauve);
+}
+
+// Diff/Git
+.highlight .gd { // Generic.Deleted
+  color: var(--ctp-red);
+}
+
+.highlight .ge { // Generic.Emph
+  color: var(--ctp-text);
+  text-decoration: underline;
+}
+
+.highlight .gh, // Generic.Heading
+.highlight .gi { // Generic.Inserted
+  color: var(--ctp-text);
+  font-weight: 700;
+}
+
+.highlight .go { // Generic.Output
+  color: var(--ctp-overlay0);
+}
+
+.highlight .gu { // Generic.Subheading
+  color: var(--ctp-text);
+  font-weight: 700;
+}
+
+// Numbers
+.highlight .m,   // Number
+.highlight .mb,  // Number.Bin
+.highlight .mf,  // Number.Float
+.highlight .mh,  // Number.Hex
+.highlight .mi,  // Number.Integer
+.highlight .mo,  // Number.Oct
+.highlight .il { // Number.Integer.Long
+  color: var(--ctp-peach);
+}
+
+// Strings
+.highlight .s,   // String
+.highlight .sa,  // String.Affix
+.highlight .sb,  // String.Backtick
+.highlight .sc,  // String.Char
+.highlight .dl,  // String.Delimiter
+.highlight .sd,  // String.Doc
+.highlight .s2,  // String.Double
+.highlight .sh,  // String.Heredoc
+.highlight .si,  // String.Interpol
+.highlight .sx,  // String.Other
+.highlight .s1,  // String.Single
+.highlight .na { // Name.Attribute
+  color: var(--ctp-green);
+}
+
+.highlight .se { // String.Escape
+  color: var(--ctp-pink);
+}
+
+.highlight .sr { // String.Regex
+  color: var(--ctp-pink);
+}
+
+.highlight .ss { // String.Symbol
+  color: var(--ctp-red);
+}
+
+// Names
+.highlight .nb { // Name.Builtin
+  color: var(--ctp-red);
+  font-style: italic;
+}
+
+.highlight .nc, // Name.Class
+.highlight .ne { // Name.Exception
+  color: var(--ctp-yellow);
+}
+
+.highlight .nf, // Name.Function
+.highlight .fm { // Name.Function.Magic
+  color: var(--ctp-blue);
+}
+
+.highlight .nl { // Name.Label
+  color: var(--ctp-teal);
+  font-style: italic;
+}
+
+.highlight .nt { // Name.Tag
+  color: var(--ctp-blue);
+}
+
+.highlight .nv { // Name.Variable
+  color: var(--ctp-text);
+  font-style: italic;
+}
+
+.highlight .vc { // Name.Variable.Class
+  color: var(--ctp-yellow);
+  font-style: italic;
+}
+
+.highlight .vg, // Name.Variable.Global
+.highlight .vi, // Name.Variable.Instance
+.highlight .vm { // Name.Variable.Magic
+  color: var(--ctp-text);
+  font-style: italic;
+}
+
+.highlight .bp { // Name.Builtin.Pseudo
+  color: var(--ctp-red);
+  font-style: italic;
+}
+
+// Punctuation
+.highlight .pm { // Punctuation.Marker
+  color: var(--ctp-overlay2);
+}
+
+// Whitespace
+.highlight .w {
+  color: var(--ctp-text);
+}
+
+// Other names (default)
+.highlight .no,
+.highlight .nd,
+.highlight .ni,
+.highlight .nn,
+.highlight .nx,
+.highlight .py,
+.highlight .ges,
+.highlight .gr,
+.highlight .gp,
+.highlight .gs,
+.highlight .gt,
+.highlight .ld {
+  color: var(--ctp-text);
+}

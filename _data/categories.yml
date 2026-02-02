@@ -1,35 +1,55 @@
 - slug: software
   name: Software
   description: Software development, coding, tools, and techniques
+  color: "#0066cc"
+  hover_color: "#0052a3"
 
 - slug: android
   name: Android
   description: Android development, apps, and platform
+  color: "#3DDC84"
+  hover_color: "#2BC56D"
+  text_color: "#003300"
 
 - slug: flying
   name: Flying
   description: Flying, PPL training, and aerobatics
+  color: "#4A90E2"
+  hover_color: "#357ABD"
 
 - slug: career
   name: Career
   description: Career development and professional growth
+  color: "#9B59B6"
+  hover_color: "#8E44AD"
 
 - slug: sports
   name: Sports
   description: Sports, fitness, and triathlons
+  color: "#FF8C42"
+  hover_color: "#FF7622"
 
 - slug: personal
   name: Personal
   description: Personal thoughts and experiences
+  color: "#E85D75"
+  hover_color: "#D63D5D"
 
 - slug: talks
   name: Talks
   description: I've talked at a number of events, on the topic of Android, Gradle and Kotlin. I've come to find talking at events exciting, and as opportunites to improve by teaching.
+  color: "#FF6B6B"
+  hover_color: "#FF5252"
 
 - slug: achievements
   name: Achievements
   description: Notable accomplishments, wins, and milestones worth celebrating. A running brag doc of things I'm proud of.
+  color: "#FFD700"
+  hover_color: "#FFC700"
+  text_color: "#333"
 
 - slug: projects
   name: Projects
   description: Side projects, open source tools, and experiments. Building things to learn and solve problems.
+  color: "#20B2AA"
+  hover_color: "#1A9E97"

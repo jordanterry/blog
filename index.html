@@ -11,33 +11,10 @@ title: Home
 {%- endif -%}
 <ul class="post-list">
   {%- for post in posts -%}
-  <li style="display:flex;flex-direction:row;column-gap:0.5rem">
-    <a style="flex:1" class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}
-    </a>
-    <span class="post-meta">{{ post.date | date: "%a %d %B %y" }}</span>
-  </li>
+  {% include components/post-list-item.html post=post %}
   {%- endfor -%}
 </ul>
 
 {%- endif -%}
 
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-<div class="clearfix" style="display:flex;flex-direction:row;column-gap:0.5rem">
-
-  {% if paginator.previous_page %}
-  <a style="flex:1" class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    <span class="d-none d-md-inline">Newer</span></a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="d-none d-md-inline">Older</span> &rarr;</a>
-  {% endif %}
-
-</div>
-
-{% endif %}
-
+{% include components/pagination.html %}

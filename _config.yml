@@ -13,6 +13,7 @@ minima:
   social_links:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/jordan-terry/" }
     - { platform: github,  user_url: "https://github.com/jordanterry" }
+    - { platform: rss, user_url: "/feed.xml", title: "RSS Feed" }
 
 include:
   - .well-known
@@ -34,6 +35,7 @@ sass:
     - color-functions
 
 markdown: kramdown
+highlighter: rouge
 paginate: 10
 plugins:
   - jekyll-feed
