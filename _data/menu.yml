@@ -1,0 +1,39 @@
+entries:
+  - title: about
+    url: /about/
+
+  - title: software
+    url: /categories/software/
+    post_list:
+      category: Software
+      limit: 5
+      show_more: true
+      show_more_text: see all...
+      show_more_url: /categories/software/
+
+  - title: flying
+    url: /categories/flying/
+    post_list:
+      category: Flying
+      limit: 5
+      show_more: true
+      show_more_text: see all...
+      show_more_url: /categories/flying/
+
+  - title: talks
+    url: /categories/talks/
+    post_list:
+      category: Talks
+      limit: 5
+      show_more: true
+      show_more_text: see all...
+      show_more_url: /categories/talks/
+
+  - title: rss
+    url: /feed.xml
+
+  - title: github
+    url: https://github.com/jordanterry
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/jordan-terry

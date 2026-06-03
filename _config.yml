@@ -1,11 +1,8 @@
 title: Jordan Terry
-description: Long Form Jekyll theme built with SASS
+description: Software engineer, pilot, long-distance cyclist.
 
 url: https://jordanterry.co.uk
-baseurl: # Ex: /project-page
-
-# Header Option
-# header: large
+baseurl:
 
 sass:
     style: compressed
@@ -15,20 +12,15 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
-navigation:
-    - title: Home
-      url: /
-    - title: About
-      url: /about/
-    - title: Talks
-      url: /categories/talks/
-    - title: Software
-      url: /categories/software/
-    - title: Flying
-      url: /categories/flying/
-
 social:
     github: jordanterry
     linkedin: jordan-terry
 
 google_analytics: "G-B5WY7FZCS8"
+
+theme_config:
+    appearance: "auto"
+    back_home_text: ".."
+    date_format: "%Y-%m-%d"
+    show_description: false
+    lowercase_titles: true
