@@ -1,26 +1,39 @@
 ---
-layout: base
+layout: default
 ---
 
-<article class="category-archive">
-  <header class="category-header">
-    <h1 class="category-title">{{ page.title }}</h1>
-    {%- if page.description -%}
-      <p class="category-description">{{ page.description }}</p>
-    {%- endif -%}
-  </header>
-
-  <div class="post-list">
-    {%- assign posts = site.categories[page.category] -%}
-    {%- if posts and posts.size > 0 -%}
-      {%- assign posts = posts | sort: 'date' | reverse -%}
-      <ul class="post-list">
-        {%- for post in posts -%}
-          {% include components/post-list-item.html post=post %}
-        {%- endfor -%}
-      </ul>
+<div class="home">
+  <h1 class="pageTitle">
+    {%- if page.category -%}
+      Posts in: {{ page.category | capitalize }}
     {%- else -%}
-      <p>No posts in this category yet.</p>
+      Categories
+    {%- endif -%}
+  </h1>
+  
+  <div class="posts noList">
+    {%- if page.category -%}
+      {%- assign category_posts = site.categories[page.category] -%}
+      {%- for post in category_posts -%}
+      <article>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </article>
+      {%- endfor -%}
+    {%- else -%}
+      {%- for category in site.categories -%}
+      <article>
+        <h3>
+          <a class="post-link" href="/categories/{{ category | first | downcase | replace: ' ', '-' }}/">
+            {{ category | first | capitalize }}
+          </a>
+          <span>({{ category | last | size }})</span>
+        </h3>
+      </article>
+      {%- endfor -%}
     {%- endif -%}
   </div>
-</article>
+</div>

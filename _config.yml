@@ -1,56 +1,34 @@
-title: "Jordan Terry"
-description: ""
-baseurl: ""
-url: "https://jordanterry.co.uk"
-google_analytics: 'G-B5WY7FZCS8'
+title: Jordan Terry
+description: Long Form Jekyll theme built with SASS
 
-# Social Media
-github_username: jordanterry
+url: https://jordanterry.co.uk
+baseurl: # Ex: /project-page
 
-# Theming
-theme: minima
-minima:
-  social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jordan-terry/" }
-    - { platform: github,  user_url: "https://github.com/jordanterry" }
-    - { platform: rss, user_url: "/feed.xml", title: "RSS Feed" }
-
-include:
-  - .well-known
-  - llms.txt
-  - resume.json
-  - resume.md
-
-defaults:
-  - scope:
-      path: "llm/*"
-    values:
-      sitemap: false
+# Header Option
+# header: large
 
 sass:
-  quiet_deps: true
-  silence_deprecations:
-    - import
-    - global-builtin
-    - color-functions
+    style: compressed
 
 markdown: kramdown
 highlighter: rouge
-paginate: 20
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-remote-theme
+plugins: [jekyll-paginate]
+paginate: 5
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - readme.md
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+navigation:
+    - title: Home
+      url: /
+    - title: About
+      url: /about/
+    - title: Talks
+      url: /categories/talks/
+    - title: Software
+      url: /categories/software/
+    - title: Flying
+      url: /categories/flying/
+
+social:
+    github: jordanterry
+    linkedin: jordan-terry
+
+google_analytics: "G-B5WY7FZCS8"
