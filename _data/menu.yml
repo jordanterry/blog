@@ -12,14 +12,14 @@ entries:
       show_more_url: /categories/software/
 
 
-  - title: french
-    url: /categories/french/
+  - title: français
+    url: /categories/francais/
     post_list:
-      category: French
+      category: Français
       limit: 5
       show_more: true
       show_more_text: voir plus...
-      show_more_url: /categories/frenc/
+      show_more_url: /categories/francais/
 
   - title: flying
     url: /categories/flying/
