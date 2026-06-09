@@ -1,5 +1,5 @@
 title: Jordan Terry
-description: Software engineer, pilot, long-distance cyclist.
+description: Rambles from Jordan.
 
 url: https://jordanterry.co.uk
 baseurl:
@@ -11,6 +11,20 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
+
+navigation:
+    - title: Home
+      url: /
+    - title: About
+      url: /about/
+    - title: Talks
+      url: /categories/talks/
+    - title: Software
+      url: /categories/software/
+    - title: Flying
+      url: /categories/flying/
+    - title: French
+      url: /categories/french/
 
 social:
     github: jordanterry
