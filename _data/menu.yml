@@ -11,6 +11,16 @@ entries:
       show_more_text: see all...
       show_more_url: /categories/software/
 
+
+  - title: french
+    url: /categories/french/
+    post_list:
+      category: French
+      limit: 5
+      show_more: true
+      show_more_text: voir plus...
+      show_more_url: /categories/frenc/
+
   - title: flying
     url: /categories/flying/
     post_list:
