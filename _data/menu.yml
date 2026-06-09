@@ -15,7 +15,7 @@ entries:
   - title: français
     url: /categories/french/
     post_list:
-      category: Français
+      category: French
       limit: 5
       show_more: true
       show_more_text: voir plus...
