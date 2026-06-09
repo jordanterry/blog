@@ -13,13 +13,13 @@ entries:
 
 
   - title: français
-    url: /categories/francais/
+    url: /categories/french/
     post_list:
       category: Français
       limit: 5
       show_more: true
       show_more_text: voir plus...
-      show_more_url: /categories/francais/
+      show_more_url: /categories/french/
 
   - title: flying
     url: /categories/flying/
