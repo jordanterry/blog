@@ -4,8 +4,6 @@ date: '2026-10-09T00:00:00+00:00'
 author: Jordan Terry
 layout: post
 permalink: /graphs-solve-interesting-problems
-excerpt: |
-  Software Engineering is full of Graph problems that have been solved with interesting algorithms. I want to share an example of using a graph to break apart a large monolithic codebase.
 categories:
   - Software
 ---
