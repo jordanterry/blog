@@ -1,6 +1,6 @@
 ---
 title: "Graphs solve interesting problems"
-date: '2026-10-09T00:00:00+00:00'
+date: '2026-09-10T00:00:00+00:00'
 author: Jordan Terry
 layout: post
 permalink: /graphs-solve-interesting-problems
