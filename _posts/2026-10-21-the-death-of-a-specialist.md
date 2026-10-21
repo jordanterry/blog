@@ -108,7 +108,7 @@ What concerns me is how easily the answer can become the end of the thinking. A 
 
 An LLM can help write a document, and my concern is whether the person presenting it understands the decisions well enough to defend them, and whether anyone else has had the chance to question them. 
 
-Should we use JSON or Protocol, Buggers? Inheritance or composition? Would polling be reasonable here, despite the advantages of push? These discussions reveal assumptions and constraints we did not know about. They are how we learn from each other. 
+Should we use JSON or Protocol Buffers? Inheritance or composition? Would polling be reasonable here, despite the advantages of push? These discussions reveal assumptions and constraints we did not know about. They are how we learn from each other. 
 
 Even when presented with the opportunity to read documents written by LLMs. I am hearing more and more that reviewers don’t do it. They are turned off by obvious LLM use.
 
